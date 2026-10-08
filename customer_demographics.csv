@@ -1,0 +1,2501 @@
+customer_id,age,gender,region,signup_date,loyalty_tier,email_subscribed,marketing_opt_in
+CUST_000001,43,Female,Asia Pacific,2020-12-06,Bronze,True,True
+CUST_000002,36,Female,North America,2021-04-16,Silver,True,True
+CUST_000003,45,Male,North America,2022-03-03,Gold,True,True
+CUST_000004,56,Male,Europe,2021-11-17,Bronze,True,False
+CUST_000005,35,Male,Latin America,2021-11-25,Bronze,True,True
+CUST_000006,35,Male,North America,2021-12-04,Bronze,False,False
+CUST_000007,56,Female,North America,2020-09-05,Bronze,False,True
+CUST_000008,47,Female,Asia Pacific,2020-08-22,Silver,True,True
+CUST_000009,32,Male,Europe,2020-03-23,Gold,True,False
+CUST_000010,44,Male,Latin America,2020-04-02,Bronze,False,False
+CUST_000011,32,Female,North America,2022-06-03,Platinum,True,True
+CUST_000012,32,Female,Europe,2021-01-28,Bronze,True,False
+CUST_000013,40,Male,North America,2022-04-03,Silver,True,True
+CUST_000014,18,Female,North America,2020-09-24,Bronze,True,True
+CUST_000015,18,Female,Asia Pacific,2021-02-20,Bronze,True,False
+CUST_000016,31,Male,Europe,2021-09-23,Bronze,False,False
+CUST_000017,25,Male,Asia Pacific,2021-08-05,Bronze,False,False
+CUST_000018,41,Female,North America,2021-06-12,Silver,True,False
+CUST_000019,27,Female,Europe,2020-09-09,Silver,True,False
+CUST_000020,21,Female,Europe,2022-08-14,Bronze,True,False
+CUST_000021,55,Male,Middle East & Africa,2020-05-01,Gold,True,True
+CUST_000022,35,Male,North America,2022-06-10,Bronze,True,False
+CUST_000023,38,Female,North America,2020-01-10,Silver,True,False
+CUST_000024,20,Female,Europe,2022-03-09,Bronze,False,True
+CUST_000025,31,Male,Europe,2020-11-11,Bronze,True,True
+CUST_000026,39,Female,North America,2022-04-17,Bronze,False,True
+CUST_000027,24,Female,Latin America,2020-09-29,Silver,True,False
+CUST_000028,42,Female,North America,2020-11-01,Silver,True,True
+CUST_000029,30,Female,Latin America,2022-03-15,Bronze,True,False
+CUST_000030,34,Female,North America,2020-07-28,Bronze,True,True
+CUST_000031,30,Male,Asia Pacific,2022-08-15,Bronze,False,True
+CUST_000032,60,Female,Latin America,2021-12-30,Silver,True,False
+CUST_000033,37,Male,North America,2022-01-22,Silver,True,True
+CUST_000034,25,Female,Middle East & Africa,2022-06-04,Bronze,True,True
+CUST_000035,47,Male,Europe,2021-04-08,Bronze,True,True
+CUST_000036,23,Female,Latin America,2021-12-12,Silver,True,False
+CUST_000037,40,Male,Asia Pacific,2021-12-28,Bronze,True,False
+CUST_000038,18,Male,North America,2021-12-17,Bronze,False,False
+CUST_000039,22,Male,North America,2022-07-13,Bronze,False,False
+CUST_000040,40,Male,North America,2021-02-19,Bronze,True,True
+CUST_000041,46,Female,North America,2020-08-03,Silver,True,True
+CUST_000042,40,Female,North America,2020-03-20,Silver,True,True
+CUST_000043,36,Female,North America,2022-02-17,Bronze,True,True
+CUST_000044,34,Male,Europe,2021-04-24,Silver,False,True
+CUST_000045,20,Male,Asia Pacific,2022-06-20,Bronze,False,True
+CUST_000046,29,Male,North America,2022-06-09,Gold,True,False
+CUST_000047,32,Male,North America,2021-06-30,Silver,True,True
+CUST_000048,50,Female,Europe,2022-03-11,Silver,False,False
+CUST_000049,42,Male,North America,2020-01-18,Bronze,False,False
+CUST_000050,18,Male,North America,2020-06-13,Bronze,True,False
+CUST_000051,41,Male,North America,2021-06-08,Bronze,True,False
+CUST_000052,33,Male,Latin America,2020-07-20,Silver,True,False
+CUST_000053,29,Female,Asia Pacific,2022-01-10,Bronze,False,True
+CUST_000054,45,Female,Europe,2020-12-11,Platinum,True,True
+CUST_000055,50,Male,Asia Pacific,2020-12-31,Platinum,False,True
+CUST_000056,49,Male,Europe,2022-09-03,Silver,True,True
+CUST_000057,27,Male,Asia Pacific,2021-03-23,Platinum,True,False
+CUST_000058,34,Male,Asia Pacific,2021-05-27,Bronze,True,False
+CUST_000059,41,Male,Europe,2020-11-14,Bronze,False,False
+CUST_000060,49,Female,North America,2020-08-04,Bronze,True,True
+CUST_000061,32,Female,North America,2020-02-03,Silver,False,False
+CUST_000062,35,Female,Europe,2022-05-20,Bronze,True,True
+CUST_000063,24,Male,Latin America,2020-09-22,Platinum,False,False
+CUST_000064,23,Male,Europe,2021-10-01,Bronze,False,True
+CUST_000065,47,Female,Asia Pacific,2021-12-24,Bronze,True,True
+CUST_000066,54,Female,Middle East & Africa,2022-02-13,Gold,False,True
+CUST_000067,37,Female,North America,2022-04-03,Bronze,True,False
+CUST_000068,50,Male,Asia Pacific,2020-03-20,Bronze,True,True
+CUST_000069,42,Female,Asia Pacific,2021-11-07,Silver,True,True
+CUST_000070,30,Male,Middle East & Africa,2021-02-16,Bronze,False,False
+CUST_000071,42,Female,Middle East & Africa,2020-09-08,Bronze,False,False
+CUST_000072,56,Female,Asia Pacific,2020-01-12,Bronze,True,True
+CUST_000073,37,Female,North America,2021-02-04,Bronze,False,False
+CUST_000074,56,Male,Asia Pacific,2022-03-26,Platinum,True,True
+CUST_000075,18,Female,North America,2021-12-24,Gold,False,True
+CUST_000076,47,Male,Asia Pacific,2020-10-08,Bronze,True,True
+CUST_000077,39,Male,Latin America,2020-04-21,Bronze,True,True
+CUST_000078,34,Male,Europe,2021-12-23,Bronze,True,True
+CUST_000079,39,Female,Europe,2021-01-12,Platinum,True,True
+CUST_000080,18,Male,Europe,2022-01-20,Bronze,True,True
+CUST_000081,35,Male,Europe,2020-09-24,Bronze,True,False
+CUST_000082,42,Female,North America,2022-07-05,Silver,True,False
+CUST_000083,55,Male,Asia Pacific,2020-10-24,Platinum,False,True
+CUST_000084,31,Female,Latin America,2020-11-12,Bronze,True,True
+CUST_000085,28,Male,Latin America,2021-07-23,Bronze,False,False
+CUST_000086,31,Male,North America,2021-05-23,Bronze,True,False
+CUST_000087,48,Female,Latin America,2022-08-07,Bronze,True,False
+CUST_000088,41,Male,Asia Pacific,2021-06-29,Silver,True,True
+CUST_000089,31,Male,North America,2022-02-13,Silver,False,True
+CUST_000090,44,Female,North America,2020-12-30,Silver,False,False
+CUST_000091,39,Female,North America,2021-06-30,Bronze,True,True
+CUST_000092,49,Female,Latin America,2020-09-27,Bronze,True,False
+CUST_000093,29,Male,Europe,2022-08-18,Bronze,True,False
+CUST_000094,34,Male,Asia Pacific,2021-04-18,Bronze,True,True
+CUST_000095,33,Female,North America,2022-01-08,Silver,False,True
+CUST_000096,20,Female,Asia Pacific,2021-06-20,Bronze,True,False
+CUST_000097,41,Female,North America,2020-08-21,Bronze,True,True
+CUST_000098,41,Female,Europe,2020-02-28,Bronze,False,True
+CUST_000099,38,Female,Europe,2020-09-07,Bronze,False,False
+CUST_000100,35,Female,North America,2022-04-26,Bronze,True,False
+CUST_000101,21,Male,Asia Pacific,2020-03-26,Gold,True,True
+CUST_000102,32,Female,North America,2022-02-01,Bronze,True,True
+CUST_000103,33,Male,Asia Pacific,2021-01-24,Silver,True,False
+CUST_000104,28,Male,Europe,2020-06-28,Bronze,True,False
+CUST_000105,36,Female,Europe,2021-12-19,Bronze,False,False
+CUST_000106,42,Female,North America,2022-05-05,Gold,False,False
+CUST_000107,60,Male,North America,2020-05-28,Bronze,True,True
+CUST_000108,40,Male,Latin America,2021-08-05,Silver,True,True
+CUST_000109,41,Male,North America,2020-04-30,Bronze,True,True
+CUST_000110,37,Female,Asia Pacific,2022-02-03,Silver,True,True
+CUST_000111,18,Female,Middle East & Africa,2021-08-27,Silver,True,True
+CUST_000112,37,Male,North America,2020-09-12,Gold,True,True
+CUST_000113,38,Male,North America,2022-02-04,Gold,True,False
+CUST_000114,67,Female,Asia Pacific,2022-05-13,Silver,True,False
+CUST_000115,35,Male,Middle East & Africa,2022-03-10,Bronze,True,False
+CUST_000116,41,Female,Latin America,2020-11-04,Silver,True,True
+CUST_000117,37,Other,Europe,2020-02-28,Silver,True,True
+CUST_000118,23,Male,Asia Pacific,2020-03-09,Bronze,True,True
+CUST_000119,51,Female,North America,2021-03-21,Bronze,True,False
+CUST_000120,47,Male,Middle East & Africa,2021-01-22,Gold,True,True
+CUST_000121,47,Male,Middle East & Africa,2020-03-26,Bronze,True,True
+CUST_000122,27,Female,North America,2022-02-24,Bronze,False,True
+CUST_000123,54,Male,North America,2020-08-14,Gold,True,False
+CUST_000124,21,Other,North America,2021-08-15,Bronze,True,False
+CUST_000125,45,Female,North America,2021-09-17,Bronze,True,False
+CUST_000126,64,Male,Asia Pacific,2020-07-02,Silver,True,True
+CUST_000127,26,Male,Europe,2022-03-02,Bronze,False,True
+CUST_000128,31,Male,North America,2020-11-17,Silver,False,True
+CUST_000129,39,Male,North America,2022-06-27,Bronze,True,True
+CUST_000130,31,Male,Middle East & Africa,2020-11-13,Bronze,True,True
+CUST_000131,19,Male,Europe,2021-07-19,Bronze,True,True
+CUST_000132,38,Male,Europe,2021-02-02,Platinum,True,True
+CUST_000133,25,Female,North America,2021-12-09,Bronze,True,True
+CUST_000134,43,Female,Middle East & Africa,2022-06-17,Bronze,True,True
+CUST_000135,26,Female,Asia Pacific,2020-10-19,Bronze,True,False
+CUST_000136,56,Male,North America,2020-10-19,Bronze,True,False
+CUST_000137,28,Male,North America,2021-04-29,Bronze,False,False
+CUST_000138,34,Female,North America,2022-06-17,Bronze,True,True
+CUST_000139,47,Female,North America,2021-03-22,Silver,True,True
+CUST_000140,23,Male,Europe,2022-03-13,Bronze,True,False
+CUST_000141,40,Female,Latin America,2021-11-22,Silver,True,True
+CUST_000142,53,Female,Europe,2022-09-09,Silver,False,False
+CUST_000143,18,Female,Asia Pacific,2022-06-10,Bronze,True,True
+CUST_000144,40,Male,Europe,2021-02-15,Bronze,False,False
+CUST_000145,41,Female,Asia Pacific,2021-05-22,Silver,True,False
+CUST_000146,47,Female,Asia Pacific,2022-01-03,Silver,False,False
+CUST_000147,23,Female,North America,2022-02-24,Bronze,False,False
+CUST_000148,22,Female,Europe,2022-06-08,Gold,True,True
+CUST_000149,44,Female,Europe,2020-08-31,Bronze,True,True
+CUST_000150,41,Female,North America,2021-02-23,Bronze,False,True
+CUST_000151,41,Male,Europe,2022-07-17,Bronze,True,True
+CUST_000152,42,Female,Europe,2022-08-17,Gold,True,True
+CUST_000153,29,Female,Middle East & Africa,2020-06-02,Silver,True,True
+CUST_000154,40,Female,Europe,2022-03-26,Silver,True,False
+CUST_000155,41,Male,Asia Pacific,2021-02-27,Bronze,True,True
+CUST_000156,29,Male,Europe,2020-09-29,Bronze,True,True
+CUST_000157,60,Female,Asia Pacific,2022-07-24,Bronze,True,True
+CUST_000158,43,Female,Europe,2021-10-08,Gold,True,True
+CUST_000159,23,Female,Latin America,2022-04-04,Bronze,False,True
+CUST_000160,45,Female,Europe,2021-06-03,Bronze,True,False
+CUST_000161,26,Female,Europe,2020-05-07,Bronze,False,True
+CUST_000162,47,Female,Europe,2021-01-07,Gold,False,True
+CUST_000163,51,Female,Europe,2021-07-21,Bronze,False,True
+CUST_000164,28,Female,North America,2021-09-29,Bronze,False,True
+CUST_000165,49,Female,North America,2020-06-07,Bronze,False,False
+CUST_000166,42,Male,North America,2021-07-24,Platinum,False,True
+CUST_000167,47,Male,Latin America,2021-07-23,Gold,True,True
+CUST_000168,60,Female,North America,2021-10-13,Silver,True,True
+CUST_000169,35,Male,North America,2020-06-24,Bronze,False,False
+CUST_000170,28,Male,Asia Pacific,2022-07-15,Bronze,True,True
+CUST_000171,27,Male,North America,2021-09-11,Gold,False,False
+CUST_000172,28,Male,Europe,2020-07-29,Bronze,False,True
+CUST_000173,37,Male,North America,2021-03-22,Bronze,True,True
+CUST_000174,42,Male,Middle East & Africa,2021-08-08,Bronze,False,False
+CUST_000175,41,Female,Latin America,2020-06-15,Gold,True,True
+CUST_000176,47,Female,Latin America,2021-04-04,Bronze,True,True
+CUST_000177,38,Male,Europe,2022-07-04,Silver,True,True
+CUST_000178,55,Male,Asia Pacific,2020-12-22,Gold,True,True
+CUST_000179,34,Female,North America,2020-10-30,Bronze,True,False
+CUST_000180,70,Male,North America,2020-08-20,Bronze,True,True
+CUST_000181,45,Female,North America,2020-11-22,Platinum,True,False
+CUST_000182,27,Female,Europe,2022-06-02,Platinum,False,True
+CUST_000183,25,Female,Europe,2020-06-30,Gold,True,True
+CUST_000184,43,Male,Europe,2021-09-25,Silver,True,False
+CUST_000185,35,Female,North America,2020-11-29,Bronze,True,True
+CUST_000186,46,Male,Europe,2021-12-15,Gold,False,True
+CUST_000187,43,Female,Asia Pacific,2022-08-24,Bronze,False,True
+CUST_000188,37,Female,Europe,2020-01-29,Gold,True,True
+CUST_000189,27,Male,Asia Pacific,2021-12-14,Gold,True,False
+CUST_000190,19,Male,North America,2020-04-02,Silver,False,True
+CUST_000191,32,Male,Asia Pacific,2022-04-20,Gold,True,True
+CUST_000192,48,Female,Europe,2022-05-17,Silver,True,False
+CUST_000193,40,Male,North America,2021-11-18,Bronze,True,True
+CUST_000194,23,Female,North America,2020-11-25,Silver,True,True
+CUST_000195,40,Male,Europe,2021-12-23,Bronze,False,True
+CUST_000196,42,Female,Asia Pacific,2020-07-02,Silver,True,False
+CUST_000197,27,Female,Europe,2020-04-04,Bronze,True,False
+CUST_000198,39,Female,North America,2022-02-23,Bronze,True,False
+CUST_000199,38,Female,Latin America,2021-10-10,Gold,False,True
+CUST_000200,24,Male,Asia Pacific,2022-01-18,Platinum,False,False
+CUST_000201,42,Male,Europe,2020-12-18,Bronze,False,True
+CUST_000202,44,Female,Europe,2022-07-18,Silver,True,True
+CUST_000203,50,Male,North America,2022-07-29,Silver,True,False
+CUST_000204,50,Male,Europe,2022-09-10,Platinum,False,True
+CUST_000205,21,Male,Europe,2020-09-21,Bronze,True,True
+CUST_000206,26,Male,Middle East & Africa,2021-10-08,Silver,False,False
+CUST_000207,44,Male,Europe,2021-10-17,Gold,True,False
+CUST_000208,44,Female,Europe,2020-01-19,Bronze,True,True
+CUST_000209,44,Male,Europe,2022-01-12,Gold,True,True
+CUST_000210,80,Female,Latin America,2021-10-07,Gold,False,True
+CUST_000211,44,Male,Asia Pacific,2021-09-17,Gold,False,True
+CUST_000212,51,Female,Europe,2021-05-13,Bronze,True,True
+CUST_000213,49,Male,Asia Pacific,2020-05-18,Bronze,True,True
+CUST_000214,45,Female,Europe,2021-09-28,Gold,False,False
+CUST_000215,34,Female,Europe,2021-12-16,Bronze,True,True
+CUST_000216,47,Male,North America,2021-07-26,Silver,False,True
+CUST_000217,28,Female,Europe,2022-01-31,Bronze,True,True
+CUST_000218,35,Other,North America,2022-03-20,Bronze,True,True
+CUST_000219,32,Female,Latin America,2021-06-08,Bronze,True,True
+CUST_000220,38,Female,North America,2022-06-26,Silver,True,False
+CUST_000221,65,Male,Middle East & Africa,2020-09-11,Bronze,True,False
+CUST_000222,18,Female,Europe,2020-03-25,Silver,True,True
+CUST_000223,46,Male,Europe,2021-04-02,Silver,True,False
+CUST_000224,18,Male,Europe,2021-06-15,Silver,True,True
+CUST_000225,32,Other,North America,2021-07-15,Silver,True,False
+CUST_000226,51,Male,Europe,2021-11-06,Bronze,False,True
+CUST_000227,38,Female,North America,2020-04-01,Bronze,True,False
+CUST_000228,25,Female,Europe,2021-08-22,Bronze,True,True
+CUST_000229,29,Female,Europe,2020-03-09,Silver,True,True
+CUST_000230,46,Other,Asia Pacific,2020-02-06,Silver,True,False
+CUST_000231,29,Male,North America,2022-02-03,Bronze,False,True
+CUST_000232,40,Male,North America,2022-02-02,Bronze,True,True
+CUST_000233,38,Male,Europe,2020-05-19,Silver,False,True
+CUST_000234,30,Male,Latin America,2022-05-16,Bronze,True,False
+CUST_000235,63,Male,Asia Pacific,2022-06-11,Gold,True,True
+CUST_000236,45,Male,Europe,2021-11-10,Bronze,True,True
+CUST_000237,18,Female,Europe,2021-07-19,Platinum,False,False
+CUST_000238,40,Female,North America,2022-06-16,Bronze,False,True
+CUST_000239,30,Male,Middle East & Africa,2020-06-26,Bronze,True,True
+CUST_000240,48,Female,Asia Pacific,2022-03-19,Bronze,False,False
+CUST_000241,28,Male,North America,2022-03-23,Bronze,True,False
+CUST_000242,36,Male,Europe,2022-05-20,Bronze,False,False
+CUST_000243,44,Female,North America,2021-09-09,Bronze,True,True
+CUST_000244,48,Female,Middle East & Africa,2020-05-16,Silver,True,True
+CUST_000245,23,Female,North America,2020-07-08,Bronze,True,False
+CUST_000246,33,Male,Europe,2021-10-01,Silver,False,False
+CUST_000247,32,Female,North America,2020-12-07,Bronze,False,False
+CUST_000248,30,Female,Asia Pacific,2021-07-12,Gold,False,True
+CUST_000249,59,Female,Asia Pacific,2020-01-05,Silver,False,True
+CUST_000250,42,Female,Asia Pacific,2022-08-29,Bronze,True,True
+CUST_000251,22,Female,Europe,2020-09-13,Bronze,False,False
+CUST_000252,49,Female,Latin America,2022-03-22,Bronze,False,True
+CUST_000253,63,Female,North America,2021-10-23,Bronze,True,True
+CUST_000254,50,Other,North America,2022-03-16,Silver,True,True
+CUST_000255,19,Female,North America,2020-08-30,Silver,True,True
+CUST_000256,32,Male,Middle East & Africa,2022-02-25,Gold,False,True
+CUST_000257,53,Female,Europe,2021-12-20,Silver,False,False
+CUST_000258,29,Male,Asia Pacific,2021-02-18,Platinum,False,True
+CUST_000259,43,Male,Asia Pacific,2021-09-18,Gold,False,True
+CUST_000260,47,Female,North America,2021-12-07,Gold,False,True
+CUST_000261,26,Female,North America,2020-12-08,Bronze,False,False
+CUST_000262,37,Female,North America,2021-11-12,Bronze,False,False
+CUST_000263,18,Male,Europe,2021-01-13,Bronze,True,False
+CUST_000264,25,Female,North America,2021-08-16,Silver,True,False
+CUST_000265,34,Male,North America,2021-10-27,Bronze,True,True
+CUST_000266,23,Other,Latin America,2021-10-14,Bronze,False,False
+CUST_000267,57,Other,Middle East & Africa,2022-04-05,Bronze,True,False
+CUST_000268,20,Female,North America,2020-05-25,Bronze,True,True
+CUST_000269,32,Female,North America,2020-11-18,Silver,True,True
+CUST_000270,39,Female,North America,2020-05-01,Bronze,True,False
+CUST_000271,55,Female,Asia Pacific,2020-09-08,Silver,True,False
+CUST_000272,20,Male,Asia Pacific,2022-05-04,Silver,True,True
+CUST_000273,51,Male,North America,2022-06-17,Bronze,True,False
+CUST_000274,38,Female,North America,2020-11-06,Silver,True,True
+CUST_000275,26,Female,Asia Pacific,2021-08-23,Silver,True,True
+CUST_000276,43,Male,Europe,2021-04-19,Bronze,True,False
+CUST_000277,40,Female,North America,2021-07-23,Bronze,True,True
+CUST_000278,30,Male,Europe,2021-05-06,Bronze,True,False
+CUST_000279,38,Female,North America,2021-07-28,Silver,True,True
+CUST_000280,33,Female,Europe,2020-12-12,Silver,True,True
+CUST_000281,39,Female,Asia Pacific,2022-03-30,Bronze,False,True
+CUST_000282,45,Female,Asia Pacific,2021-05-01,Bronze,True,True
+CUST_000283,57,Male,Europe,2021-04-17,Bronze,True,True
+CUST_000284,23,Male,Latin America,2021-01-16,Gold,True,False
+CUST_000285,63,Female,Europe,2020-10-06,Bronze,True,True
+CUST_000286,18,Female,Asia Pacific,2020-03-12,Gold,True,True
+CUST_000287,36,Male,Europe,2021-06-04,Bronze,True,True
+CUST_000288,45,Female,Latin America,2020-12-31,Silver,True,False
+CUST_000289,41,Male,Latin America,2022-07-21,Silver,True,True
+CUST_000290,30,Female,North America,2020-04-03,Silver,True,True
+CUST_000291,35,Female,Latin America,2021-01-07,Bronze,False,True
+CUST_000292,32,Male,Asia Pacific,2020-12-04,Silver,True,True
+CUST_000293,30,Male,Asia Pacific,2021-03-12,Bronze,False,True
+CUST_000294,48,Female,North America,2020-12-01,Bronze,True,False
+CUST_000295,42,Female,Asia Pacific,2021-10-25,Silver,True,False
+CUST_000296,29,Female,Latin America,2021-05-06,Gold,True,True
+CUST_000297,48,Female,North America,2022-07-05,Silver,False,False
+CUST_000298,41,Female,Middle East & Africa,2022-05-17,Bronze,True,False
+CUST_000299,47,Other,North America,2020-02-09,Silver,True,False
+CUST_000300,45,Female,North America,2020-12-24,Silver,True,False
+CUST_000301,28,Female,Europe,2021-07-27,Gold,True,False
+CUST_000302,31,Male,Europe,2020-09-10,Gold,False,True
+CUST_000303,46,Male,Europe,2022-08-23,Silver,True,True
+CUST_000304,45,Female,North America,2021-08-03,Bronze,True,True
+CUST_000305,37,Male,Middle East & Africa,2021-02-01,Silver,True,False
+CUST_000306,39,Female,North America,2022-01-26,Silver,True,True
+CUST_000307,53,Female,North America,2022-05-26,Platinum,True,True
+CUST_000308,30,Female,North America,2020-06-18,Bronze,True,True
+CUST_000309,44,Male,Europe,2021-11-20,Bronze,True,False
+CUST_000310,35,Male,Latin America,2021-12-01,Bronze,False,False
+CUST_000311,35,Male,Asia Pacific,2021-05-25,Silver,True,True
+CUST_000312,51,Male,Asia Pacific,2020-09-16,Gold,False,True
+CUST_000313,47,Male,North America,2021-08-06,Bronze,True,False
+CUST_000314,47,Female,Europe,2022-09-10,Silver,True,True
+CUST_000315,53,Female,Europe,2021-04-03,Silver,True,True
+CUST_000316,38,Female,Europe,2021-06-12,Silver,False,True
+CUST_000317,46,Female,North America,2022-05-31,Bronze,True,False
+CUST_000318,34,Male,Asia Pacific,2020-12-06,Gold,True,True
+CUST_000319,41,Female,Europe,2020-02-26,Bronze,True,True
+CUST_000320,36,Female,Asia Pacific,2020-08-05,Silver,False,False
+CUST_000321,39,Male,Europe,2021-09-10,Bronze,True,True
+CUST_000322,45,Female,North America,2022-03-26,Bronze,True,True
+CUST_000323,28,Male,Europe,2022-07-28,Gold,True,True
+CUST_000324,63,Female,North America,2021-11-15,Bronze,False,False
+CUST_000325,25,Other,Latin America,2021-12-31,Bronze,False,True
+CUST_000326,23,Male,Europe,2021-04-08,Silver,True,False
+CUST_000327,51,Female,North America,2020-09-03,Silver,True,False
+CUST_000328,47,Female,Middle East & Africa,2021-12-30,Silver,False,False
+CUST_000329,45,Other,Europe,2021-01-07,Bronze,False,False
+CUST_000330,45,Male,North America,2021-02-20,Bronze,True,False
+CUST_000331,37,Female,Europe,2020-01-31,Bronze,False,False
+CUST_000332,27,Male,North America,2021-01-02,Bronze,True,False
+CUST_000333,38,Male,Asia Pacific,2021-07-12,Gold,True,False
+CUST_000334,29,Male,Asia Pacific,2021-10-07,Bronze,False,False
+CUST_000335,49,Other,Middle East & Africa,2020-04-17,Bronze,True,True
+CUST_000336,36,Female,Europe,2021-08-06,Bronze,False,True
+CUST_000337,28,Female,Europe,2022-04-18,Bronze,True,True
+CUST_000338,34,Female,Asia Pacific,2021-02-21,Silver,True,False
+CUST_000339,42,Male,North America,2021-09-11,Silver,False,False
+CUST_000340,31,Male,Europe,2022-03-31,Bronze,True,True
+CUST_000341,28,Male,Europe,2021-02-01,Bronze,True,True
+CUST_000342,40,Male,North America,2020-09-28,Bronze,False,True
+CUST_000343,40,Male,Europe,2021-11-13,Silver,True,True
+CUST_000344,31,Male,Latin America,2020-04-25,Silver,True,False
+CUST_000345,32,Male,Latin America,2022-04-20,Bronze,False,True
+CUST_000346,40,Male,North America,2021-08-08,Bronze,True,True
+CUST_000347,20,Male,North America,2020-09-12,Silver,False,True
+CUST_000348,21,Male,North America,2020-03-21,Gold,False,True
+CUST_000349,29,Other,Latin America,2022-02-18,Gold,True,False
+CUST_000350,35,Female,North America,2020-05-07,Bronze,True,True
+CUST_000351,41,Other,Asia Pacific,2022-04-17,Bronze,False,False
+CUST_000352,55,Male,North America,2022-07-03,Bronze,True,True
+CUST_000353,48,Male,Europe,2020-08-22,Silver,True,True
+CUST_000354,36,Female,Europe,2021-07-06,Platinum,True,False
+CUST_000355,37,Male,Asia Pacific,2020-06-29,Bronze,True,False
+CUST_000356,25,Male,North America,2020-06-05,Bronze,True,True
+CUST_000357,37,Male,Europe,2021-03-29,Bronze,False,True
+CUST_000358,34,Male,North America,2021-07-24,Bronze,False,True
+CUST_000359,41,Male,Asia Pacific,2022-05-06,Bronze,True,False
+CUST_000360,28,Male,Latin America,2022-01-30,Silver,True,True
+CUST_000361,44,Female,North America,2021-12-04,Bronze,True,True
+CUST_000362,56,Male,Latin America,2020-01-24,Bronze,True,False
+CUST_000363,36,Male,Europe,2021-04-17,Silver,False,True
+CUST_000364,42,Female,North America,2021-02-03,Bronze,False,True
+CUST_000365,46,Male,Europe,2022-08-05,Bronze,False,True
+CUST_000366,33,Male,North America,2021-08-14,Bronze,True,False
+CUST_000367,40,Female,Asia Pacific,2020-05-13,Gold,True,True
+CUST_000368,38,Male,Asia Pacific,2021-02-24,Silver,True,False
+CUST_000369,39,Male,North America,2020-07-31,Bronze,True,True
+CUST_000370,28,Female,Europe,2022-06-18,Silver,True,False
+CUST_000371,38,Male,Asia Pacific,2021-04-26,Bronze,False,True
+CUST_000372,43,Female,Latin America,2020-12-13,Silver,False,True
+CUST_000373,55,Female,Europe,2020-06-14,Silver,False,False
+CUST_000374,49,Male,Middle East & Africa,2022-07-25,Gold,False,False
+CUST_000375,63,Female,Europe,2020-12-13,Bronze,True,False
+CUST_000376,28,Female,Europe,2022-04-28,Platinum,True,False
+CUST_000377,48,Male,Asia Pacific,2021-02-01,Platinum,True,True
+CUST_000378,40,Female,Europe,2021-08-05,Gold,True,True
+CUST_000379,64,Male,Europe,2021-12-26,Silver,True,True
+CUST_000380,28,Female,Europe,2021-03-10,Bronze,False,False
+CUST_000381,27,Male,Asia Pacific,2021-07-30,Bronze,True,True
+CUST_000382,30,Male,Asia Pacific,2020-08-08,Bronze,True,False
+CUST_000383,18,Male,Europe,2020-11-03,Bronze,True,True
+CUST_000384,31,Female,North America,2022-09-17,Silver,True,False
+CUST_000385,28,Male,Europe,2022-03-08,Silver,True,True
+CUST_000386,39,Male,Europe,2021-11-27,Gold,True,True
+CUST_000387,42,Male,North America,2021-12-19,Bronze,True,False
+CUST_000388,60,Female,Asia Pacific,2021-04-10,Bronze,False,True
+CUST_000389,49,Female,Europe,2020-04-08,Silver,True,False
+CUST_000390,31,Female,North America,2020-08-29,Bronze,True,False
+CUST_000391,27,Female,North America,2020-06-06,Bronze,True,True
+CUST_000392,43,Female,North America,2021-09-01,Platinum,False,False
+CUST_000393,22,Male,Latin America,2021-07-07,Silver,True,False
+CUST_000394,59,Female,North America,2021-10-12,Bronze,False,False
+CUST_000395,52,Female,North America,2022-03-05,Gold,False,True
+CUST_000396,32,Other,Europe,2022-07-08,Silver,False,True
+CUST_000397,18,Female,North America,2020-08-14,Silver,True,False
+CUST_000398,54,Male,North America,2021-02-26,Gold,True,False
+CUST_000399,36,Male,North America,2020-03-12,Bronze,True,True
+CUST_000400,52,Female,Europe,2020-08-30,Silver,True,True
+CUST_000401,18,Female,Europe,2021-06-13,Bronze,True,True
+CUST_000402,30,Female,Europe,2021-08-11,Bronze,False,True
+CUST_000403,38,Female,Europe,2020-02-14,Gold,False,False
+CUST_000404,38,Female,Middle East & Africa,2021-04-16,Silver,True,False
+CUST_000405,32,Male,Europe,2021-01-05,Silver,True,True
+CUST_000406,45,Female,North America,2022-05-04,Gold,False,False
+CUST_000407,25,Male,North America,2021-10-13,Gold,True,True
+CUST_000408,36,Male,Europe,2021-11-19,Gold,True,False
+CUST_000409,39,Male,Asia Pacific,2022-01-03,Bronze,True,True
+CUST_000410,44,Female,North America,2022-07-15,Bronze,False,True
+CUST_000411,46,Male,Asia Pacific,2020-04-01,Bronze,True,False
+CUST_000412,24,Male,North America,2020-01-22,Bronze,False,True
+CUST_000413,19,Female,Europe,2020-06-20,Bronze,True,True
+CUST_000414,53,Male,Asia Pacific,2021-08-26,Silver,True,True
+CUST_000415,41,Female,North America,2020-07-10,Silver,True,True
+CUST_000416,29,Female,Europe,2020-03-17,Platinum,True,True
+CUST_000417,56,Female,North America,2020-10-07,Silver,True,True
+CUST_000418,39,Female,Asia Pacific,2020-12-29,Silver,True,False
+CUST_000419,52,Male,North America,2020-06-27,Bronze,False,False
+CUST_000420,38,Female,Latin America,2020-08-25,Bronze,True,True
+CUST_000421,62,Male,North America,2020-05-14,Bronze,False,False
+CUST_000422,59,Female,Latin America,2022-05-26,Silver,False,True
+CUST_000423,35,Male,Europe,2022-06-20,Bronze,False,True
+CUST_000424,49,Female,Asia Pacific,2020-10-06,Silver,False,True
+CUST_000425,45,Male,North America,2020-01-19,Silver,True,True
+CUST_000426,54,Male,Latin America,2021-08-17,Bronze,True,False
+CUST_000427,26,Male,North America,2022-01-09,Bronze,False,True
+CUST_000428,46,Male,North America,2021-01-05,Bronze,False,False
+CUST_000429,50,Female,Europe,2022-02-15,Bronze,False,True
+CUST_000430,18,Male,North America,2020-04-21,Silver,True,True
+CUST_000431,23,Female,North America,2022-02-01,Silver,True,False
+CUST_000432,18,Other,Latin America,2021-11-06,Silver,True,True
+CUST_000433,34,Female,Middle East & Africa,2022-05-19,Gold,False,True
+CUST_000434,46,Male,Europe,2021-11-10,Silver,True,True
+CUST_000435,56,Male,Latin America,2020-08-08,Platinum,True,True
+CUST_000436,38,Female,Europe,2022-07-08,Bronze,True,False
+CUST_000437,57,Male,North America,2020-10-30,Silver,True,True
+CUST_000438,21,Male,Asia Pacific,2021-12-03,Bronze,True,True
+CUST_000439,18,Female,Asia Pacific,2020-11-20,Bronze,False,False
+CUST_000440,37,Female,Middle East & Africa,2021-03-12,Bronze,False,True
+CUST_000441,42,Female,North America,2021-03-13,Silver,True,True
+CUST_000442,37,Male,Asia Pacific,2020-06-18,Bronze,True,True
+CUST_000443,18,Female,North America,2021-01-09,Bronze,False,True
+CUST_000444,36,Male,North America,2021-07-10,Platinum,True,True
+CUST_000445,22,Male,North America,2021-01-15,Gold,False,True
+CUST_000446,46,Female,Middle East & Africa,2022-09-12,Silver,True,False
+CUST_000447,42,Male,Asia Pacific,2020-01-14,Silver,True,True
+CUST_000448,26,Male,Asia Pacific,2022-01-12,Platinum,True,True
+CUST_000449,31,Male,Europe,2021-10-30,Silver,False,True
+CUST_000450,25,Female,North America,2021-05-14,Bronze,True,True
+CUST_000451,37,Female,North America,2021-10-07,Gold,True,False
+CUST_000452,49,Female,North America,2021-01-25,Silver,True,True
+CUST_000453,26,Female,Europe,2021-07-02,Bronze,True,True
+CUST_000454,44,Male,Asia Pacific,2021-07-18,Bronze,True,True
+CUST_000455,31,Male,Europe,2021-06-13,Bronze,True,True
+CUST_000456,28,Male,North America,2022-09-09,Gold,True,False
+CUST_000457,36,Male,North America,2021-05-06,Bronze,True,True
+CUST_000458,25,Female,North America,2021-07-03,Platinum,True,True
+CUST_000459,31,Female,Europe,2021-11-29,Gold,True,True
+CUST_000460,23,Male,Latin America,2021-01-19,Silver,True,True
+CUST_000461,61,Male,Europe,2020-07-14,Silver,True,True
+CUST_000462,38,Male,Asia Pacific,2022-01-24,Bronze,True,True
+CUST_000463,29,Male,Europe,2020-10-26,Bronze,True,False
+CUST_000464,40,Female,Europe,2022-03-25,Bronze,True,True
+CUST_000465,36,Male,North America,2021-06-30,Silver,True,False
+CUST_000466,35,Male,Latin America,2021-12-27,Bronze,True,True
+CUST_000467,45,Female,Asia Pacific,2021-12-31,Bronze,True,False
+CUST_000468,47,Male,North America,2022-04-07,Bronze,True,True
+CUST_000469,31,Female,Europe,2021-08-24,Gold,False,False
+CUST_000470,31,Male,Europe,2020-11-03,Bronze,False,True
+CUST_000471,34,Female,Europe,2020-09-08,Gold,True,True
+CUST_000472,18,Other,Latin America,2020-01-08,Bronze,True,False
+CUST_000473,19,Female,Europe,2022-02-06,Silver,False,True
+CUST_000474,54,Male,Europe,2022-05-24,Bronze,False,True
+CUST_000475,57,Female,North America,2020-07-26,Silver,True,True
+CUST_000476,35,Male,North America,2022-07-25,Silver,True,True
+CUST_000477,44,Male,North America,2020-05-10,Bronze,True,True
+CUST_000478,41,Male,North America,2022-01-05,Silver,True,True
+CUST_000479,74,Male,Asia Pacific,2021-12-09,Silver,True,True
+CUST_000480,51,Female,Asia Pacific,2022-09-06,Silver,True,True
+CUST_000481,36,Female,North America,2021-10-15,Silver,False,True
+CUST_000482,26,Female,Asia Pacific,2022-02-02,Bronze,True,True
+CUST_000483,18,Female,North America,2021-08-30,Silver,True,True
+CUST_000484,40,Female,North America,2020-01-26,Platinum,True,False
+CUST_000485,28,Male,North America,2021-09-14,Gold,True,True
+CUST_000486,20,Male,Europe,2021-03-29,Platinum,True,False
+CUST_000487,30,Female,North America,2021-09-26,Bronze,True,False
+CUST_000488,25,Male,Europe,2020-07-04,Silver,True,False
+CUST_000489,58,Female,Europe,2021-04-28,Silver,True,False
+CUST_000490,48,Male,Middle East & Africa,2021-11-10,Bronze,False,False
+CUST_000491,37,Male,North America,2020-02-20,Gold,True,True
+CUST_000492,55,Male,North America,2022-06-09,Silver,True,True
+CUST_000493,38,Male,North America,2020-01-05,Bronze,True,True
+CUST_000494,27,Male,Europe,2021-08-11,Bronze,True,False
+CUST_000495,56,Female,North America,2020-06-08,Gold,True,False
+CUST_000496,44,Male,Asia Pacific,2020-07-26,Bronze,True,False
+CUST_000497,25,Female,Europe,2020-09-13,Bronze,True,False
+CUST_000498,35,Male,Europe,2020-07-23,Bronze,True,False
+CUST_000499,27,Male,Europe,2022-02-05,Bronze,False,True
+CUST_000500,21,Male,North America,2022-08-07,Gold,True,False
+CUST_000501,49,Female,North America,2020-01-11,Bronze,True,True
+CUST_000502,60,Male,North America,2022-08-06,Silver,True,True
+CUST_000503,21,Female,Europe,2020-01-08,Gold,False,True
+CUST_000504,44,Male,North America,2021-02-12,Silver,True,True
+CUST_000505,30,Female,North America,2022-07-24,Bronze,True,False
+CUST_000506,32,Male,Middle East & Africa,2020-02-01,Silver,False,True
+CUST_000507,30,Female,North America,2022-09-10,Bronze,True,False
+CUST_000508,27,Female,Asia Pacific,2021-06-23,Bronze,True,True
+CUST_000509,38,Female,Asia Pacific,2021-12-18,Silver,True,True
+CUST_000510,28,Male,North America,2021-01-21,Gold,False,False
+CUST_000511,41,Male,North America,2020-08-15,Silver,False,False
+CUST_000512,37,Male,North America,2021-10-01,Platinum,False,True
+CUST_000513,35,Female,Asia Pacific,2022-02-05,Silver,False,True
+CUST_000514,27,Female,Europe,2021-04-19,Silver,False,True
+CUST_000515,31,Female,Asia Pacific,2021-12-24,Gold,True,False
+CUST_000516,47,Male,Latin America,2022-01-20,Bronze,False,False
+CUST_000517,44,Male,Asia Pacific,2020-07-25,Bronze,True,True
+CUST_000518,26,Male,North America,2020-11-13,Silver,True,True
+CUST_000519,39,Other,North America,2022-03-05,Silver,True,False
+CUST_000520,47,Female,Asia Pacific,2022-01-26,Bronze,True,False
+CUST_000521,18,Female,North America,2021-07-10,Bronze,False,False
+CUST_000522,44,Male,North America,2021-09-08,Bronze,True,True
+CUST_000523,30,Female,Asia Pacific,2020-12-13,Silver,True,False
+CUST_000524,44,Female,Europe,2022-03-03,Gold,True,False
+CUST_000525,28,Male,Latin America,2020-08-21,Gold,False,False
+CUST_000526,18,Female,Asia Pacific,2021-12-01,Silver,True,True
+CUST_000527,18,Female,North America,2020-02-13,Gold,True,False
+CUST_000528,38,Female,Latin America,2022-01-06,Bronze,True,False
+CUST_000529,41,Female,North America,2022-07-30,Bronze,True,False
+CUST_000530,27,Male,North America,2020-05-21,Bronze,True,True
+CUST_000531,45,Male,Europe,2021-10-09,Silver,True,True
+CUST_000532,18,Other,North America,2020-06-24,Bronze,False,True
+CUST_000533,37,Male,Europe,2021-10-15,Silver,True,True
+CUST_000534,23,Female,North America,2021-03-24,Silver,True,True
+CUST_000535,30,Female,Europe,2021-08-14,Bronze,True,True
+CUST_000536,38,Female,Europe,2020-03-22,Platinum,True,True
+CUST_000537,27,Other,Asia Pacific,2020-05-14,Silver,True,False
+CUST_000538,33,Male,Asia Pacific,2021-12-19,Bronze,True,True
+CUST_000539,50,Male,North America,2022-05-05,Bronze,True,True
+CUST_000540,31,Male,Europe,2020-06-25,Silver,False,False
+CUST_000541,48,Male,Europe,2021-01-17,Bronze,True,True
+CUST_000542,24,Male,North America,2020-08-30,Bronze,True,True
+CUST_000543,44,Male,Asia Pacific,2021-07-20,Silver,True,True
+CUST_000544,55,Female,Asia Pacific,2020-05-20,Gold,True,True
+CUST_000545,18,Female,North America,2021-04-01,Bronze,True,True
+CUST_000546,28,Male,Europe,2021-03-15,Gold,True,True
+CUST_000547,44,Male,North America,2020-02-25,Gold,False,False
+CUST_000548,35,Female,Europe,2021-06-10,Bronze,True,True
+CUST_000549,42,Male,North America,2021-11-27,Silver,True,True
+CUST_000550,30,Male,Middle East & Africa,2022-04-05,Bronze,False,False
+CUST_000551,39,Male,Asia Pacific,2021-02-22,Bronze,True,True
+CUST_000552,36,Female,Europe,2020-03-28,Silver,False,True
+CUST_000553,52,Male,Europe,2021-08-31,Silver,True,False
+CUST_000554,41,Other,Latin America,2021-10-17,Bronze,True,True
+CUST_000555,42,Male,Europe,2020-01-08,Gold,True,False
+CUST_000556,33,Female,North America,2021-04-21,Silver,False,True
+CUST_000557,32,Male,Europe,2020-08-02,Gold,False,False
+CUST_000558,32,Male,Asia Pacific,2021-11-15,Bronze,True,True
+CUST_000559,42,Female,Europe,2022-01-04,Gold,True,True
+CUST_000560,32,Female,Asia Pacific,2021-07-05,Bronze,True,False
+CUST_000561,41,Female,Latin America,2021-05-11,Bronze,True,False
+CUST_000562,62,Female,Latin America,2021-11-24,Silver,True,False
+CUST_000563,48,Female,Latin America,2021-05-17,Silver,True,False
+CUST_000564,34,Female,North America,2022-02-20,Silver,True,False
+CUST_000565,52,Female,Europe,2021-11-29,Bronze,True,True
+CUST_000566,33,Male,Asia Pacific,2020-09-01,Bronze,True,True
+CUST_000567,18,Male,Asia Pacific,2021-04-22,Silver,False,True
+CUST_000568,25,Male,Europe,2020-11-04,Bronze,False,False
+CUST_000569,18,Female,North America,2020-08-18,Silver,True,False
+CUST_000570,33,Male,Asia Pacific,2021-01-17,Bronze,False,False
+CUST_000571,38,Male,Asia Pacific,2020-06-03,Platinum,True,False
+CUST_000572,58,Female,North America,2020-06-23,Silver,False,False
+CUST_000573,41,Female,Europe,2022-04-27,Silver,True,True
+CUST_000574,35,Female,North America,2020-04-24,Gold,True,True
+CUST_000575,47,Male,North America,2021-01-24,Silver,False,False
+CUST_000576,18,Female,North America,2020-11-06,Bronze,True,True
+CUST_000577,40,Male,Europe,2022-09-19,Bronze,False,True
+CUST_000578,47,Male,Europe,2020-10-26,Silver,False,True
+CUST_000579,20,Male,Europe,2020-01-18,Bronze,False,True
+CUST_000580,51,Male,Asia Pacific,2022-02-22,Silver,True,False
+CUST_000581,42,Male,Asia Pacific,2020-01-12,Bronze,True,True
+CUST_000582,33,Female,North America,2021-02-07,Bronze,True,False
+CUST_000583,45,Male,North America,2022-03-23,Silver,False,True
+CUST_000584,65,Female,Latin America,2021-12-04,Platinum,True,False
+CUST_000585,40,Female,North America,2020-08-19,Silver,True,False
+CUST_000586,40,Male,Middle East & Africa,2022-08-12,Gold,True,False
+CUST_000587,32,Female,Asia Pacific,2021-08-27,Platinum,True,False
+CUST_000588,27,Male,Europe,2022-09-16,Bronze,True,True
+CUST_000589,47,Female,Middle East & Africa,2021-12-30,Bronze,True,True
+CUST_000590,27,Male,North America,2020-10-04,Silver,False,True
+CUST_000591,38,Male,North America,2020-12-18,Gold,True,False
+CUST_000592,32,Male,Europe,2022-09-25,Silver,False,False
+CUST_000593,43,Female,Europe,2020-10-29,Platinum,True,True
+CUST_000594,42,Female,Latin America,2021-06-24,Bronze,True,False
+CUST_000595,50,Male,North America,2021-04-14,Bronze,True,True
+CUST_000596,31,Female,Europe,2022-03-23,Silver,True,True
+CUST_000597,34,Female,Europe,2020-03-17,Bronze,True,False
+CUST_000598,26,Female,Asia Pacific,2021-06-04,Bronze,False,True
+CUST_000599,32,Female,North America,2020-01-24,Bronze,True,True
+CUST_000600,42,Female,Europe,2020-01-15,Bronze,True,False
+CUST_000601,47,Female,Asia Pacific,2021-11-06,Silver,True,False
+CUST_000602,26,Female,North America,2021-06-08,Gold,False,True
+CUST_000603,48,Male,Asia Pacific,2020-12-12,Gold,True,False
+CUST_000604,54,Male,Europe,2020-06-20,Silver,True,True
+CUST_000605,42,Male,Asia Pacific,2022-05-18,Bronze,True,True
+CUST_000606,60,Female,Asia Pacific,2020-11-22,Silver,False,False
+CUST_000607,28,Female,North America,2021-12-12,Bronze,True,True
+CUST_000608,23,Male,Europe,2021-04-29,Bronze,True,True
+CUST_000609,18,Female,Latin America,2021-05-03,Bronze,True,True
+CUST_000610,55,Male,Europe,2021-04-06,Gold,False,False
+CUST_000611,45,Male,Middle East & Africa,2021-01-12,Gold,True,True
+CUST_000612,37,Other,Europe,2021-08-10,Silver,False,True
+CUST_000613,41,Male,North America,2020-06-12,Silver,True,True
+CUST_000614,24,Male,Europe,2021-01-06,Bronze,True,True
+CUST_000615,67,Female,Middle East & Africa,2021-07-26,Silver,True,True
+CUST_000616,39,Female,North America,2022-09-26,Silver,False,True
+CUST_000617,39,Male,Latin America,2022-09-03,Bronze,True,False
+CUST_000618,46,Female,Latin America,2021-02-27,Bronze,False,False
+CUST_000619,43,Female,Europe,2022-01-26,Gold,True,False
+CUST_000620,40,Male,North America,2021-04-21,Silver,False,True
+CUST_000621,28,Male,Asia Pacific,2021-01-16,Gold,True,True
+CUST_000622,43,Female,North America,2020-06-03,Gold,True,True
+CUST_000623,60,Male,Asia Pacific,2020-09-13,Platinum,True,True
+CUST_000624,54,Female,Europe,2022-01-25,Bronze,True,True
+CUST_000625,57,Female,Europe,2021-11-04,Bronze,True,False
+CUST_000626,31,Other,Asia Pacific,2020-03-08,Bronze,True,True
+CUST_000627,26,Male,Europe,2020-12-09,Bronze,True,True
+CUST_000628,36,Other,Europe,2020-10-03,Silver,True,True
+CUST_000629,38,Male,Europe,2021-11-03,Silver,True,True
+CUST_000630,51,Male,Europe,2021-01-25,Silver,True,False
+CUST_000631,18,Male,Europe,2021-03-24,Bronze,True,True
+CUST_000632,56,Male,Asia Pacific,2020-09-15,Gold,True,False
+CUST_000633,36,Female,Europe,2020-11-02,Bronze,True,True
+CUST_000634,32,Male,Europe,2022-04-26,Bronze,True,False
+CUST_000635,25,Male,Asia Pacific,2020-04-04,Silver,False,True
+CUST_000636,18,Female,North America,2022-08-07,Silver,False,False
+CUST_000637,47,Male,North America,2021-04-08,Bronze,True,True
+CUST_000638,38,Female,Latin America,2022-08-27,Bronze,True,True
+CUST_000639,22,Male,Asia Pacific,2020-09-02,Silver,True,True
+CUST_000640,22,Female,Europe,2022-01-02,Bronze,True,True
+CUST_000641,33,Female,Europe,2021-09-26,Bronze,True,True
+CUST_000642,58,Male,North America,2020-07-05,Silver,True,False
+CUST_000643,34,Male,Europe,2022-02-12,Bronze,True,True
+CUST_000644,19,Male,Europe,2022-07-13,Bronze,True,True
+CUST_000645,35,Female,Europe,2022-02-23,Bronze,True,False
+CUST_000646,34,Male,Europe,2021-01-07,Platinum,True,True
+CUST_000647,18,Male,North America,2021-07-25,Platinum,True,True
+CUST_000648,37,Male,North America,2021-02-09,Bronze,True,False
+CUST_000649,35,Male,Middle East & Africa,2021-02-11,Bronze,True,False
+CUST_000650,46,Female,Europe,2020-05-04,Bronze,False,False
+CUST_000651,60,Female,Europe,2020-12-02,Bronze,False,False
+CUST_000652,51,Male,North America,2020-12-06,Silver,True,True
+CUST_000653,34,Male,North America,2021-07-16,Silver,True,False
+CUST_000654,24,Female,Asia Pacific,2020-06-26,Bronze,True,True
+CUST_000655,68,Female,Europe,2021-10-12,Bronze,True,True
+CUST_000656,38,Male,Europe,2022-08-09,Bronze,True,False
+CUST_000657,38,Male,North America,2022-04-18,Bronze,True,True
+CUST_000658,37,Male,Asia Pacific,2020-06-18,Bronze,True,True
+CUST_000659,40,Female,North America,2020-02-08,Silver,True,True
+CUST_000660,36,Male,North America,2020-03-09,Silver,False,True
+CUST_000661,31,Female,Europe,2020-08-23,Silver,False,True
+CUST_000662,31,Female,North America,2021-07-13,Bronze,True,True
+CUST_000663,37,Female,North America,2021-01-15,Silver,True,True
+CUST_000664,31,Male,Europe,2020-02-26,Bronze,True,True
+CUST_000665,29,Male,Asia Pacific,2020-10-03,Bronze,False,True
+CUST_000666,39,Male,Asia Pacific,2022-04-29,Silver,False,True
+CUST_000667,34,Male,Europe,2020-04-08,Bronze,False,False
+CUST_000668,56,Female,North America,2022-07-04,Silver,True,True
+CUST_000669,18,Other,North America,2021-06-10,Silver,False,False
+CUST_000670,51,Female,Middle East & Africa,2020-11-20,Gold,True,True
+CUST_000671,52,Female,Europe,2021-04-05,Platinum,False,True
+CUST_000672,18,Male,Asia Pacific,2020-06-27,Bronze,False,True
+CUST_000673,33,Male,North America,2022-04-23,Platinum,True,True
+CUST_000674,33,Male,Europe,2021-07-27,Silver,True,True
+CUST_000675,21,Female,North America,2020-04-28,Silver,False,True
+CUST_000676,28,Female,Europe,2021-04-13,Bronze,True,True
+CUST_000677,24,Female,Latin America,2021-07-02,Gold,True,True
+CUST_000678,59,Male,Middle East & Africa,2021-10-07,Bronze,True,False
+CUST_000679,49,Male,Europe,2021-03-30,Gold,True,False
+CUST_000680,53,Female,Europe,2020-01-26,Bronze,True,True
+CUST_000681,46,Male,Latin America,2021-05-04,Silver,True,False
+CUST_000682,24,Female,Asia Pacific,2020-01-08,Bronze,True,False
+CUST_000683,31,Female,North America,2022-08-26,Bronze,True,True
+CUST_000684,43,Female,Europe,2022-09-13,Bronze,True,False
+CUST_000685,23,Male,North America,2021-05-30,Bronze,True,False
+CUST_000686,46,Male,Europe,2021-06-16,Bronze,True,True
+CUST_000687,35,Male,Europe,2022-07-15,Bronze,True,False
+CUST_000688,33,Male,Europe,2020-05-28,Silver,True,False
+CUST_000689,46,Male,Europe,2021-05-02,Gold,False,True
+CUST_000690,43,Female,North America,2020-01-25,Silver,True,True
+CUST_000691,33,Female,Europe,2022-09-25,Bronze,False,False
+CUST_000692,51,Male,Asia Pacific,2021-10-16,Bronze,True,False
+CUST_000693,25,Male,Asia Pacific,2022-01-26,Bronze,False,True
+CUST_000694,45,Male,North America,2022-07-19,Gold,True,True
+CUST_000695,45,Male,Latin America,2022-08-02,Gold,True,False
+CUST_000696,34,Female,Latin America,2021-07-08,Bronze,True,True
+CUST_000697,41,Male,North America,2021-02-28,Bronze,True,False
+CUST_000698,22,Male,North America,2020-10-19,Gold,True,True
+CUST_000699,49,Male,Asia Pacific,2020-07-03,Gold,True,True
+CUST_000700,35,Female,Asia Pacific,2021-07-07,Gold,True,True
+CUST_000701,31,Female,Middle East & Africa,2021-03-06,Gold,False,True
+CUST_000702,50,Male,Latin America,2021-08-26,Bronze,True,True
+CUST_000703,29,Female,Europe,2020-11-12,Bronze,True,True
+CUST_000704,21,Female,Europe,2021-02-01,Bronze,True,False
+CUST_000705,19,Female,North America,2020-11-19,Bronze,True,True
+CUST_000706,45,Male,North America,2021-07-18,Bronze,False,False
+CUST_000707,22,Female,Europe,2021-08-18,Silver,False,True
+CUST_000708,59,Female,Europe,2021-06-29,Bronze,False,True
+CUST_000709,18,Female,Europe,2020-03-16,Bronze,False,True
+CUST_000710,58,Female,Asia Pacific,2022-05-14,Bronze,True,True
+CUST_000711,40,Female,North America,2022-07-08,Bronze,True,False
+CUST_000712,36,Male,Europe,2022-07-04,Bronze,True,False
+CUST_000713,31,Female,North America,2021-12-09,Gold,False,True
+CUST_000714,42,Female,Europe,2021-04-30,Gold,False,False
+CUST_000715,37,Female,Asia Pacific,2022-03-08,Bronze,True,True
+CUST_000716,51,Male,Asia Pacific,2020-03-28,Silver,True,True
+CUST_000717,39,Female,Middle East & Africa,2022-01-16,Bronze,False,True
+CUST_000718,39,Female,North America,2020-08-19,Silver,True,False
+CUST_000719,33,Male,Europe,2020-01-07,Bronze,False,True
+CUST_000720,37,Female,North America,2022-03-14,Bronze,True,False
+CUST_000721,41,Female,Europe,2021-07-03,Gold,True,True
+CUST_000722,18,Female,Latin America,2022-09-02,Bronze,True,True
+CUST_000723,21,Male,Asia Pacific,2020-02-21,Bronze,True,False
+CUST_000724,46,Male,Latin America,2021-10-16,Bronze,True,True
+CUST_000725,40,Female,North America,2022-07-30,Bronze,True,False
+CUST_000726,35,Male,Latin America,2022-07-07,Bronze,False,False
+CUST_000727,38,Female,North America,2021-01-30,Gold,True,False
+CUST_000728,42,Female,Latin America,2020-08-08,Silver,False,True
+CUST_000729,31,Female,North America,2021-03-03,Silver,True,True
+CUST_000730,28,Male,North America,2022-01-21,Bronze,False,False
+CUST_000731,40,Female,Europe,2020-05-22,Bronze,True,True
+CUST_000732,26,Male,Latin America,2022-05-10,Bronze,True,True
+CUST_000733,42,Male,North America,2020-12-28,Bronze,True,True
+CUST_000734,18,Male,Europe,2021-01-16,Silver,True,True
+CUST_000735,50,Male,Latin America,2021-07-14,Bronze,False,True
+CUST_000736,43,Other,Europe,2020-10-03,Gold,True,True
+CUST_000737,41,Other,North America,2020-09-27,Bronze,True,True
+CUST_000738,49,Male,Europe,2020-01-14,Bronze,False,True
+CUST_000739,57,Female,Europe,2020-10-24,Bronze,True,True
+CUST_000740,50,Male,Latin America,2021-04-08,Bronze,False,False
+CUST_000741,18,Female,Asia Pacific,2021-06-10,Bronze,True,False
+CUST_000742,22,Female,Europe,2020-08-21,Bronze,False,True
+CUST_000743,30,Female,Middle East & Africa,2021-07-28,Bronze,True,True
+CUST_000744,38,Male,Europe,2021-12-08,Silver,False,True
+CUST_000745,44,Female,North America,2020-01-27,Silver,True,True
+CUST_000746,29,Male,North America,2021-04-15,Bronze,True,False
+CUST_000747,40,Other,Europe,2020-04-02,Bronze,True,False
+CUST_000748,28,Male,North America,2021-09-08,Silver,True,False
+CUST_000749,30,Female,Latin America,2020-11-04,Platinum,True,True
+CUST_000750,21,Female,Asia Pacific,2020-02-21,Silver,True,True
+CUST_000751,26,Female,North America,2020-11-14,Bronze,True,False
+CUST_000752,21,Male,Europe,2022-08-26,Silver,False,True
+CUST_000753,26,Female,Asia Pacific,2020-06-29,Silver,True,True
+CUST_000754,50,Male,Latin America,2021-07-22,Bronze,False,True
+CUST_000755,26,Female,Latin America,2020-04-29,Gold,True,True
+CUST_000756,69,Male,Europe,2022-03-30,Bronze,True,True
+CUST_000757,43,Male,Asia Pacific,2022-05-24,Platinum,False,True
+CUST_000758,40,Female,Europe,2020-02-12,Silver,False,False
+CUST_000759,27,Male,Europe,2021-10-08,Silver,True,False
+CUST_000760,46,Male,North America,2022-06-03,Silver,True,True
+CUST_000761,31,Male,North America,2022-07-26,Bronze,True,True
+CUST_000762,39,Male,Europe,2020-09-16,Silver,True,True
+CUST_000763,68,Female,North America,2020-07-15,Gold,True,False
+CUST_000764,36,Female,North America,2021-10-06,Silver,True,True
+CUST_000765,51,Male,Asia Pacific,2022-08-28,Gold,True,False
+CUST_000766,29,Male,North America,2020-09-11,Gold,True,True
+CUST_000767,37,Male,Europe,2022-01-01,Platinum,False,False
+CUST_000768,59,Male,Europe,2020-12-01,Silver,False,True
+CUST_000769,30,Female,Middle East & Africa,2021-07-06,Silver,True,True
+CUST_000770,59,Female,Europe,2021-05-16,Bronze,True,True
+CUST_000771,46,Male,North America,2022-09-16,Silver,True,True
+CUST_000772,31,Male,Europe,2022-06-18,Bronze,False,False
+CUST_000773,45,Male,Asia Pacific,2020-09-11,Bronze,True,False
+CUST_000774,49,Female,Middle East & Africa,2021-05-28,Bronze,True,True
+CUST_000775,45,Other,Europe,2021-12-07,Gold,True,False
+CUST_000776,19,Male,North America,2020-08-29,Gold,True,True
+CUST_000777,29,Male,Latin America,2020-05-28,Silver,True,False
+CUST_000778,35,Female,North America,2021-12-10,Bronze,False,True
+CUST_000779,37,Female,Europe,2020-10-25,Silver,True,False
+CUST_000780,45,Male,Europe,2022-01-26,Silver,True,True
+CUST_000781,40,Male,North America,2022-04-29,Bronze,True,True
+CUST_000782,21,Male,North America,2021-09-11,Bronze,True,True
+CUST_000783,42,Female,North America,2021-03-28,Bronze,True,True
+CUST_000784,45,Male,Asia Pacific,2021-01-27,Silver,True,True
+CUST_000785,44,Male,Latin America,2020-07-30,Silver,True,True
+CUST_000786,50,Female,North America,2021-10-29,Bronze,False,False
+CUST_000787,48,Male,Asia Pacific,2021-06-21,Platinum,False,False
+CUST_000788,43,Female,North America,2021-08-16,Bronze,True,False
+CUST_000789,37,Male,Europe,2021-08-17,Bronze,False,False
+CUST_000790,18,Male,North America,2020-05-10,Bronze,False,False
+CUST_000791,43,Female,Latin America,2020-11-24,Bronze,True,False
+CUST_000792,40,Male,Asia Pacific,2021-09-03,Bronze,True,False
+CUST_000793,41,Other,Asia Pacific,2020-09-12,Bronze,True,True
+CUST_000794,22,Female,Asia Pacific,2021-04-23,Silver,True,False
+CUST_000795,25,Male,Europe,2021-07-14,Bronze,False,False
+CUST_000796,50,Female,Middle East & Africa,2022-07-01,Silver,True,False
+CUST_000797,37,Male,Asia Pacific,2020-03-03,Silver,True,True
+CUST_000798,46,Female,Latin America,2020-11-06,Bronze,True,True
+CUST_000799,38,Male,Europe,2021-02-10,Silver,True,False
+CUST_000800,38,Female,North America,2022-03-12,Bronze,True,False
+CUST_000801,49,Male,Europe,2020-04-14,Gold,True,True
+CUST_000802,31,Male,North America,2021-09-08,Gold,True,True
+CUST_000803,39,Female,Europe,2022-04-16,Bronze,False,True
+CUST_000804,32,Female,Europe,2020-01-15,Gold,False,True
+CUST_000805,32,Male,Europe,2021-11-17,Silver,False,True
+CUST_000806,34,Male,North America,2020-09-15,Gold,False,False
+CUST_000807,40,Female,North America,2021-12-23,Silver,False,False
+CUST_000808,32,Female,Europe,2021-02-15,Bronze,True,False
+CUST_000809,53,Male,Middle East & Africa,2020-09-15,Gold,True,True
+CUST_000810,27,Male,Europe,2021-09-05,Bronze,True,False
+CUST_000811,35,Male,Europe,2020-09-16,Bronze,True,True
+CUST_000812,32,Female,Asia Pacific,2022-05-05,Bronze,True,True
+CUST_000813,55,Male,Europe,2021-11-01,Bronze,False,True
+CUST_000814,40,Male,North America,2020-02-14,Silver,True,False
+CUST_000815,50,Female,Europe,2022-08-12,Silver,True,False
+CUST_000816,20,Male,North America,2022-03-23,Gold,True,False
+CUST_000817,41,Female,Middle East & Africa,2022-02-01,Bronze,True,True
+CUST_000818,48,Male,North America,2020-11-26,Platinum,False,True
+CUST_000819,38,Male,Europe,2020-06-13,Gold,True,True
+CUST_000820,50,Male,North America,2020-07-11,Bronze,True,False
+CUST_000821,31,Female,North America,2021-06-04,Bronze,True,False
+CUST_000822,54,Male,Asia Pacific,2021-02-04,Gold,False,True
+CUST_000823,65,Female,North America,2021-01-08,Silver,True,True
+CUST_000824,33,Female,North America,2020-03-05,Silver,True,False
+CUST_000825,32,Female,Europe,2021-01-21,Silver,False,False
+CUST_000826,55,Male,North America,2021-05-09,Bronze,True,True
+CUST_000827,56,Male,North America,2022-03-04,Bronze,True,False
+CUST_000828,31,Male,Asia Pacific,2021-11-23,Silver,True,False
+CUST_000829,32,Male,Asia Pacific,2021-02-18,Bronze,False,True
+CUST_000830,34,Male,Latin America,2022-03-04,Silver,True,True
+CUST_000831,21,Female,Latin America,2022-03-01,Gold,True,True
+CUST_000832,26,Male,Asia Pacific,2020-01-30,Silver,True,True
+CUST_000833,25,Male,North America,2020-09-22,Platinum,True,False
+CUST_000834,28,Male,Asia Pacific,2020-11-23,Bronze,True,True
+CUST_000835,37,Female,Asia Pacific,2021-05-06,Silver,True,True
+CUST_000836,40,Male,Asia Pacific,2020-08-04,Silver,True,True
+CUST_000837,56,Female,Europe,2020-11-15,Platinum,True,True
+CUST_000838,26,Male,North America,2022-07-06,Silver,True,False
+CUST_000839,49,Female,Asia Pacific,2021-02-02,Bronze,True,True
+CUST_000840,35,Female,Asia Pacific,2022-06-09,Platinum,True,True
+CUST_000841,37,Male,Middle East & Africa,2020-04-14,Silver,True,False
+CUST_000842,46,Male,North America,2021-11-26,Bronze,True,True
+CUST_000843,24,Male,North America,2020-11-25,Silver,False,False
+CUST_000844,42,Male,North America,2021-10-21,Gold,True,True
+CUST_000845,39,Female,Asia Pacific,2021-09-08,Silver,True,False
+CUST_000846,43,Female,North America,2020-02-16,Bronze,True,False
+CUST_000847,41,Female,North America,2021-08-21,Gold,True,True
+CUST_000848,67,Female,Middle East & Africa,2022-03-31,Silver,False,False
+CUST_000849,30,Male,North America,2022-08-06,Silver,True,True
+CUST_000850,31,Male,Asia Pacific,2021-10-02,Bronze,True,False
+CUST_000851,30,Female,Europe,2022-02-08,Bronze,True,True
+CUST_000852,31,Male,Asia Pacific,2020-11-09,Silver,True,False
+CUST_000853,30,Female,Europe,2020-05-26,Gold,True,True
+CUST_000854,52,Male,Latin America,2022-08-15,Bronze,True,False
+CUST_000855,55,Male,Latin America,2021-04-06,Bronze,False,False
+CUST_000856,31,Other,North America,2021-08-06,Bronze,False,False
+CUST_000857,28,Male,North America,2021-04-30,Silver,True,True
+CUST_000858,43,Other,North America,2021-10-13,Bronze,True,True
+CUST_000859,31,Other,Asia Pacific,2021-02-13,Bronze,False,True
+CUST_000860,45,Female,Latin America,2020-01-27,Bronze,True,True
+CUST_000861,40,Female,Europe,2020-01-29,Silver,True,True
+CUST_000862,19,Female,Europe,2020-09-27,Bronze,False,True
+CUST_000863,56,Female,North America,2021-11-16,Bronze,True,True
+CUST_000864,59,Male,Asia Pacific,2021-05-15,Gold,True,True
+CUST_000865,30,Male,Middle East & Africa,2020-09-09,Bronze,True,True
+CUST_000866,33,Female,North America,2021-01-19,Bronze,True,True
+CUST_000867,41,Male,Europe,2020-02-29,Gold,False,True
+CUST_000868,42,Male,North America,2020-04-16,Bronze,True,False
+CUST_000869,45,Male,Europe,2020-08-07,Silver,False,True
+CUST_000870,62,Female,Europe,2021-03-16,Bronze,True,True
+CUST_000871,35,Female,North America,2022-02-09,Silver,True,True
+CUST_000872,28,Male,Europe,2022-06-01,Bronze,True,True
+CUST_000873,21,Female,North America,2021-10-19,Gold,True,False
+CUST_000874,29,Female,Europe,2021-07-17,Bronze,True,True
+CUST_000875,37,Female,Europe,2021-07-25,Bronze,True,True
+CUST_000876,59,Female,North America,2021-06-29,Silver,False,False
+CUST_000877,31,Female,Asia Pacific,2020-04-05,Platinum,False,False
+CUST_000878,40,Male,Asia Pacific,2022-09-15,Bronze,True,True
+CUST_000879,37,Female,Europe,2020-03-29,Gold,True,True
+CUST_000880,52,Male,North America,2022-04-07,Bronze,False,True
+CUST_000881,68,Female,Asia Pacific,2022-07-10,Silver,True,True
+CUST_000882,31,Other,Middle East & Africa,2020-08-18,Bronze,True,True
+CUST_000883,32,Male,North America,2022-08-25,Silver,False,False
+CUST_000884,50,Male,North America,2020-10-01,Bronze,True,True
+CUST_000885,46,Female,North America,2020-09-02,Bronze,True,False
+CUST_000886,60,Male,Europe,2020-04-20,Bronze,True,True
+CUST_000887,45,Female,North America,2020-08-21,Bronze,True,True
+CUST_000888,33,Male,Europe,2020-10-04,Gold,True,False
+CUST_000889,45,Male,Asia Pacific,2021-04-21,Platinum,True,True
+CUST_000890,51,Other,Europe,2021-02-20,Silver,False,True
+CUST_000891,47,Female,Europe,2021-11-08,Bronze,True,True
+CUST_000892,44,Female,Europe,2020-05-07,Bronze,True,True
+CUST_000893,50,Male,Europe,2020-08-24,Silver,True,True
+CUST_000894,52,Female,North America,2022-03-13,Platinum,False,True
+CUST_000895,54,Female,North America,2021-09-10,Bronze,False,True
+CUST_000896,45,Female,Latin America,2020-05-07,Gold,False,True
+CUST_000897,35,Female,North America,2021-12-07,Platinum,True,False
+CUST_000898,39,Female,Asia Pacific,2022-04-30,Gold,False,True
+CUST_000899,52,Male,Latin America,2021-01-28,Bronze,True,True
+CUST_000900,28,Male,North America,2021-04-19,Bronze,True,False
+CUST_000901,42,Female,Europe,2021-10-16,Bronze,True,False
+CUST_000902,33,Male,Europe,2021-01-29,Silver,True,True
+CUST_000903,38,Female,Latin America,2020-04-20,Bronze,False,True
+CUST_000904,53,Male,Latin America,2020-03-30,Bronze,True,False
+CUST_000905,40,Female,Asia Pacific,2022-02-01,Silver,True,True
+CUST_000906,38,Female,North America,2020-10-06,Bronze,True,False
+CUST_000907,21,Male,Asia Pacific,2020-11-28,Bronze,True,False
+CUST_000908,46,Male,Europe,2020-08-11,Silver,True,True
+CUST_000909,45,Male,Europe,2020-04-10,Silver,True,True
+CUST_000910,63,Female,North America,2020-05-11,Silver,True,False
+CUST_000911,34,Female,North America,2020-01-13,Bronze,True,True
+CUST_000912,40,Male,Asia Pacific,2021-04-01,Silver,False,True
+CUST_000913,40,Female,Europe,2021-03-16,Silver,False,True
+CUST_000914,56,Male,North America,2020-04-07,Bronze,False,False
+CUST_000915,36,Male,Europe,2020-04-29,Silver,False,True
+CUST_000916,41,Female,Latin America,2020-10-19,Bronze,True,False
+CUST_000917,45,Male,Asia Pacific,2022-03-26,Bronze,False,False
+CUST_000918,40,Male,North America,2021-12-11,Bronze,True,True
+CUST_000919,32,Male,North America,2020-01-01,Bronze,False,False
+CUST_000920,40,Male,North America,2021-07-25,Bronze,True,True
+CUST_000921,50,Male,Latin America,2020-09-06,Gold,False,False
+CUST_000922,25,Male,Europe,2021-10-13,Bronze,True,True
+CUST_000923,39,Female,Europe,2020-05-28,Platinum,True,True
+CUST_000924,29,Male,Europe,2021-01-29,Silver,True,False
+CUST_000925,52,Female,Europe,2020-02-13,Bronze,True,True
+CUST_000926,19,Male,Asia Pacific,2022-06-01,Bronze,False,False
+CUST_000927,31,Male,Europe,2021-11-28,Silver,True,False
+CUST_000928,42,Female,North America,2021-09-11,Silver,True,True
+CUST_000929,56,Other,North America,2020-02-13,Bronze,False,True
+CUST_000930,37,Male,Europe,2020-03-18,Bronze,True,False
+CUST_000931,31,Female,Latin America,2020-08-13,Silver,True,True
+CUST_000932,60,Female,North America,2020-06-10,Bronze,True,False
+CUST_000933,20,Female,Latin America,2022-03-03,Gold,True,False
+CUST_000934,18,Female,Asia Pacific,2020-09-09,Silver,False,False
+CUST_000935,43,Male,North America,2020-05-11,Bronze,False,False
+CUST_000936,31,Male,North America,2021-03-23,Bronze,False,True
+CUST_000937,25,Female,North America,2022-06-02,Bronze,True,False
+CUST_000938,46,Male,Asia Pacific,2022-06-05,Gold,True,False
+CUST_000939,40,Female,North America,2021-04-18,Bronze,True,False
+CUST_000940,31,Male,Europe,2021-10-17,Bronze,False,True
+CUST_000941,22,Male,Europe,2022-02-16,Silver,True,True
+CUST_000942,48,Female,Asia Pacific,2020-04-18,Bronze,True,False
+CUST_000943,45,Male,North America,2021-12-06,Bronze,True,True
+CUST_000944,36,Female,Europe,2020-02-04,Gold,True,True
+CUST_000945,60,Female,Europe,2021-04-11,Bronze,False,True
+CUST_000946,25,Female,Europe,2022-06-20,Gold,True,True
+CUST_000947,19,Female,Asia Pacific,2020-10-01,Gold,True,True
+CUST_000948,29,Female,North America,2020-07-05,Bronze,True,True
+CUST_000949,37,Female,Asia Pacific,2022-08-06,Bronze,False,True
+CUST_000950,40,Female,Asia Pacific,2020-08-30,Bronze,True,False
+CUST_000951,35,Male,Europe,2020-09-20,Silver,True,True
+CUST_000952,42,Male,Asia Pacific,2022-08-31,Bronze,True,True
+CUST_000953,22,Male,Europe,2021-06-05,Platinum,True,True
+CUST_000954,55,Male,North America,2022-08-20,Silver,False,True
+CUST_000955,37,Female,Asia Pacific,2021-11-08,Bronze,True,False
+CUST_000956,51,Female,Europe,2021-06-24,Silver,False,False
+CUST_000957,42,Female,Europe,2022-02-21,Bronze,True,True
+CUST_000958,43,Male,North America,2020-03-27,Gold,False,True
+CUST_000959,44,Female,Latin America,2021-06-18,Silver,False,False
+CUST_000960,43,Male,Europe,2020-07-28,Bronze,True,True
+CUST_000961,45,Female,North America,2020-02-15,Bronze,True,True
+CUST_000962,53,Female,Europe,2021-04-11,Gold,True,True
+CUST_000963,40,Male,Asia Pacific,2021-06-23,Silver,True,True
+CUST_000964,46,Male,Asia Pacific,2020-01-26,Platinum,True,True
+CUST_000965,36,Male,Europe,2020-09-22,Bronze,True,True
+CUST_000966,55,Female,Latin America,2020-06-23,Bronze,False,True
+CUST_000967,29,Female,North America,2021-05-30,Bronze,True,True
+CUST_000968,59,Female,Europe,2020-11-06,Silver,False,True
+CUST_000969,37,Male,Latin America,2020-11-17,Bronze,True,True
+CUST_000970,20,Male,Latin America,2021-08-01,Bronze,True,True
+CUST_000971,39,Female,Asia Pacific,2020-05-14,Silver,False,True
+CUST_000972,29,Female,Latin America,2020-02-24,Silver,True,True
+CUST_000973,48,Male,North America,2022-09-02,Bronze,True,False
+CUST_000974,30,Male,Latin America,2021-06-26,Bronze,False,False
+CUST_000975,32,Female,North America,2021-08-08,Silver,False,True
+CUST_000976,18,Male,North America,2021-06-14,Bronze,True,True
+CUST_000977,32,Male,North America,2020-06-04,Bronze,True,False
+CUST_000978,18,Male,Europe,2022-04-28,Bronze,True,True
+CUST_000979,18,Female,North America,2021-10-29,Silver,True,True
+CUST_000980,47,Female,North America,2020-05-26,Gold,True,False
+CUST_000981,47,Female,North America,2021-04-29,Bronze,True,False
+CUST_000982,43,Female,North America,2021-08-21,Bronze,True,True
+CUST_000983,26,Female,Europe,2020-01-20,Gold,False,True
+CUST_000984,37,Male,Europe,2020-09-25,Platinum,False,False
+CUST_000985,37,Female,North America,2020-11-28,Silver,True,True
+CUST_000986,24,Male,Asia Pacific,2021-07-08,Platinum,True,False
+CUST_000987,56,Female,Latin America,2022-06-25,Silver,True,True
+CUST_000988,48,Male,Asia Pacific,2022-08-01,Silver,True,True
+CUST_000989,35,Male,North America,2022-06-29,Bronze,True,True
+CUST_000990,38,Male,Asia Pacific,2021-02-04,Bronze,True,False
+CUST_000991,40,Male,North America,2022-08-07,Bronze,True,False
+CUST_000992,18,Male,North America,2020-11-01,Gold,False,True
+CUST_000993,35,Male,North America,2020-01-28,Gold,False,False
+CUST_000994,29,Other,Asia Pacific,2021-04-11,Silver,False,True
+CUST_000995,25,Male,North America,2020-09-16,Bronze,True,False
+CUST_000996,34,Female,North America,2021-06-17,Bronze,True,False
+CUST_000997,59,Female,North America,2022-09-08,Bronze,True,True
+CUST_000998,45,Other,Latin America,2022-06-05,Bronze,False,True
+CUST_000999,31,Female,Europe,2020-04-10,Silver,True,False
+CUST_001000,44,Female,North America,2021-07-04,Gold,True,False
+CUST_001001,54,Male,Europe,2022-03-12,Bronze,True,True
+CUST_001002,49,Male,Europe,2020-12-18,Bronze,True,True
+CUST_001003,38,Male,Asia Pacific,2020-10-26,Silver,True,False
+CUST_001004,30,Female,North America,2021-11-12,Bronze,True,True
+CUST_001005,46,Female,Latin America,2020-10-22,Gold,True,True
+CUST_001006,42,Male,North America,2020-12-18,Bronze,True,True
+CUST_001007,48,Male,Asia Pacific,2022-06-26,Bronze,True,False
+CUST_001008,45,Female,North America,2020-05-09,Bronze,True,True
+CUST_001009,50,Male,Europe,2020-06-04,Bronze,False,True
+CUST_001010,31,Female,Europe,2020-03-14,Silver,True,True
+CUST_001011,53,Female,Europe,2020-12-07,Bronze,True,False
+CUST_001012,40,Female,North America,2021-04-09,Bronze,True,False
+CUST_001013,62,Female,Asia Pacific,2020-03-30,Bronze,False,False
+CUST_001014,29,Female,North America,2021-08-01,Bronze,True,True
+CUST_001015,58,Female,Asia Pacific,2021-03-30,Bronze,True,False
+CUST_001016,40,Female,Asia Pacific,2022-01-17,Silver,True,False
+CUST_001017,30,Female,Europe,2021-12-12,Silver,True,False
+CUST_001018,32,Male,Asia Pacific,2022-09-06,Gold,True,False
+CUST_001019,34,Male,Asia Pacific,2020-11-27,Bronze,True,True
+CUST_001020,43,Male,Europe,2022-01-08,Bronze,False,False
+CUST_001021,44,Male,Asia Pacific,2022-09-03,Bronze,False,False
+CUST_001022,31,Female,North America,2020-12-13,Bronze,False,False
+CUST_001023,37,Female,Europe,2020-08-20,Silver,True,True
+CUST_001024,63,Male,Asia Pacific,2022-02-16,Gold,False,True
+CUST_001025,58,Male,Europe,2021-08-20,Silver,True,False
+CUST_001026,43,Other,North America,2020-04-11,Bronze,True,True
+CUST_001027,38,Male,Europe,2022-08-10,Bronze,False,True
+CUST_001028,39,Male,Asia Pacific,2021-04-25,Gold,True,False
+CUST_001029,45,Female,Latin America,2020-08-01,Bronze,True,True
+CUST_001030,25,Female,Europe,2020-04-17,Bronze,True,True
+CUST_001031,34,Male,Asia Pacific,2020-06-13,Platinum,True,False
+CUST_001032,18,Male,Latin America,2022-08-30,Silver,False,True
+CUST_001033,42,Male,North America,2021-08-25,Silver,True,True
+CUST_001034,45,Female,North America,2021-12-04,Bronze,True,True
+CUST_001035,32,Female,Asia Pacific,2020-11-30,Bronze,True,True
+CUST_001036,56,Male,Asia Pacific,2020-03-26,Bronze,False,True
+CUST_001037,23,Female,Latin America,2022-01-03,Silver,True,True
+CUST_001038,20,Female,Europe,2022-05-24,Bronze,True,True
+CUST_001039,40,Male,North America,2021-02-27,Gold,False,True
+CUST_001040,50,Female,Europe,2021-09-04,Gold,True,True
+CUST_001041,58,Female,North America,2022-01-07,Silver,True,False
+CUST_001042,32,Male,North America,2020-12-29,Bronze,False,True
+CUST_001043,50,Male,Asia Pacific,2020-02-29,Bronze,True,False
+CUST_001044,37,Female,North America,2021-04-26,Silver,False,True
+CUST_001045,35,Female,Asia Pacific,2020-09-06,Silver,True,False
+CUST_001046,48,Female,Europe,2021-07-13,Silver,False,False
+CUST_001047,45,Female,Europe,2020-04-26,Bronze,False,True
+CUST_001048,19,Female,North America,2022-01-08,Silver,True,True
+CUST_001049,55,Male,North America,2022-05-23,Silver,True,True
+CUST_001050,54,Female,North America,2022-07-03,Bronze,False,False
+CUST_001051,30,Male,Middle East & Africa,2022-08-25,Silver,True,True
+CUST_001052,42,Male,Asia Pacific,2022-09-25,Silver,True,False
+CUST_001053,43,Female,Europe,2021-06-28,Bronze,True,True
+CUST_001054,41,Female,North America,2020-02-13,Bronze,False,True
+CUST_001055,31,Male,Latin America,2021-05-23,Silver,False,True
+CUST_001056,29,Female,North America,2022-09-14,Bronze,True,False
+CUST_001057,37,Male,North America,2020-06-13,Silver,True,True
+CUST_001058,52,Male,Europe,2021-01-02,Silver,False,False
+CUST_001059,44,Male,Latin America,2022-05-06,Gold,False,True
+CUST_001060,33,Female,North America,2020-10-18,Silver,True,True
+CUST_001061,47,Female,North America,2022-04-28,Bronze,False,False
+CUST_001062,18,Male,Latin America,2022-05-05,Bronze,False,False
+CUST_001063,51,Female,North America,2022-07-05,Gold,True,True
+CUST_001064,18,Male,North America,2022-06-16,Bronze,False,True
+CUST_001065,33,Female,Europe,2022-03-09,Silver,True,False
+CUST_001066,24,Male,Latin America,2022-05-25,Silver,True,True
+CUST_001067,22,Male,Europe,2022-01-06,Bronze,True,False
+CUST_001068,51,Female,Middle East & Africa,2020-10-12,Bronze,False,True
+CUST_001069,32,Male,Asia Pacific,2020-07-22,Silver,False,True
+CUST_001070,42,Male,North America,2021-11-14,Gold,True,False
+CUST_001071,37,Female,Middle East & Africa,2021-06-07,Bronze,True,True
+CUST_001072,43,Other,Europe,2022-03-29,Gold,True,False
+CUST_001073,38,Male,North America,2020-04-30,Silver,False,False
+CUST_001074,22,Male,Europe,2022-08-02,Platinum,False,False
+CUST_001075,49,Male,North America,2022-01-25,Bronze,True,True
+CUST_001076,32,Female,North America,2021-10-25,Bronze,True,False
+CUST_001077,19,Male,North America,2021-10-25,Gold,True,False
+CUST_001078,32,Female,Europe,2020-07-06,Gold,True,True
+CUST_001079,56,Other,Asia Pacific,2022-06-25,Bronze,True,True
+CUST_001080,48,Male,Europe,2020-01-13,Silver,False,True
+CUST_001081,33,Male,Middle East & Africa,2021-08-25,Gold,True,False
+CUST_001082,33,Male,North America,2020-07-18,Bronze,True,False
+CUST_001083,34,Male,North America,2021-08-08,Silver,True,False
+CUST_001084,62,Female,North America,2022-02-06,Gold,True,False
+CUST_001085,42,Male,North America,2021-03-31,Bronze,True,True
+CUST_001086,43,Male,North America,2021-03-23,Bronze,True,True
+CUST_001087,50,Female,Asia Pacific,2022-02-26,Silver,True,True
+CUST_001088,40,Male,Latin America,2022-04-19,Bronze,False,True
+CUST_001089,34,Female,Middle East & Africa,2022-04-20,Bronze,True,True
+CUST_001090,35,Male,North America,2020-03-11,Platinum,False,False
+CUST_001091,37,Female,Latin America,2021-08-12,Silver,True,False
+CUST_001092,37,Female,North America,2022-03-06,Gold,True,True
+CUST_001093,46,Female,North America,2020-05-09,Gold,True,False
+CUST_001094,38,Female,Latin America,2022-06-07,Bronze,False,True
+CUST_001095,46,Male,Europe,2020-02-12,Bronze,True,True
+CUST_001096,37,Male,North America,2021-06-03,Bronze,True,False
+CUST_001097,38,Female,Europe,2020-01-13,Bronze,False,True
+CUST_001098,18,Female,North America,2021-12-25,Silver,True,False
+CUST_001099,48,Male,Asia Pacific,2021-09-14,Silver,False,False
+CUST_001100,42,Male,Europe,2022-09-14,Bronze,True,False
+CUST_001101,49,Male,Middle East & Africa,2022-03-13,Bronze,True,True
+CUST_001102,18,Male,North America,2021-06-18,Bronze,True,True
+CUST_001103,63,Male,Europe,2020-10-28,Silver,False,True
+CUST_001104,36,Female,Europe,2022-02-04,Bronze,True,False
+CUST_001105,51,Male,Europe,2021-06-10,Bronze,True,False
+CUST_001106,25,Male,North America,2021-10-03,Silver,True,True
+CUST_001107,45,Female,Asia Pacific,2021-07-26,Bronze,True,False
+CUST_001108,25,Female,Latin America,2020-04-24,Bronze,False,True
+CUST_001109,30,Female,Latin America,2021-04-04,Silver,True,True
+CUST_001110,60,Female,Asia Pacific,2022-04-11,Bronze,True,False
+CUST_001111,35,Male,Latin America,2021-05-19,Silver,True,False
+CUST_001112,40,Female,Europe,2020-11-03,Bronze,True,True
+CUST_001113,48,Female,Asia Pacific,2022-07-20,Bronze,True,True
+CUST_001114,43,Male,North America,2022-08-20,Bronze,True,True
+CUST_001115,39,Female,Europe,2020-11-20,Gold,False,True
+CUST_001116,42,Female,North America,2021-08-01,Silver,False,False
+CUST_001117,66,Male,Europe,2022-01-30,Platinum,True,True
+CUST_001118,37,Male,North America,2020-06-23,Silver,False,True
+CUST_001119,40,Male,Middle East & Africa,2022-04-30,Silver,True,True
+CUST_001120,50,Male,North America,2021-05-28,Bronze,True,False
+CUST_001121,51,Male,North America,2020-06-20,Bronze,True,False
+CUST_001122,52,Female,Europe,2022-09-23,Bronze,True,False
+CUST_001123,45,Male,North America,2022-08-17,Bronze,True,True
+CUST_001124,24,Female,North America,2021-05-16,Bronze,False,False
+CUST_001125,57,Female,North America,2022-09-03,Bronze,False,True
+CUST_001126,24,Female,Europe,2020-11-29,Bronze,True,False
+CUST_001127,41,Female,Europe,2020-10-10,Bronze,True,False
+CUST_001128,28,Male,Asia Pacific,2021-04-19,Bronze,False,True
+CUST_001129,37,Male,Asia Pacific,2020-02-23,Silver,True,True
+CUST_001130,41,Female,Europe,2021-04-02,Gold,True,True
+CUST_001131,41,Female,North America,2021-08-01,Bronze,True,True
+CUST_001132,43,Female,North America,2021-02-23,Bronze,True,True
+CUST_001133,57,Male,Asia Pacific,2021-09-05,Bronze,True,False
+CUST_001134,43,Female,North America,2021-09-23,Gold,False,True
+CUST_001135,35,Male,North America,2021-12-03,Bronze,False,False
+CUST_001136,49,Female,Asia Pacific,2021-02-12,Silver,True,False
+CUST_001137,52,Other,Europe,2022-09-08,Bronze,False,False
+CUST_001138,23,Male,North America,2020-10-30,Bronze,True,True
+CUST_001139,45,Female,North America,2022-07-23,Bronze,True,True
+CUST_001140,46,Male,Latin America,2021-07-12,Bronze,False,True
+CUST_001141,34,Male,Latin America,2020-08-09,Gold,True,True
+CUST_001142,54,Female,Asia Pacific,2021-06-16,Bronze,True,False
+CUST_001143,36,Female,Europe,2020-06-06,Silver,True,True
+CUST_001144,39,Female,Europe,2020-12-13,Silver,False,True
+CUST_001145,35,Female,Middle East & Africa,2020-06-07,Silver,False,True
+CUST_001146,38,Female,Middle East & Africa,2022-06-07,Bronze,False,False
+CUST_001147,24,Female,North America,2022-06-02,Bronze,True,True
+CUST_001148,20,Female,Asia Pacific,2022-07-10,Bronze,False,True
+CUST_001149,57,Male,North America,2020-08-22,Bronze,True,True
+CUST_001150,27,Other,North America,2021-10-23,Silver,False,True
+CUST_001151,26,Male,Asia Pacific,2021-02-08,Bronze,True,False
+CUST_001152,18,Female,Europe,2020-09-13,Silver,True,True
+CUST_001153,30,Male,Latin America,2021-11-07,Bronze,True,False
+CUST_001154,22,Male,North America,2021-08-11,Gold,False,True
+CUST_001155,57,Male,Europe,2021-08-19,Bronze,False,True
+CUST_001156,50,Female,Latin America,2021-07-11,Bronze,True,True
+CUST_001157,29,Male,Latin America,2022-06-23,Gold,True,True
+CUST_001158,65,Male,North America,2022-07-01,Bronze,False,False
+CUST_001159,49,Female,Europe,2020-02-16,Platinum,True,True
+CUST_001160,34,Female,Europe,2020-07-31,Bronze,False,False
+CUST_001161,18,Male,North America,2021-04-23,Bronze,False,True
+CUST_001162,65,Male,Middle East & Africa,2021-05-01,Silver,True,False
+CUST_001163,21,Male,Latin America,2021-07-24,Gold,True,False
+CUST_001164,18,Male,North America,2021-07-19,Bronze,True,False
+CUST_001165,50,Female,North America,2020-12-07,Gold,True,True
+CUST_001166,67,Female,North America,2021-06-07,Silver,True,False
+CUST_001167,54,Female,Latin America,2021-12-04,Gold,False,False
+CUST_001168,44,Male,North America,2021-05-17,Bronze,True,True
+CUST_001169,45,Female,Europe,2020-01-06,Bronze,True,True
+CUST_001170,48,Female,Europe,2022-03-31,Gold,True,True
+CUST_001171,47,Female,Europe,2020-05-23,Gold,True,True
+CUST_001172,41,Female,North America,2022-05-07,Bronze,False,True
+CUST_001173,39,Female,North America,2020-09-17,Bronze,True,True
+CUST_001174,37,Female,Latin America,2021-08-07,Bronze,True,False
+CUST_001175,28,Male,Latin America,2021-11-16,Silver,False,True
+CUST_001176,34,Female,Asia Pacific,2020-08-19,Bronze,True,False
+CUST_001177,18,Female,North America,2020-09-26,Bronze,True,True
+CUST_001178,36,Female,North America,2022-07-28,Bronze,True,False
+CUST_001179,26,Male,Europe,2021-03-22,Silver,False,True
+CUST_001180,24,Female,North America,2022-05-23,Bronze,True,False
+CUST_001181,40,Female,Latin America,2020-08-09,Bronze,False,True
+CUST_001182,54,Male,Europe,2020-02-21,Silver,False,True
+CUST_001183,49,Male,North America,2020-04-25,Silver,True,False
+CUST_001184,19,Female,Latin America,2021-06-21,Bronze,True,True
+CUST_001185,26,Female,Middle East & Africa,2021-07-18,Bronze,True,True
+CUST_001186,49,Female,North America,2022-05-26,Silver,True,True
+CUST_001187,26,Male,Europe,2021-06-24,Gold,False,False
+CUST_001188,35,Female,North America,2020-01-19,Silver,True,True
+CUST_001189,44,Male,Europe,2022-03-25,Gold,True,False
+CUST_001190,26,Male,North America,2021-01-26,Silver,False,True
+CUST_001191,39,Male,Europe,2022-03-01,Silver,True,True
+CUST_001192,21,Male,Middle East & Africa,2021-09-20,Bronze,True,False
+CUST_001193,30,Male,Europe,2021-09-09,Bronze,True,True
+CUST_001194,41,Male,North America,2021-02-22,Bronze,True,False
+CUST_001195,18,Male,Europe,2022-09-17,Bronze,False,True
+CUST_001196,43,Male,North America,2020-11-04,Silver,True,True
+CUST_001197,37,Female,Latin America,2022-01-08,Bronze,True,True
+CUST_001198,44,Female,Europe,2022-05-13,Silver,True,True
+CUST_001199,40,Male,North America,2020-07-04,Bronze,True,False
+CUST_001200,54,Female,North America,2020-09-17,Bronze,True,False
+CUST_001201,39,Male,Asia Pacific,2021-06-11,Platinum,True,True
+CUST_001202,32,Female,North America,2020-09-29,Bronze,False,True
+CUST_001203,39,Male,Asia Pacific,2020-06-08,Bronze,False,True
+CUST_001204,44,Male,North America,2022-05-19,Bronze,True,False
+CUST_001205,38,Female,North America,2022-01-31,Gold,True,False
+CUST_001206,38,Female,Europe,2020-08-11,Bronze,True,True
+CUST_001207,29,Female,Latin America,2020-09-12,Silver,True,True
+CUST_001208,30,Female,Latin America,2020-06-28,Bronze,True,True
+CUST_001209,21,Female,North America,2020-01-20,Silver,True,False
+CUST_001210,58,Male,Europe,2021-09-15,Bronze,True,False
+CUST_001211,23,Male,North America,2021-09-23,Silver,True,True
+CUST_001212,29,Male,Europe,2021-12-06,Gold,False,True
+CUST_001213,29,Male,Europe,2021-04-12,Silver,True,True
+CUST_001214,48,Female,Latin America,2021-09-14,Silver,False,True
+CUST_001215,34,Female,Latin America,2020-07-28,Silver,True,False
+CUST_001216,52,Male,Europe,2021-05-27,Silver,True,True
+CUST_001217,29,Female,Europe,2020-02-27,Bronze,False,False
+CUST_001218,41,Female,Latin America,2020-04-02,Silver,True,True
+CUST_001219,27,Male,Asia Pacific,2020-08-08,Bronze,False,True
+CUST_001220,63,Male,North America,2021-12-23,Bronze,True,False
+CUST_001221,23,Male,North America,2022-07-28,Bronze,True,True
+CUST_001222,41,Male,Europe,2020-08-19,Bronze,True,False
+CUST_001223,45,Male,North America,2022-02-12,Bronze,True,True
+CUST_001224,42,Female,North America,2020-12-29,Silver,False,True
+CUST_001225,35,Male,North America,2021-09-06,Bronze,False,False
+CUST_001226,36,Male,Europe,2021-07-15,Bronze,False,True
+CUST_001227,38,Other,North America,2021-01-08,Silver,True,True
+CUST_001228,36,Female,North America,2021-09-13,Bronze,True,False
+CUST_001229,49,Female,North America,2021-03-31,Silver,True,True
+CUST_001230,64,Male,Asia Pacific,2020-03-28,Silver,True,True
+CUST_001231,31,Male,Latin America,2020-01-20,Platinum,False,False
+CUST_001232,21,Female,Europe,2020-01-14,Silver,True,True
+CUST_001233,36,Male,Europe,2020-05-12,Bronze,True,True
+CUST_001234,68,Male,Middle East & Africa,2022-07-25,Bronze,True,True
+CUST_001235,28,Female,North America,2022-03-18,Bronze,False,True
+CUST_001236,57,Female,North America,2020-02-03,Gold,False,False
+CUST_001237,58,Male,North America,2022-06-10,Bronze,True,True
+CUST_001238,31,Female,North America,2020-07-26,Bronze,True,True
+CUST_001239,44,Male,Europe,2022-03-23,Bronze,True,True
+CUST_001240,57,Male,Latin America,2020-07-17,Gold,True,True
+CUST_001241,33,Male,Europe,2021-08-14,Bronze,False,False
+CUST_001242,35,Male,Europe,2021-08-05,Platinum,True,True
+CUST_001243,31,Male,Latin America,2020-06-03,Bronze,True,False
+CUST_001244,25,Female,North America,2021-08-12,Bronze,True,True
+CUST_001245,30,Female,North America,2020-03-18,Bronze,True,False
+CUST_001246,23,Female,Europe,2020-06-20,Gold,False,True
+CUST_001247,38,Male,Europe,2020-10-15,Gold,True,True
+CUST_001248,28,Male,North America,2021-06-28,Bronze,True,False
+CUST_001249,40,Male,Europe,2022-03-22,Bronze,False,True
+CUST_001250,19,Male,Europe,2022-02-26,Silver,True,True
+CUST_001251,41,Male,Asia Pacific,2022-05-28,Bronze,False,True
+CUST_001252,48,Female,Europe,2021-02-23,Bronze,True,True
+CUST_001253,18,Female,North America,2020-01-07,Bronze,True,False
+CUST_001254,42,Female,North America,2020-06-08,Bronze,True,True
+CUST_001255,52,Male,Europe,2020-08-27,Bronze,True,False
+CUST_001256,23,Female,North America,2022-08-20,Bronze,True,True
+CUST_001257,58,Male,Latin America,2021-02-26,Bronze,True,False
+CUST_001258,43,Male,Europe,2022-09-15,Gold,True,True
+CUST_001259,29,Male,North America,2021-06-19,Bronze,True,False
+CUST_001260,37,Female,Asia Pacific,2021-12-26,Silver,True,True
+CUST_001261,44,Other,Europe,2020-03-10,Bronze,False,True
+CUST_001262,38,Male,North America,2022-05-29,Silver,True,False
+CUST_001263,44,Female,Asia Pacific,2020-08-03,Bronze,True,True
+CUST_001264,26,Female,Latin America,2020-04-13,Silver,False,True
+CUST_001265,40,Male,Asia Pacific,2021-12-27,Bronze,True,False
+CUST_001266,21,Male,North America,2020-02-23,Gold,True,True
+CUST_001267,36,Male,Europe,2022-03-16,Bronze,True,True
+CUST_001268,27,Other,Asia Pacific,2020-11-25,Bronze,True,True
+CUST_001269,29,Male,North America,2022-04-27,Platinum,True,False
+CUST_001270,52,Female,North America,2020-07-21,Silver,False,True
+CUST_001271,51,Male,Latin America,2020-10-14,Bronze,False,False
+CUST_001272,45,Female,North America,2020-02-14,Gold,True,False
+CUST_001273,24,Male,Asia Pacific,2022-04-08,Bronze,True,False
+CUST_001274,34,Female,Europe,2020-07-16,Bronze,True,True
+CUST_001275,52,Female,Europe,2020-08-03,Platinum,False,False
+CUST_001276,39,Female,North America,2021-04-25,Bronze,True,True
+CUST_001277,65,Female,Asia Pacific,2020-11-04,Gold,True,False
+CUST_001278,42,Male,Europe,2022-06-14,Bronze,True,True
+CUST_001279,40,Female,Europe,2021-03-10,Silver,True,False
+CUST_001280,34,Male,Asia Pacific,2020-11-27,Silver,True,True
+CUST_001281,39,Male,Asia Pacific,2021-11-26,Platinum,True,True
+CUST_001282,36,Female,Middle East & Africa,2020-01-27,Silver,False,True
+CUST_001283,46,Male,Europe,2020-06-14,Bronze,True,True
+CUST_001284,49,Female,Europe,2020-11-13,Silver,True,True
+CUST_001285,28,Other,Middle East & Africa,2020-09-30,Bronze,False,True
+CUST_001286,22,Male,Europe,2021-01-17,Silver,True,True
+CUST_001287,18,Female,North America,2020-12-30,Gold,True,False
+CUST_001288,44,Male,North America,2020-04-12,Bronze,True,True
+CUST_001289,24,Male,Asia Pacific,2022-08-17,Silver,True,True
+CUST_001290,18,Male,Europe,2021-05-17,Bronze,True,False
+CUST_001291,42,Female,Asia Pacific,2022-04-24,Bronze,False,False
+CUST_001292,67,Female,Europe,2021-01-07,Bronze,False,True
+CUST_001293,37,Female,North America,2021-09-07,Silver,True,True
+CUST_001294,48,Other,Europe,2022-07-14,Bronze,True,True
+CUST_001295,38,Male,North America,2020-09-01,Silver,True,False
+CUST_001296,36,Male,Europe,2022-03-27,Bronze,True,False
+CUST_001297,49,Female,Europe,2020-06-17,Silver,True,False
+CUST_001298,34,Female,Europe,2021-09-19,Bronze,True,True
+CUST_001299,41,Male,Asia Pacific,2021-10-14,Gold,True,False
+CUST_001300,41,Male,Asia Pacific,2021-02-21,Bronze,True,True
+CUST_001301,29,Female,Asia Pacific,2020-12-21,Silver,True,True
+CUST_001302,49,Female,North America,2021-04-22,Bronze,True,True
+CUST_001303,35,Male,North America,2020-05-04,Silver,True,True
+CUST_001304,28,Male,Europe,2021-06-20,Bronze,False,False
+CUST_001305,44,Female,Latin America,2021-12-06,Silver,True,False
+CUST_001306,27,Female,Asia Pacific,2022-06-14,Bronze,False,False
+CUST_001307,38,Male,Asia Pacific,2021-09-03,Silver,False,True
+CUST_001308,37,Female,North America,2021-02-05,Bronze,False,False
+CUST_001309,51,Male,Europe,2021-05-31,Bronze,True,False
+CUST_001310,43,Male,Europe,2021-06-14,Bronze,False,True
+CUST_001311,37,Female,North America,2021-11-12,Bronze,True,False
+CUST_001312,47,Female,North America,2022-02-24,Bronze,True,False
+CUST_001313,54,Male,Latin America,2020-09-10,Gold,True,True
+CUST_001314,44,Female,North America,2020-04-30,Platinum,True,False
+CUST_001315,38,Female,North America,2020-02-01,Silver,True,False
+CUST_001316,22,Female,North America,2021-10-22,Bronze,True,False
+CUST_001317,25,Female,Latin America,2022-02-16,Bronze,True,False
+CUST_001318,34,Female,Europe,2020-02-06,Silver,True,True
+CUST_001319,30,Female,Asia Pacific,2021-11-19,Bronze,True,False
+CUST_001320,35,Male,Latin America,2020-12-07,Gold,True,False
+CUST_001321,38,Male,North America,2020-01-13,Bronze,False,True
+CUST_001322,44,Male,Europe,2020-07-01,Platinum,True,True
+CUST_001323,37,Female,North America,2021-10-18,Bronze,True,False
+CUST_001324,43,Female,North America,2020-09-21,Silver,False,True
+CUST_001325,38,Male,Asia Pacific,2020-03-28,Bronze,True,False
+CUST_001326,18,Male,Asia Pacific,2022-07-28,Gold,True,False
+CUST_001327,26,Female,Europe,2021-04-06,Bronze,False,True
+CUST_001328,36,Male,Europe,2020-02-15,Silver,False,True
+CUST_001329,23,Female,Europe,2021-01-26,Gold,True,True
+CUST_001330,45,Male,North America,2020-04-28,Bronze,True,True
+CUST_001331,56,Female,North America,2022-07-21,Bronze,False,False
+CUST_001332,52,Female,North America,2021-06-14,Bronze,True,True
+CUST_001333,35,Male,North America,2021-03-22,Bronze,True,True
+CUST_001334,55,Male,Asia Pacific,2022-01-01,Bronze,True,False
+CUST_001335,39,Male,North America,2022-07-30,Bronze,True,False
+CUST_001336,33,Female,North America,2022-01-14,Bronze,False,True
+CUST_001337,30,Female,Europe,2021-08-28,Silver,False,False
+CUST_001338,34,Male,Latin America,2022-08-24,Silver,False,True
+CUST_001339,33,Female,North America,2022-02-01,Bronze,True,False
+CUST_001340,40,Female,North America,2022-01-31,Gold,True,True
+CUST_001341,39,Male,Europe,2022-03-04,Gold,False,True
+CUST_001342,38,Male,Asia Pacific,2022-01-13,Silver,True,False
+CUST_001343,43,Female,Europe,2020-02-15,Bronze,False,True
+CUST_001344,52,Female,Asia Pacific,2022-06-04,Bronze,False,True
+CUST_001345,49,Female,Middle East & Africa,2021-05-22,Silver,True,False
+CUST_001346,20,Female,Asia Pacific,2021-07-11,Silver,True,False
+CUST_001347,18,Female,Europe,2022-08-28,Bronze,True,True
+CUST_001348,49,Male,Europe,2021-06-09,Silver,False,False
+CUST_001349,21,Female,North America,2021-08-19,Bronze,True,False
+CUST_001350,35,Female,Middle East & Africa,2022-04-10,Bronze,False,False
+CUST_001351,23,Female,Europe,2022-04-19,Silver,True,True
+CUST_001352,18,Male,North America,2020-01-03,Silver,True,False
+CUST_001353,44,Male,Asia Pacific,2020-01-28,Bronze,True,False
+CUST_001354,47,Male,North America,2021-01-15,Silver,True,False
+CUST_001355,31,Male,Europe,2020-06-05,Gold,False,True
+CUST_001356,18,Male,Europe,2022-05-04,Silver,True,False
+CUST_001357,31,Female,Europe,2022-07-02,Silver,True,True
+CUST_001358,42,Female,Asia Pacific,2022-07-19,Bronze,False,False
+CUST_001359,20,Male,North America,2021-05-25,Bronze,True,False
+CUST_001360,40,Female,Europe,2020-11-28,Bronze,True,True
+CUST_001361,37,Male,Europe,2022-04-23,Silver,True,True
+CUST_001362,44,Male,Asia Pacific,2021-11-17,Silver,True,True
+CUST_001363,39,Male,Asia Pacific,2020-04-23,Bronze,True,False
+CUST_001364,26,Female,Europe,2021-01-23,Bronze,False,True
+CUST_001365,52,Male,Europe,2021-05-01,Bronze,True,False
+CUST_001366,36,Male,North America,2022-04-22,Bronze,True,False
+CUST_001367,37,Male,Latin America,2020-09-06,Gold,True,False
+CUST_001368,26,Female,Europe,2021-07-24,Silver,True,False
+CUST_001369,32,Male,Asia Pacific,2021-12-15,Bronze,True,True
+CUST_001370,27,Female,North America,2020-11-10,Silver,True,False
+CUST_001371,35,Female,North America,2020-08-26,Silver,False,True
+CUST_001372,58,Female,Europe,2020-08-21,Silver,True,True
+CUST_001373,21,Female,Latin America,2020-10-29,Bronze,True,True
+CUST_001374,18,Male,Europe,2021-08-29,Bronze,True,False
+CUST_001375,55,Male,Latin America,2022-09-17,Bronze,False,False
+CUST_001376,35,Female,Europe,2021-10-14,Gold,True,True
+CUST_001377,29,Male,Europe,2020-11-29,Silver,True,False
+CUST_001378,50,Female,North America,2020-04-22,Silver,True,False
+CUST_001379,30,Female,Asia Pacific,2021-09-12,Bronze,True,True
+CUST_001380,59,Female,North America,2020-12-27,Bronze,True,False
+CUST_001381,46,Female,Latin America,2022-05-06,Bronze,False,True
+CUST_001382,32,Other,Latin America,2022-03-11,Platinum,True,True
+CUST_001383,63,Female,Latin America,2020-04-06,Bronze,True,False
+CUST_001384,30,Male,Europe,2022-08-15,Bronze,True,True
+CUST_001385,46,Female,Asia Pacific,2022-04-26,Platinum,True,True
+CUST_001386,41,Male,Asia Pacific,2020-01-16,Silver,True,False
+CUST_001387,53,Male,North America,2021-07-09,Silver,False,False
+CUST_001388,56,Female,Europe,2022-08-11,Bronze,False,False
+CUST_001389,38,Male,North America,2021-01-10,Silver,False,True
+CUST_001390,28,Male,Europe,2022-01-11,Bronze,False,True
+CUST_001391,43,Male,North America,2021-01-24,Silver,True,False
+CUST_001392,29,Female,North America,2021-09-11,Bronze,True,True
+CUST_001393,62,Female,Europe,2020-08-04,Bronze,True,True
+CUST_001394,39,Female,Europe,2021-02-02,Silver,True,True
+CUST_001395,33,Male,Europe,2020-09-16,Silver,False,False
+CUST_001396,40,Female,North America,2022-04-03,Silver,False,True
+CUST_001397,21,Female,Europe,2020-11-15,Bronze,False,True
+CUST_001398,26,Male,North America,2020-07-14,Bronze,True,True
+CUST_001399,52,Male,Europe,2021-04-22,Silver,True,True
+CUST_001400,30,Male,Europe,2021-02-21,Silver,True,True
+CUST_001401,25,Other,Europe,2021-04-19,Platinum,True,True
+CUST_001402,44,Female,Asia Pacific,2021-08-29,Silver,True,True
+CUST_001403,52,Female,North America,2021-07-21,Bronze,True,True
+CUST_001404,46,Male,Asia Pacific,2021-06-27,Gold,False,True
+CUST_001405,49,Female,Europe,2020-08-18,Bronze,False,True
+CUST_001406,28,Female,Europe,2022-06-02,Bronze,True,True
+CUST_001407,20,Female,Europe,2021-06-04,Bronze,True,True
+CUST_001408,56,Other,North America,2021-12-03,Bronze,True,True
+CUST_001409,34,Male,Asia Pacific,2022-05-22,Silver,True,True
+CUST_001410,34,Male,Europe,2020-07-18,Silver,False,False
+CUST_001411,53,Female,North America,2022-04-25,Silver,True,True
+CUST_001412,44,Female,North America,2021-11-03,Bronze,True,False
+CUST_001413,43,Female,North America,2021-08-21,Bronze,True,True
+CUST_001414,63,Male,Latin America,2020-01-21,Bronze,True,True
+CUST_001415,30,Female,Asia Pacific,2020-11-06,Silver,False,False
+CUST_001416,49,Male,North America,2021-08-10,Bronze,True,True
+CUST_001417,38,Male,Europe,2022-08-10,Gold,False,True
+CUST_001418,41,Female,Europe,2022-06-16,Bronze,True,False
+CUST_001419,56,Female,Asia Pacific,2021-10-14,Bronze,False,True
+CUST_001420,44,Male,North America,2021-09-29,Silver,True,True
+CUST_001421,44,Male,North America,2022-02-01,Gold,True,True
+CUST_001422,50,Male,Latin America,2022-06-18,Bronze,True,False
+CUST_001423,33,Male,North America,2021-08-18,Silver,True,False
+CUST_001424,27,Female,North America,2021-03-09,Platinum,False,True
+CUST_001425,25,Female,Middle East & Africa,2021-01-05,Platinum,True,True
+CUST_001426,18,Male,Europe,2021-07-13,Silver,False,False
+CUST_001427,62,Female,North America,2022-06-09,Silver,True,True
+CUST_001428,24,Female,North America,2020-03-18,Bronze,False,True
+CUST_001429,35,Female,North America,2021-06-25,Gold,True,False
+CUST_001430,34,Male,North America,2020-10-11,Bronze,False,True
+CUST_001431,41,Female,Latin America,2021-10-09,Platinum,False,False
+CUST_001432,47,Male,Europe,2020-05-19,Bronze,True,False
+CUST_001433,48,Male,Asia Pacific,2021-07-06,Bronze,True,False
+CUST_001434,31,Male,Latin America,2022-09-24,Silver,True,True
+CUST_001435,35,Female,Europe,2020-10-08,Bronze,True,True
+CUST_001436,41,Male,North America,2021-07-15,Bronze,True,True
+CUST_001437,35,Male,Europe,2020-09-14,Silver,True,True
+CUST_001438,57,Male,Latin America,2022-04-02,Silver,False,True
+CUST_001439,43,Female,Asia Pacific,2020-12-25,Silver,False,True
+CUST_001440,46,Female,North America,2021-03-15,Bronze,False,True
+CUST_001441,45,Male,Asia Pacific,2020-09-26,Silver,True,True
+CUST_001442,52,Female,Europe,2020-05-13,Bronze,False,True
+CUST_001443,40,Female,Latin America,2022-01-15,Bronze,True,True
+CUST_001444,22,Female,North America,2021-10-01,Silver,True,True
+CUST_001445,42,Male,Europe,2020-04-13,Gold,True,True
+CUST_001446,30,Female,Latin America,2022-02-04,Bronze,False,False
+CUST_001447,31,Female,Europe,2020-04-04,Silver,False,False
+CUST_001448,45,Female,Europe,2022-04-28,Bronze,True,True
+CUST_001449,52,Male,North America,2021-12-29,Bronze,False,True
+CUST_001450,38,Female,North America,2021-07-26,Bronze,True,True
+CUST_001451,41,Female,North America,2021-04-24,Platinum,False,True
+CUST_001452,58,Female,Latin America,2022-02-18,Gold,True,True
+CUST_001453,40,Male,North America,2020-08-28,Silver,True,False
+CUST_001454,69,Male,Europe,2020-01-13,Silver,True,True
+CUST_001455,44,Female,Asia Pacific,2020-05-26,Silver,True,False
+CUST_001456,18,Female,North America,2022-07-28,Bronze,True,True
+CUST_001457,47,Male,Europe,2022-01-21,Bronze,True,True
+CUST_001458,42,Female,Asia Pacific,2021-08-23,Bronze,True,True
+CUST_001459,53,Male,Latin America,2020-04-04,Silver,False,False
+CUST_001460,46,Female,Europe,2022-04-06,Gold,False,True
+CUST_001461,36,Female,Asia Pacific,2020-10-19,Bronze,True,True
+CUST_001462,23,Female,North America,2020-01-25,Bronze,False,False
+CUST_001463,35,Female,Latin America,2020-09-28,Bronze,True,True
+CUST_001464,27,Male,North America,2021-05-19,Gold,False,True
+CUST_001465,31,Female,Asia Pacific,2020-06-14,Bronze,True,True
+CUST_001466,45,Male,North America,2022-07-27,Bronze,True,True
+CUST_001467,58,Female,Latin America,2022-01-31,Silver,True,True
+CUST_001468,42,Female,Asia Pacific,2020-03-27,Silver,False,True
+CUST_001469,23,Female,Asia Pacific,2021-10-15,Bronze,True,True
+CUST_001470,43,Male,North America,2021-10-07,Bronze,False,True
+CUST_001471,52,Female,Europe,2022-09-11,Silver,True,False
+CUST_001472,30,Male,Europe,2022-03-01,Bronze,True,False
+CUST_001473,36,Male,Asia Pacific,2021-09-29,Platinum,True,True
+CUST_001474,38,Female,North America,2022-04-07,Silver,False,True
+CUST_001475,28,Male,Middle East & Africa,2021-05-05,Bronze,True,True
+CUST_001476,45,Female,Latin America,2022-06-26,Bronze,False,True
+CUST_001477,36,Male,North America,2020-05-20,Bronze,True,True
+CUST_001478,43,Male,Asia Pacific,2022-05-17,Bronze,False,True
+CUST_001479,27,Female,Europe,2020-04-12,Gold,True,False
+CUST_001480,32,Female,Europe,2020-08-13,Gold,True,True
+CUST_001481,46,Male,North America,2022-06-20,Bronze,True,False
+CUST_001482,33,Female,Europe,2021-07-28,Bronze,True,True
+CUST_001483,58,Female,Asia Pacific,2020-10-20,Bronze,True,True
+CUST_001484,33,Female,Europe,2022-06-14,Bronze,False,True
+CUST_001485,40,Male,Europe,2020-11-01,Silver,True,True
+CUST_001486,49,Female,Asia Pacific,2020-09-10,Bronze,True,True
+CUST_001487,20,Female,Asia Pacific,2020-06-28,Platinum,True,True
+CUST_001488,18,Female,North America,2020-02-09,Bronze,True,False
+CUST_001489,19,Male,Latin America,2022-02-14,Silver,True,True
+CUST_001490,53,Female,Europe,2021-12-01,Gold,True,True
+CUST_001491,31,Female,North America,2021-06-03,Bronze,False,False
+CUST_001492,68,Female,North America,2021-09-07,Bronze,True,False
+CUST_001493,31,Male,Europe,2022-01-06,Bronze,False,False
+CUST_001494,40,Female,Latin America,2021-06-29,Bronze,True,True
+CUST_001495,56,Female,Europe,2020-08-23,Platinum,True,True
+CUST_001496,62,Male,Asia Pacific,2021-04-07,Gold,True,True
+CUST_001497,62,Male,North America,2020-08-15,Gold,False,True
+CUST_001498,52,Female,Europe,2021-11-30,Gold,True,True
+CUST_001499,50,Male,Middle East & Africa,2022-04-04,Bronze,False,True
+CUST_001500,45,Other,Asia Pacific,2021-04-27,Gold,True,False
+CUST_001501,47,Female,North America,2021-03-05,Platinum,False,False
+CUST_001502,31,Female,Europe,2020-01-22,Bronze,True,True
+CUST_001503,28,Male,North America,2020-12-08,Bronze,True,True
+CUST_001504,37,Male,Europe,2020-02-09,Silver,True,True
+CUST_001505,35,Female,Asia Pacific,2020-06-21,Bronze,True,True
+CUST_001506,32,Male,Asia Pacific,2021-03-14,Bronze,True,True
+CUST_001507,46,Female,North America,2020-06-27,Gold,True,False
+CUST_001508,49,Male,Latin America,2021-08-20,Gold,False,True
+CUST_001509,39,Male,Europe,2020-05-12,Bronze,True,True
+CUST_001510,55,Male,Europe,2020-12-16,Bronze,True,True
+CUST_001511,24,Female,Europe,2021-06-08,Gold,True,False
+CUST_001512,35,Other,Europe,2021-06-23,Silver,True,False
+CUST_001513,29,Male,Europe,2021-05-20,Bronze,True,False
+CUST_001514,18,Male,Europe,2020-03-24,Silver,True,True
+CUST_001515,37,Male,Europe,2022-09-19,Gold,False,True
+CUST_001516,36,Female,North America,2021-04-08,Gold,True,True
+CUST_001517,56,Male,Asia Pacific,2022-04-09,Bronze,True,True
+CUST_001518,45,Female,Europe,2022-05-10,Bronze,True,False
+CUST_001519,25,Female,North America,2020-12-08,Gold,True,True
+CUST_001520,60,Female,Asia Pacific,2020-10-06,Bronze,True,True
+CUST_001521,52,Male,Latin America,2022-05-15,Silver,True,True
+CUST_001522,44,Other,Latin America,2020-09-19,Bronze,True,True
+CUST_001523,35,Male,Europe,2020-06-14,Bronze,True,True
+CUST_001524,26,Male,North America,2020-10-19,Bronze,False,True
+CUST_001525,33,Female,Europe,2021-05-23,Bronze,True,True
+CUST_001526,51,Female,North America,2021-08-02,Gold,True,True
+CUST_001527,60,Male,Latin America,2020-08-13,Bronze,True,False
+CUST_001528,56,Male,North America,2020-06-18,Gold,True,True
+CUST_001529,32,Female,North America,2021-08-20,Gold,False,True
+CUST_001530,24,Male,Europe,2021-10-06,Bronze,True,True
+CUST_001531,39,Female,Europe,2021-03-23,Silver,True,False
+CUST_001532,18,Female,Asia Pacific,2021-11-20,Bronze,False,False
+CUST_001533,41,Male,Europe,2022-05-04,Silver,True,True
+CUST_001534,36,Male,North America,2021-05-16,Silver,False,True
+CUST_001535,32,Male,North America,2022-02-02,Bronze,False,False
+CUST_001536,18,Female,Europe,2021-06-10,Bronze,True,False
+CUST_001537,44,Female,North America,2022-01-04,Silver,True,True
+CUST_001538,31,Male,Europe,2021-01-13,Gold,True,True
+CUST_001539,23,Female,Europe,2020-07-19,Bronze,True,True
+CUST_001540,18,Other,Asia Pacific,2021-09-10,Silver,True,False
+CUST_001541,37,Male,Latin America,2020-09-06,Bronze,True,True
+CUST_001542,59,Female,Latin America,2022-08-06,Gold,False,True
+CUST_001543,57,Male,Latin America,2021-02-12,Bronze,True,True
+CUST_001544,32,Male,North America,2021-08-23,Silver,True,True
+CUST_001545,30,Male,North America,2020-05-04,Bronze,True,False
+CUST_001546,43,Male,North America,2020-04-22,Silver,False,False
+CUST_001547,26,Male,Latin America,2022-09-07,Gold,True,True
+CUST_001548,41,Male,Middle East & Africa,2020-05-16,Silver,True,False
+CUST_001549,47,Female,Latin America,2022-01-28,Silver,False,True
+CUST_001550,52,Female,North America,2021-05-10,Silver,False,False
+CUST_001551,36,Female,Latin America,2021-11-08,Gold,False,False
+CUST_001552,35,Male,Europe,2020-05-29,Silver,False,False
+CUST_001553,27,Male,North America,2022-05-24,Gold,True,False
+CUST_001554,28,Male,Europe,2020-12-08,Silver,True,True
+CUST_001555,35,Female,North America,2022-08-02,Silver,True,False
+CUST_001556,42,Female,Europe,2021-08-02,Bronze,True,True
+CUST_001557,48,Male,North America,2022-01-02,Silver,True,True
+CUST_001558,28,Male,Europe,2022-02-21,Bronze,True,True
+CUST_001559,55,Female,Europe,2020-11-16,Gold,False,True
+CUST_001560,34,Male,Latin America,2022-04-01,Silver,True,False
+CUST_001561,37,Male,Asia Pacific,2022-07-14,Platinum,True,True
+CUST_001562,29,Female,Europe,2022-05-10,Bronze,True,False
+CUST_001563,18,Female,Asia Pacific,2021-06-15,Bronze,False,False
+CUST_001564,48,Male,Latin America,2020-10-15,Gold,True,False
+CUST_001565,46,Male,North America,2021-05-03,Bronze,True,True
+CUST_001566,34,Other,Europe,2021-05-06,Bronze,True,True
+CUST_001567,38,Male,North America,2021-09-03,Gold,True,True
+CUST_001568,44,Male,North America,2020-09-08,Silver,True,True
+CUST_001569,19,Male,Asia Pacific,2022-09-08,Bronze,False,False
+CUST_001570,31,Male,Latin America,2020-03-17,Gold,False,False
+CUST_001571,47,Male,North America,2021-10-08,Bronze,False,True
+CUST_001572,22,Female,Asia Pacific,2021-01-26,Gold,True,False
+CUST_001573,41,Male,Latin America,2021-02-15,Bronze,False,True
+CUST_001574,21,Male,Latin America,2020-06-21,Silver,False,True
+CUST_001575,43,Female,North America,2022-05-24,Bronze,False,True
+CUST_001576,37,Female,Latin America,2020-07-19,Silver,True,True
+CUST_001577,18,Female,North America,2020-08-04,Bronze,False,False
+CUST_001578,51,Female,Europe,2021-01-10,Gold,True,False
+CUST_001579,29,Male,North America,2021-12-20,Bronze,False,False
+CUST_001580,28,Female,North America,2021-08-08,Bronze,True,True
+CUST_001581,40,Male,Asia Pacific,2020-01-11,Silver,True,True
+CUST_001582,51,Other,Europe,2022-03-09,Bronze,False,True
+CUST_001583,25,Female,North America,2022-02-06,Bronze,True,False
+CUST_001584,38,Other,North America,2020-01-12,Bronze,True,True
+CUST_001585,43,Female,Asia Pacific,2022-06-10,Bronze,False,True
+CUST_001586,46,Male,North America,2022-09-17,Bronze,False,False
+CUST_001587,40,Female,Asia Pacific,2021-08-12,Bronze,True,False
+CUST_001588,33,Other,North America,2021-03-10,Bronze,False,False
+CUST_001589,28,Female,North America,2021-11-14,Silver,True,False
+CUST_001590,39,Male,Europe,2021-08-30,Silver,True,True
+CUST_001591,25,Female,Europe,2022-03-28,Bronze,True,True
+CUST_001592,18,Male,Europe,2021-01-07,Platinum,True,True
+CUST_001593,43,Male,North America,2020-09-29,Gold,True,True
+CUST_001594,48,Male,Middle East & Africa,2022-07-19,Bronze,True,True
+CUST_001595,18,Male,Europe,2022-06-15,Bronze,False,True
+CUST_001596,25,Female,North America,2022-07-13,Gold,True,False
+CUST_001597,45,Male,Europe,2021-11-21,Bronze,False,True
+CUST_001598,62,Female,Latin America,2021-07-29,Bronze,False,True
+CUST_001599,38,Male,North America,2021-05-23,Bronze,True,False
+CUST_001600,29,Male,North America,2020-05-11,Silver,False,True
+CUST_001601,35,Male,Asia Pacific,2022-05-04,Bronze,False,False
+CUST_001602,54,Male,Europe,2022-07-12,Silver,True,False
+CUST_001603,30,Male,Europe,2022-02-22,Silver,True,False
+CUST_001604,28,Male,North America,2020-11-14,Silver,False,True
+CUST_001605,32,Female,North America,2022-04-23,Gold,False,False
+CUST_001606,26,Male,Europe,2022-08-06,Bronze,False,True
+CUST_001607,39,Male,North America,2022-05-02,Silver,True,False
+CUST_001608,57,Male,Europe,2021-09-12,Bronze,True,True
+CUST_001609,41,Female,Europe,2022-02-23,Bronze,True,True
+CUST_001610,34,Female,North America,2020-06-16,Bronze,True,False
+CUST_001611,34,Female,Latin America,2021-01-31,Bronze,True,True
+CUST_001612,19,Male,Asia Pacific,2020-06-28,Bronze,True,False
+CUST_001613,48,Male,Asia Pacific,2020-02-27,Bronze,True,True
+CUST_001614,37,Female,North America,2021-04-24,Bronze,False,False
+CUST_001615,35,Male,North America,2022-07-21,Silver,True,False
+CUST_001616,76,Male,Europe,2021-08-13,Bronze,True,True
+CUST_001617,41,Male,North America,2021-04-04,Silver,False,True
+CUST_001618,28,Male,Middle East & Africa,2020-03-01,Bronze,False,False
+CUST_001619,32,Male,North America,2021-01-03,Bronze,True,False
+CUST_001620,51,Female,Europe,2020-04-30,Bronze,True,True
+CUST_001621,39,Male,Europe,2021-12-19,Bronze,False,False
+CUST_001622,20,Female,Europe,2021-06-29,Silver,True,True
+CUST_001623,49,Male,North America,2021-08-04,Bronze,False,True
+CUST_001624,29,Male,Europe,2020-01-17,Platinum,True,True
+CUST_001625,60,Female,North America,2021-05-10,Platinum,True,False
+CUST_001626,50,Male,Latin America,2021-05-11,Bronze,True,False
+CUST_001627,32,Female,North America,2021-05-19,Silver,True,True
+CUST_001628,53,Female,Latin America,2021-06-15,Bronze,True,True
+CUST_001629,38,Male,Asia Pacific,2022-08-26,Silver,True,False
+CUST_001630,48,Female,North America,2020-11-10,Silver,False,True
+CUST_001631,43,Male,Asia Pacific,2020-03-09,Bronze,True,False
+CUST_001632,27,Female,North America,2021-12-27,Bronze,True,True
+CUST_001633,30,Male,Middle East & Africa,2020-06-09,Bronze,False,True
+CUST_001634,50,Female,Europe,2021-09-05,Bronze,True,True
+CUST_001635,33,Male,North America,2022-06-06,Silver,False,False
+CUST_001636,33,Female,Europe,2021-12-18,Bronze,False,False
+CUST_001637,26,Female,North America,2020-05-24,Bronze,True,True
+CUST_001638,43,Female,Middle East & Africa,2021-07-22,Bronze,True,True
+CUST_001639,62,Female,North America,2021-08-17,Silver,False,True
+CUST_001640,25,Female,Asia Pacific,2022-09-19,Bronze,True,False
+CUST_001641,38,Female,Europe,2021-01-19,Silver,True,False
+CUST_001642,54,Male,Latin America,2020-09-25,Silver,False,False
+CUST_001643,37,Male,North America,2022-07-11,Silver,False,False
+CUST_001644,43,Male,Europe,2021-03-29,Silver,False,False
+CUST_001645,25,Male,Europe,2021-11-29,Bronze,True,True
+CUST_001646,43,Male,Asia Pacific,2021-06-01,Bronze,True,True
+CUST_001647,35,Female,North America,2022-05-14,Silver,True,False
+CUST_001648,49,Male,North America,2020-12-15,Platinum,True,True
+CUST_001649,52,Female,North America,2020-04-19,Silver,True,True
+CUST_001650,69,Male,Asia Pacific,2021-04-27,Bronze,True,True
+CUST_001651,44,Male,North America,2021-02-10,Bronze,True,True
+CUST_001652,41,Female,Europe,2021-10-11,Platinum,True,True
+CUST_001653,40,Female,North America,2020-02-20,Bronze,True,True
+CUST_001654,33,Female,Latin America,2021-02-06,Bronze,True,True
+CUST_001655,42,Female,Latin America,2021-07-16,Bronze,False,True
+CUST_001656,34,Male,Europe,2021-04-20,Platinum,True,True
+CUST_001657,40,Female,Europe,2020-03-27,Bronze,False,False
+CUST_001658,53,Male,North America,2020-03-08,Bronze,False,True
+CUST_001659,25,Male,North America,2021-08-18,Silver,True,False
+CUST_001660,51,Male,North America,2022-09-05,Bronze,True,False
+CUST_001661,53,Male,Asia Pacific,2020-02-11,Gold,True,False
+CUST_001662,36,Male,Europe,2021-12-31,Silver,False,False
+CUST_001663,18,Female,Latin America,2020-02-26,Bronze,True,True
+CUST_001664,30,Female,Europe,2022-01-07,Gold,False,True
+CUST_001665,53,Male,Asia Pacific,2020-07-14,Platinum,False,False
+CUST_001666,37,Male,Europe,2022-01-29,Bronze,False,True
+CUST_001667,26,Male,Europe,2021-11-08,Bronze,True,True
+CUST_001668,31,Male,North America,2020-03-02,Gold,False,True
+CUST_001669,48,Female,Europe,2020-09-19,Bronze,False,False
+CUST_001670,44,Male,Europe,2020-04-21,Gold,True,True
+CUST_001671,35,Female,Asia Pacific,2022-02-03,Gold,True,True
+CUST_001672,33,Male,Latin America,2021-12-11,Bronze,True,False
+CUST_001673,33,Other,North America,2020-06-26,Platinum,True,False
+CUST_001674,26,Male,North America,2022-08-05,Bronze,False,True
+CUST_001675,57,Female,Europe,2020-01-26,Silver,True,False
+CUST_001676,34,Male,Europe,2021-02-13,Bronze,False,True
+CUST_001677,52,Female,North America,2022-01-27,Gold,False,False
+CUST_001678,56,Male,Asia Pacific,2021-06-14,Silver,True,True
+CUST_001679,49,Male,Middle East & Africa,2022-02-15,Silver,True,True
+CUST_001680,32,Female,Latin America,2020-11-12,Gold,True,False
+CUST_001681,42,Female,North America,2021-06-15,Silver,False,True
+CUST_001682,37,Female,Latin America,2020-04-15,Bronze,True,True
+CUST_001683,27,Female,Asia Pacific,2022-01-18,Gold,True,False
+CUST_001684,41,Female,Europe,2022-03-28,Silver,True,True
+CUST_001685,23,Male,Europe,2021-04-08,Gold,False,False
+CUST_001686,52,Male,Asia Pacific,2020-09-02,Gold,False,True
+CUST_001687,32,Male,Europe,2020-03-21,Bronze,True,True
+CUST_001688,40,Female,Europe,2021-10-23,Bronze,True,False
+CUST_001689,41,Male,Europe,2022-06-27,Bronze,False,True
+CUST_001690,34,Male,Europe,2021-01-30,Silver,True,True
+CUST_001691,45,Female,North America,2021-06-05,Bronze,True,True
+CUST_001692,32,Female,Latin America,2022-04-12,Silver,True,False
+CUST_001693,48,Male,Asia Pacific,2022-01-05,Bronze,True,True
+CUST_001694,21,Male,Europe,2022-07-14,Bronze,True,True
+CUST_001695,39,Male,North America,2020-09-20,Bronze,True,True
+CUST_001696,61,Male,Europe,2021-10-22,Bronze,True,True
+CUST_001697,25,Male,North America,2022-02-28,Silver,True,True
+CUST_001698,29,Female,North America,2020-09-30,Bronze,True,False
+CUST_001699,44,Female,Europe,2021-12-06,Bronze,True,False
+CUST_001700,40,Female,Europe,2022-08-01,Bronze,True,True
+CUST_001701,42,Male,Europe,2020-06-20,Silver,True,True
+CUST_001702,43,Female,North America,2020-09-21,Gold,False,False
+CUST_001703,45,Male,Europe,2022-08-20,Bronze,True,True
+CUST_001704,51,Male,North America,2022-04-01,Silver,False,True
+CUST_001705,42,Female,Middle East & Africa,2020-01-26,Bronze,True,False
+CUST_001706,35,Male,Europe,2021-04-13,Bronze,True,False
+CUST_001707,46,Male,Asia Pacific,2022-05-11,Silver,True,True
+CUST_001708,60,Female,North America,2021-04-20,Bronze,True,True
+CUST_001709,36,Male,North America,2020-12-21,Silver,False,True
+CUST_001710,26,Female,Middle East & Africa,2020-01-26,Bronze,True,True
+CUST_001711,51,Male,North America,2020-02-03,Platinum,True,False
+CUST_001712,36,Female,Europe,2020-09-20,Bronze,False,True
+CUST_001713,18,Male,Europe,2020-05-17,Silver,True,False
+CUST_001714,48,Male,North America,2022-03-26,Gold,True,True
+CUST_001715,31,Female,Asia Pacific,2021-11-25,Bronze,True,True
+CUST_001716,36,Male,Europe,2022-05-24,Bronze,True,True
+CUST_001717,41,Male,North America,2022-01-23,Bronze,True,False
+CUST_001718,40,Male,North America,2021-07-19,Silver,True,False
+CUST_001719,46,Male,North America,2021-04-06,Bronze,True,True
+CUST_001720,32,Male,Latin America,2020-06-16,Bronze,True,True
+CUST_001721,44,Male,Asia Pacific,2021-09-22,Silver,False,False
+CUST_001722,34,Female,North America,2021-10-16,Bronze,False,True
+CUST_001723,46,Male,North America,2020-03-21,Silver,False,True
+CUST_001724,45,Female,Asia Pacific,2022-01-26,Bronze,False,True
+CUST_001725,26,Male,Europe,2022-07-02,Bronze,False,True
+CUST_001726,51,Male,Europe,2022-05-13,Silver,False,False
+CUST_001727,31,Female,Europe,2022-05-19,Silver,True,True
+CUST_001728,47,Male,North America,2021-02-10,Bronze,True,False
+CUST_001729,42,Other,Asia Pacific,2021-07-27,Bronze,True,False
+CUST_001730,60,Male,Middle East & Africa,2020-02-15,Bronze,True,False
+CUST_001731,35,Female,North America,2021-08-21,Bronze,False,True
+CUST_001732,33,Female,Europe,2021-09-02,Bronze,True,True
+CUST_001733,37,Female,Europe,2022-03-17,Bronze,True,True
+CUST_001734,34,Female,Europe,2022-06-29,Silver,True,True
+CUST_001735,47,Female,North America,2020-02-22,Silver,True,False
+CUST_001736,18,Male,Asia Pacific,2022-09-10,Bronze,True,False
+CUST_001737,25,Male,Europe,2021-12-04,Bronze,True,False
+CUST_001738,25,Female,Europe,2022-08-16,Bronze,True,True
+CUST_001739,49,Male,North America,2021-04-20,Silver,True,True
+CUST_001740,58,Male,North America,2021-08-14,Gold,True,True
+CUST_001741,36,Female,North America,2020-01-16,Silver,True,False
+CUST_001742,35,Male,Asia Pacific,2020-12-25,Silver,False,True
+CUST_001743,38,Female,North America,2021-05-01,Gold,True,True
+CUST_001744,51,Female,Asia Pacific,2022-04-17,Bronze,True,True
+CUST_001745,26,Female,Europe,2021-12-06,Bronze,False,False
+CUST_001746,40,Female,Europe,2021-05-16,Silver,True,False
+CUST_001747,49,Male,Europe,2020-05-20,Bronze,True,False
+CUST_001748,44,Male,Europe,2021-09-11,Silver,True,False
+CUST_001749,40,Male,North America,2022-03-25,Silver,False,True
+CUST_001750,50,Male,North America,2022-02-15,Silver,True,True
+CUST_001751,18,Female,Asia Pacific,2021-03-22,Bronze,True,True
+CUST_001752,46,Female,Asia Pacific,2020-10-16,Silver,False,True
+CUST_001753,30,Male,North America,2020-07-27,Silver,True,False
+CUST_001754,18,Male,Europe,2021-04-19,Gold,False,True
+CUST_001755,44,Other,North America,2021-02-16,Silver,True,True
+CUST_001756,54,Male,North America,2021-11-07,Platinum,True,True
+CUST_001757,36,Female,North America,2021-03-02,Bronze,False,True
+CUST_001758,49,Male,Latin America,2022-05-03,Bronze,True,False
+CUST_001759,57,Female,North America,2021-01-05,Bronze,False,True
+CUST_001760,53,Female,North America,2022-04-11,Bronze,False,True
+CUST_001761,57,Female,North America,2021-10-25,Gold,True,True
+CUST_001762,46,Female,North America,2022-08-24,Platinum,False,True
+CUST_001763,38,Male,Europe,2020-10-16,Bronze,True,True
+CUST_001764,18,Male,North America,2021-03-07,Bronze,False,True
+CUST_001765,35,Female,North America,2020-09-24,Bronze,True,False
+CUST_001766,27,Male,Europe,2020-05-30,Gold,True,True
+CUST_001767,64,Female,North America,2021-12-19,Bronze,True,True
+CUST_001768,35,Female,Asia Pacific,2020-09-11,Bronze,True,False
+CUST_001769,39,Female,Europe,2020-12-18,Bronze,True,True
+CUST_001770,44,Female,North America,2021-01-11,Bronze,False,True
+CUST_001771,38,Female,Asia Pacific,2021-10-14,Gold,False,False
+CUST_001772,58,Female,North America,2022-05-04,Bronze,True,False
+CUST_001773,30,Male,Europe,2020-12-23,Bronze,True,False
+CUST_001774,40,Male,Europe,2021-08-30,Bronze,False,True
+CUST_001775,29,Male,North America,2022-07-29,Bronze,True,True
+CUST_001776,22,Female,Europe,2021-01-04,Silver,True,True
+CUST_001777,30,Male,Latin America,2020-08-14,Bronze,True,True
+CUST_001778,37,Female,Middle East & Africa,2021-12-05,Bronze,True,False
+CUST_001779,32,Male,Europe,2020-10-29,Gold,True,True
+CUST_001780,29,Female,Europe,2022-04-05,Bronze,False,True
+CUST_001781,21,Male,North America,2021-01-23,Silver,True,False
+CUST_001782,37,Female,North America,2021-01-11,Bronze,True,False
+CUST_001783,19,Female,Europe,2022-08-30,Bronze,False,False
+CUST_001784,47,Male,Europe,2020-04-27,Silver,True,False
+CUST_001785,38,Male,Latin America,2020-01-05,Gold,True,True
+CUST_001786,20,Female,Europe,2021-03-19,Silver,True,False
+CUST_001787,34,Female,Europe,2020-12-17,Bronze,True,True
+CUST_001788,28,Male,Europe,2022-01-24,Bronze,True,True
+CUST_001789,41,Other,Asia Pacific,2021-06-16,Bronze,True,False
+CUST_001790,54,Female,Asia Pacific,2021-10-25,Silver,True,False
+CUST_001791,18,Female,Europe,2021-10-01,Silver,True,False
+CUST_001792,39,Male,North America,2020-05-03,Bronze,True,False
+CUST_001793,36,Male,Asia Pacific,2021-10-19,Silver,False,False
+CUST_001794,46,Female,North America,2020-10-03,Silver,True,True
+CUST_001795,40,Female,Latin America,2022-04-01,Bronze,True,False
+CUST_001796,28,Female,Europe,2021-01-28,Silver,False,False
+CUST_001797,34,Male,Europe,2021-10-25,Bronze,True,False
+CUST_001798,28,Male,Europe,2020-12-25,Bronze,True,True
+CUST_001799,50,Male,Asia Pacific,2021-09-14,Platinum,True,True
+CUST_001800,38,Male,North America,2021-04-13,Bronze,False,False
+CUST_001801,60,Male,Latin America,2022-09-11,Bronze,True,True
+CUST_001802,37,Male,Europe,2021-09-19,Silver,True,True
+CUST_001803,29,Other,North America,2021-11-30,Platinum,True,True
+CUST_001804,19,Male,North America,2020-02-26,Platinum,True,True
+CUST_001805,18,Female,Europe,2020-09-07,Silver,False,False
+CUST_001806,18,Female,Europe,2022-06-14,Bronze,True,True
+CUST_001807,41,Female,Europe,2022-07-07,Gold,True,False
+CUST_001808,44,Male,Asia Pacific,2020-05-29,Silver,False,True
+CUST_001809,19,Female,Europe,2021-03-27,Bronze,True,True
+CUST_001810,48,Female,Middle East & Africa,2020-06-10,Gold,True,True
+CUST_001811,32,Female,Europe,2020-04-29,Bronze,True,False
+CUST_001812,39,Female,Asia Pacific,2021-08-04,Bronze,False,True
+CUST_001813,57,Other,North America,2022-07-12,Gold,False,False
+CUST_001814,48,Female,Europe,2020-12-16,Silver,False,False
+CUST_001815,34,Male,North America,2020-04-08,Bronze,True,False
+CUST_001816,27,Female,Europe,2020-06-15,Bronze,True,False
+CUST_001817,18,Male,Latin America,2022-03-20,Silver,True,True
+CUST_001818,29,Female,North America,2021-10-24,Bronze,False,True
+CUST_001819,35,Male,North America,2022-04-17,Bronze,True,True
+CUST_001820,26,Male,Latin America,2022-09-02,Silver,True,True
+CUST_001821,36,Female,North America,2021-05-28,Gold,False,False
+CUST_001822,38,Female,Asia Pacific,2021-10-25,Silver,True,False
+CUST_001823,35,Male,Europe,2021-02-04,Silver,True,True
+CUST_001824,30,Male,Asia Pacific,2020-12-30,Silver,False,True
+CUST_001825,40,Female,North America,2021-07-30,Silver,True,False
+CUST_001826,43,Male,North America,2020-11-21,Bronze,True,True
+CUST_001827,24,Female,Europe,2021-08-03,Gold,True,False
+CUST_001828,54,Male,Latin America,2021-09-24,Bronze,True,True
+CUST_001829,36,Female,Europe,2021-09-12,Bronze,True,True
+CUST_001830,38,Female,North America,2022-04-07,Bronze,True,False
+CUST_001831,46,Male,Europe,2020-09-03,Silver,True,True
+CUST_001832,40,Male,Latin America,2021-03-09,Bronze,False,False
+CUST_001833,49,Male,Asia Pacific,2020-04-02,Bronze,True,False
+CUST_001834,41,Female,Middle East & Africa,2020-09-24,Silver,True,False
+CUST_001835,30,Female,North America,2021-09-06,Gold,True,False
+CUST_001836,42,Female,North America,2022-07-31,Silver,False,True
+CUST_001837,24,Male,Europe,2022-08-20,Bronze,True,False
+CUST_001838,39,Male,Asia Pacific,2021-09-15,Bronze,False,False
+CUST_001839,37,Male,North America,2020-11-16,Silver,False,False
+CUST_001840,35,Male,North America,2022-07-11,Bronze,False,False
+CUST_001841,36,Female,Asia Pacific,2022-03-26,Silver,False,False
+CUST_001842,18,Female,North America,2022-05-05,Bronze,True,True
+CUST_001843,31,Female,Europe,2020-03-02,Gold,False,False
+CUST_001844,39,Male,Europe,2020-10-26,Bronze,False,False
+CUST_001845,39,Female,Europe,2021-02-06,Bronze,False,False
+CUST_001846,25,Female,Asia Pacific,2022-08-12,Gold,True,True
+CUST_001847,53,Female,Europe,2021-10-09,Bronze,True,False
+CUST_001848,27,Female,Europe,2021-07-20,Bronze,True,True
+CUST_001849,49,Male,Europe,2021-09-11,Gold,True,True
+CUST_001850,43,Male,Europe,2020-10-29,Bronze,False,False
+CUST_001851,30,Female,Europe,2022-02-08,Bronze,False,False
+CUST_001852,59,Male,North America,2020-09-09,Bronze,True,True
+CUST_001853,23,Male,North America,2022-01-03,Bronze,False,False
+CUST_001854,49,Female,North America,2021-04-22,Bronze,True,True
+CUST_001855,50,Female,North America,2021-01-03,Silver,True,True
+CUST_001856,29,Female,Europe,2021-11-09,Silver,True,True
+CUST_001857,54,Male,Asia Pacific,2022-07-29,Bronze,True,False
+CUST_001858,34,Male,Asia Pacific,2020-06-08,Bronze,False,True
+CUST_001859,41,Female,Asia Pacific,2022-08-18,Gold,True,True
+CUST_001860,41,Other,Europe,2020-06-14,Platinum,True,False
+CUST_001861,36,Female,Europe,2020-07-23,Bronze,True,True
+CUST_001862,47,Female,Europe,2020-09-23,Gold,True,False
+CUST_001863,47,Female,North America,2020-05-17,Silver,False,False
+CUST_001864,18,Female,North America,2021-01-02,Bronze,True,False
+CUST_001865,53,Male,Europe,2021-03-18,Bronze,True,True
+CUST_001866,18,Female,Middle East & Africa,2022-05-07,Bronze,False,True
+CUST_001867,50,Female,North America,2022-01-29,Gold,True,False
+CUST_001868,51,Female,North America,2021-07-20,Silver,False,True
+CUST_001869,24,Female,Asia Pacific,2022-07-04,Silver,True,True
+CUST_001870,33,Female,North America,2021-12-21,Bronze,True,True
+CUST_001871,24,Male,Asia Pacific,2020-01-17,Silver,False,True
+CUST_001872,35,Female,Asia Pacific,2020-03-08,Silver,False,False
+CUST_001873,34,Male,Latin America,2020-05-12,Gold,True,False
+CUST_001874,47,Female,Europe,2021-11-30,Bronze,True,True
+CUST_001875,53,Male,Asia Pacific,2022-07-07,Silver,False,True
+CUST_001876,54,Male,Europe,2021-03-05,Bronze,True,False
+CUST_001877,31,Male,Europe,2020-11-03,Silver,True,True
+CUST_001878,35,Female,Europe,2021-10-11,Silver,True,False
+CUST_001879,18,Male,North America,2020-06-22,Bronze,True,True
+CUST_001880,28,Male,Europe,2021-02-15,Silver,True,False
+CUST_001881,49,Female,Europe,2020-04-06,Bronze,False,False
+CUST_001882,57,Male,Asia Pacific,2021-11-13,Gold,True,True
+CUST_001883,23,Female,Asia Pacific,2020-06-02,Bronze,False,True
+CUST_001884,30,Female,Asia Pacific,2021-11-25,Silver,True,True
+CUST_001885,37,Female,North America,2020-08-29,Gold,True,False
+CUST_001886,41,Male,Asia Pacific,2020-10-30,Bronze,True,True
+CUST_001887,28,Female,Europe,2020-10-11,Silver,True,False
+CUST_001888,43,Male,Latin America,2020-01-27,Bronze,True,True
+CUST_001889,32,Male,Latin America,2021-02-05,Bronze,True,False
+CUST_001890,37,Male,North America,2020-12-25,Silver,False,False
+CUST_001891,44,Female,Asia Pacific,2020-02-29,Silver,True,True
+CUST_001892,38,Male,North America,2020-07-20,Gold,True,True
+CUST_001893,32,Female,Europe,2022-01-31,Gold,False,True
+CUST_001894,36,Female,Europe,2022-05-23,Silver,False,False
+CUST_001895,36,Female,North America,2021-08-03,Silver,True,True
+CUST_001896,33,Male,Asia Pacific,2022-08-27,Gold,True,True
+CUST_001897,34,Other,North America,2021-01-04,Bronze,False,False
+CUST_001898,57,Female,North America,2021-06-16,Bronze,False,True
+CUST_001899,44,Female,Europe,2020-05-31,Bronze,True,False
+CUST_001900,34,Male,Asia Pacific,2020-04-11,Gold,True,True
+CUST_001901,46,Female,Latin America,2022-06-17,Silver,False,True
+CUST_001902,33,Male,Asia Pacific,2022-09-26,Silver,False,True
+CUST_001903,52,Male,Asia Pacific,2021-08-29,Bronze,False,False
+CUST_001904,42,Male,Europe,2021-03-21,Platinum,True,True
+CUST_001905,36,Female,North America,2022-05-22,Bronze,True,False
+CUST_001906,43,Male,North America,2020-08-16,Silver,True,True
+CUST_001907,19,Male,Europe,2020-05-04,Bronze,True,True
+CUST_001908,24,Female,Asia Pacific,2022-02-08,Bronze,True,False
+CUST_001909,23,Female,Europe,2022-04-13,Silver,True,True
+CUST_001910,39,Male,Asia Pacific,2022-09-25,Platinum,True,True
+CUST_001911,58,Female,Europe,2022-05-30,Bronze,True,True
+CUST_001912,64,Male,North America,2022-07-26,Bronze,False,False
+CUST_001913,45,Male,North America,2020-08-23,Bronze,False,False
+CUST_001914,44,Male,Asia Pacific,2020-06-10,Bronze,False,True
+CUST_001915,18,Female,Asia Pacific,2021-07-07,Bronze,False,True
+CUST_001916,31,Male,Latin America,2022-02-26,Silver,True,False
+CUST_001917,28,Male,North America,2020-12-18,Gold,True,False
+CUST_001918,30,Male,Middle East & Africa,2020-03-08,Bronze,True,True
+CUST_001919,35,Female,North America,2020-06-21,Silver,True,False
+CUST_001920,32,Male,North America,2022-04-22,Bronze,False,True
+CUST_001921,18,Male,Middle East & Africa,2021-09-28,Bronze,True,True
+CUST_001922,46,Male,North America,2021-11-12,Bronze,True,True
+CUST_001923,25,Male,Asia Pacific,2021-07-12,Silver,True,True
+CUST_001924,40,Female,North America,2020-09-17,Bronze,True,True
+CUST_001925,62,Female,Europe,2020-08-04,Bronze,True,False
+CUST_001926,26,Male,Latin America,2022-03-27,Bronze,True,True
+CUST_001927,18,Male,North America,2020-05-03,Bronze,True,True
+CUST_001928,34,Male,Asia Pacific,2022-03-15,Bronze,True,True
+CUST_001929,51,Male,North America,2020-06-10,Gold,False,False
+CUST_001930,61,Male,Europe,2020-07-19,Silver,True,False
+CUST_001931,23,Female,North America,2021-03-29,Gold,True,True
+CUST_001932,43,Other,North America,2021-02-05,Bronze,True,True
+CUST_001933,32,Other,North America,2021-04-06,Bronze,True,True
+CUST_001934,36,Female,North America,2020-10-01,Bronze,True,True
+CUST_001935,69,Female,Latin America,2020-07-24,Bronze,True,True
+CUST_001936,19,Female,Europe,2020-02-09,Silver,False,True
+CUST_001937,41,Male,North America,2020-09-29,Bronze,False,False
+CUST_001938,43,Female,Europe,2021-11-30,Bronze,True,True
+CUST_001939,51,Male,North America,2022-05-16,Silver,True,True
+CUST_001940,39,Female,Asia Pacific,2020-04-02,Bronze,True,True
+CUST_001941,41,Female,Middle East & Africa,2020-02-11,Platinum,True,False
+CUST_001942,33,Male,Europe,2021-04-09,Bronze,True,True
+CUST_001943,41,Male,Latin America,2021-01-13,Silver,True,True
+CUST_001944,33,Female,Europe,2020-04-16,Bronze,True,False
+CUST_001945,45,Male,North America,2020-11-23,Platinum,False,True
+CUST_001946,33,Female,Asia Pacific,2020-03-05,Bronze,False,True
+CUST_001947,42,Female,Europe,2020-12-30,Silver,False,True
+CUST_001948,37,Female,Asia Pacific,2022-03-31,Bronze,True,False
+CUST_001949,51,Female,Latin America,2021-04-28,Silver,True,True
+CUST_001950,37,Male,Europe,2021-10-08,Bronze,True,False
+CUST_001951,18,Male,Latin America,2022-06-19,Bronze,True,True
+CUST_001952,53,Female,Asia Pacific,2020-01-24,Gold,True,True
+CUST_001953,27,Female,Europe,2021-06-23,Platinum,True,False
+CUST_001954,30,Female,Europe,2020-03-02,Bronze,True,True
+CUST_001955,30,Male,North America,2021-05-05,Gold,False,True
+CUST_001956,54,Male,Middle East & Africa,2020-09-29,Bronze,False,True
+CUST_001957,18,Other,Asia Pacific,2020-08-16,Gold,True,False
+CUST_001958,75,Male,North America,2020-01-20,Silver,True,True
+CUST_001959,50,Female,North America,2020-01-03,Bronze,True,True
+CUST_001960,40,Male,Europe,2021-02-24,Gold,True,True
+CUST_001961,37,Female,North America,2021-12-30,Gold,True,True
+CUST_001962,41,Female,North America,2022-06-29,Bronze,False,True
+CUST_001963,44,Female,Europe,2020-11-02,Silver,True,True
+CUST_001964,45,Male,North America,2021-03-07,Bronze,True,True
+CUST_001965,44,Female,Europe,2020-05-15,Gold,True,False
+CUST_001966,39,Female,North America,2022-06-27,Silver,True,True
+CUST_001967,35,Male,North America,2022-08-01,Bronze,True,True
+CUST_001968,36,Female,Asia Pacific,2021-05-29,Silver,False,False
+CUST_001969,35,Female,Europe,2020-07-11,Silver,True,False
+CUST_001970,51,Female,North America,2021-08-07,Silver,True,False
+CUST_001971,45,Female,North America,2021-02-18,Bronze,False,True
+CUST_001972,18,Male,Europe,2022-05-22,Bronze,True,False
+CUST_001973,45,Male,North America,2020-04-27,Silver,True,False
+CUST_001974,40,Male,North America,2021-10-27,Bronze,True,True
+CUST_001975,37,Female,North America,2020-07-27,Bronze,False,True
+CUST_001976,33,Female,Asia Pacific,2022-08-09,Silver,True,True
+CUST_001977,51,Female,Asia Pacific,2020-02-03,Bronze,True,False
+CUST_001978,49,Male,Asia Pacific,2021-10-10,Silver,False,True
+CUST_001979,28,Male,Asia Pacific,2020-11-13,Silver,False,True
+CUST_001980,42,Female,Asia Pacific,2020-04-29,Silver,True,True
+CUST_001981,26,Male,Europe,2021-09-18,Bronze,False,False
+CUST_001982,21,Male,Europe,2021-06-08,Bronze,True,True
+CUST_001983,30,Female,North America,2021-08-03,Bronze,True,False
+CUST_001984,48,Male,Europe,2022-07-25,Gold,True,False
+CUST_001985,49,Male,Asia Pacific,2022-04-24,Bronze,True,True
+CUST_001986,44,Male,Europe,2022-02-07,Platinum,True,True
+CUST_001987,46,Male,Europe,2020-03-29,Silver,False,True
+CUST_001988,44,Other,North America,2021-05-26,Gold,True,False
+CUST_001989,30,Male,Europe,2020-02-16,Bronze,True,False
+CUST_001990,43,Male,Asia Pacific,2022-02-10,Bronze,True,False
+CUST_001991,47,Male,Latin America,2022-01-09,Gold,False,True
+CUST_001992,47,Female,North America,2022-08-16,Bronze,False,True
+CUST_001993,52,Male,Asia Pacific,2021-11-22,Bronze,True,True
+CUST_001994,46,Female,Europe,2021-06-05,Bronze,False,True
+CUST_001995,42,Male,Latin America,2020-10-10,Platinum,True,False
+CUST_001996,50,Male,Europe,2021-01-11,Silver,True,True
+CUST_001997,37,Male,Europe,2021-09-29,Silver,False,True
+CUST_001998,27,Female,Europe,2020-05-13,Silver,True,True
+CUST_001999,36,Female,Asia Pacific,2021-10-28,Bronze,False,True
+CUST_002000,29,Male,Middle East & Africa,2020-09-04,Silver,True,True
+CUST_002001,29,Female,North America,2021-10-13,Bronze,True,True
+CUST_002002,36,Female,North America,2020-11-13,Gold,False,False
+CUST_002003,28,Male,Latin America,2021-03-11,Bronze,False,True
+CUST_002004,34,Female,Europe,2020-06-24,Bronze,True,False
+CUST_002005,18,Male,Europe,2022-04-14,Silver,True,True
+CUST_002006,40,Female,Europe,2021-11-16,Bronze,False,False
+CUST_002007,38,Female,North America,2022-09-19,Silver,True,True
+CUST_002008,28,Female,Asia Pacific,2021-08-08,Bronze,False,False
+CUST_002009,45,Female,Asia Pacific,2020-12-16,Bronze,False,False
+CUST_002010,49,Male,North America,2020-05-22,Bronze,True,True
+CUST_002011,18,Female,North America,2022-08-24,Silver,True,True
+CUST_002012,28,Male,Asia Pacific,2022-03-14,Bronze,True,True
+CUST_002013,28,Male,North America,2021-02-01,Silver,True,False
+CUST_002014,26,Female,Latin America,2021-09-15,Bronze,False,True
+CUST_002015,47,Female,North America,2021-12-18,Bronze,False,True
+CUST_002016,35,Female,Europe,2021-10-04,Bronze,True,True
+CUST_002017,34,Male,Latin America,2021-01-03,Gold,True,False
+CUST_002018,18,Female,Asia Pacific,2021-05-15,Silver,True,False
+CUST_002019,45,Female,Europe,2021-09-13,Bronze,True,True
+CUST_002020,23,Male,Asia Pacific,2021-01-04,Silver,True,True
+CUST_002021,38,Male,North America,2021-08-01,Gold,True,False
+CUST_002022,41,Male,North America,2021-01-16,Bronze,True,False
+CUST_002023,54,Male,Middle East & Africa,2020-03-26,Gold,False,True
+CUST_002024,22,Other,Asia Pacific,2022-02-25,Bronze,True,True
+CUST_002025,18,Female,Europe,2022-01-08,Gold,False,False
+CUST_002026,40,Female,Europe,2021-04-04,Silver,False,True
+CUST_002027,59,Other,North America,2022-08-07,Bronze,True,True
+CUST_002028,52,Male,North America,2020-11-20,Bronze,True,False
+CUST_002029,40,Female,Europe,2021-06-05,Platinum,True,True
+CUST_002030,32,Male,Asia Pacific,2021-05-03,Silver,True,False
+CUST_002031,47,Female,Europe,2022-07-17,Silver,False,True
+CUST_002032,26,Male,Asia Pacific,2021-01-31,Bronze,True,False
+CUST_002033,43,Female,North America,2022-06-14,Bronze,True,True
+CUST_002034,44,Male,Europe,2020-12-20,Bronze,True,False
+CUST_002035,50,Male,North America,2022-08-04,Bronze,False,True
+CUST_002036,71,Female,Europe,2020-10-14,Silver,True,True
+CUST_002037,42,Male,North America,2021-04-03,Gold,True,True
+CUST_002038,31,Female,Middle East & Africa,2021-09-15,Silver,True,False
+CUST_002039,37,Male,North America,2022-09-24,Bronze,False,True
+CUST_002040,18,Female,Latin America,2021-06-19,Silver,True,True
+CUST_002041,29,Male,Europe,2020-10-17,Gold,True,True
+CUST_002042,33,Male,Middle East & Africa,2022-04-30,Silver,True,True
+CUST_002043,31,Male,Europe,2022-04-17,Silver,True,False
+CUST_002044,39,Male,Latin America,2020-06-16,Platinum,True,False
+CUST_002045,28,Male,North America,2022-08-07,Silver,True,True
+CUST_002046,51,Male,Asia Pacific,2021-09-12,Bronze,True,True
+CUST_002047,38,Male,Latin America,2021-03-03,Bronze,True,False
+CUST_002048,37,Male,North America,2021-12-02,Platinum,True,False
+CUST_002049,34,Female,North America,2021-05-04,Bronze,True,False
+CUST_002050,39,Female,Europe,2020-12-20,Bronze,True,True
+CUST_002051,47,Male,Latin America,2020-07-14,Bronze,True,True
+CUST_002052,27,Female,Europe,2021-06-28,Silver,False,True
+CUST_002053,30,Female,Europe,2021-12-17,Platinum,True,True
+CUST_002054,34,Male,North America,2022-04-03,Bronze,True,False
+CUST_002055,21,Female,North America,2022-07-20,Silver,True,True
+CUST_002056,28,Male,Asia Pacific,2021-11-24,Gold,True,True
+CUST_002057,32,Female,North America,2021-10-20,Bronze,True,False
+CUST_002058,48,Male,Europe,2022-07-27,Bronze,True,True
+CUST_002059,41,Female,Latin America,2022-02-18,Gold,False,False
+CUST_002060,40,Female,North America,2020-01-11,Bronze,False,True
+CUST_002061,48,Male,Asia Pacific,2021-08-04,Silver,False,True
+CUST_002062,36,Male,North America,2020-09-12,Silver,False,True
+CUST_002063,42,Other,Europe,2021-01-30,Bronze,False,True
+CUST_002064,36,Male,North America,2021-12-31,Gold,False,True
+CUST_002065,41,Female,Asia Pacific,2022-03-19,Bronze,True,True
+CUST_002066,31,Female,North America,2021-02-12,Bronze,True,True
+CUST_002067,18,Female,Europe,2020-12-27,Bronze,True,False
+CUST_002068,36,Female,Europe,2020-09-15,Bronze,True,True
+CUST_002069,55,Female,North America,2020-01-03,Gold,True,True
+CUST_002070,49,Female,Asia Pacific,2020-03-24,Silver,False,True
+CUST_002071,49,Male,North America,2020-06-04,Gold,True,True
+CUST_002072,52,Male,Asia Pacific,2021-10-24,Bronze,True,True
+CUST_002073,39,Male,North America,2020-06-24,Silver,True,True
+CUST_002074,40,Other,Asia Pacific,2021-12-07,Silver,True,True
+CUST_002075,30,Female,North America,2022-07-26,Gold,True,True
+CUST_002076,34,Male,Europe,2021-04-16,Silver,True,True
+CUST_002077,45,Female,North America,2021-09-10,Bronze,True,False
+CUST_002078,52,Female,Asia Pacific,2021-02-27,Bronze,True,True
+CUST_002079,36,Male,North America,2020-05-13,Bronze,True,True
+CUST_002080,32,Female,Latin America,2022-02-26,Silver,True,False
+CUST_002081,38,Male,Latin America,2022-06-25,Platinum,True,False
+CUST_002082,45,Female,North America,2022-05-13,Bronze,True,False
+CUST_002083,20,Male,Europe,2021-01-14,Bronze,True,True
+CUST_002084,18,Female,North America,2021-10-28,Bronze,True,False
+CUST_002085,31,Female,Europe,2020-10-03,Silver,True,False
+CUST_002086,23,Male,Asia Pacific,2020-08-23,Bronze,True,False
+CUST_002087,31,Other,Asia Pacific,2022-01-21,Bronze,True,True
+CUST_002088,36,Female,Europe,2022-05-31,Bronze,True,True
+CUST_002089,32,Male,North America,2020-01-13,Silver,False,False
+CUST_002090,55,Male,Europe,2020-12-07,Silver,True,True
+CUST_002091,41,Female,North America,2020-02-04,Silver,True,True
+CUST_002092,41,Male,Asia Pacific,2021-07-12,Bronze,True,True
+CUST_002093,45,Male,Europe,2020-08-01,Bronze,True,True
+CUST_002094,24,Male,Asia Pacific,2021-02-15,Bronze,True,True
+CUST_002095,50,Male,North America,2021-02-08,Bronze,False,True
+CUST_002096,37,Female,North America,2021-05-08,Bronze,False,False
+CUST_002097,46,Male,North America,2021-10-19,Bronze,True,True
+CUST_002098,25,Male,North America,2020-06-07,Silver,False,True
+CUST_002099,19,Male,North America,2022-08-13,Bronze,True,False
+CUST_002100,47,Male,Asia Pacific,2021-09-28,Bronze,True,True
+CUST_002101,42,Female,Latin America,2020-04-19,Gold,True,True
+CUST_002102,27,Male,Europe,2021-07-02,Silver,True,True
+CUST_002103,27,Other,Europe,2022-02-27,Silver,True,True
+CUST_002104,51,Female,North America,2021-06-09,Gold,True,True
+CUST_002105,23,Male,Latin America,2022-09-11,Bronze,True,False
+CUST_002106,57,Female,North America,2020-12-12,Silver,True,False
+CUST_002107,27,Male,Latin America,2022-01-13,Silver,True,False
+CUST_002108,45,Female,Europe,2022-04-07,Bronze,True,True
+CUST_002109,34,Other,North America,2021-09-27,Bronze,True,True
+CUST_002110,45,Male,Latin America,2020-10-05,Bronze,True,True
+CUST_002111,31,Male,North America,2021-04-23,Bronze,True,True
+CUST_002112,36,Female,Europe,2020-04-20,Bronze,False,True
+CUST_002113,38,Male,Europe,2021-09-27,Bronze,True,False
+CUST_002114,25,Male,North America,2022-07-13,Bronze,False,True
+CUST_002115,46,Male,Europe,2021-03-06,Bronze,True,True
+CUST_002116,31,Male,Asia Pacific,2021-06-25,Bronze,True,True
+CUST_002117,35,Female,Asia Pacific,2020-04-24,Bronze,False,True
+CUST_002118,26,Male,North America,2020-03-30,Bronze,True,False
+CUST_002119,18,Male,Latin America,2020-07-30,Silver,True,False
+CUST_002120,35,Female,North America,2021-07-03,Bronze,True,True
+CUST_002121,66,Male,North America,2021-08-17,Gold,True,True
+CUST_002122,47,Male,North America,2021-06-22,Gold,True,False
+CUST_002123,37,Female,North America,2021-12-29,Silver,True,False
+CUST_002124,34,Male,North America,2020-12-25,Silver,False,False
+CUST_002125,38,Female,Middle East & Africa,2021-04-30,Bronze,True,True
+CUST_002126,44,Female,North America,2021-01-06,Bronze,True,True
+CUST_002127,23,Male,North America,2020-08-02,Gold,False,True
+CUST_002128,51,Female,North America,2022-01-02,Bronze,True,True
+CUST_002129,46,Male,Asia Pacific,2020-01-15,Gold,True,False
+CUST_002130,46,Male,Latin America,2022-08-12,Silver,True,True
+CUST_002131,43,Female,North America,2020-09-15,Bronze,True,True
+CUST_002132,38,Female,North America,2022-02-16,Bronze,True,True
+CUST_002133,46,Male,North America,2021-04-07,Silver,True,False
+CUST_002134,45,Female,North America,2020-04-29,Bronze,True,True
+CUST_002135,33,Female,North America,2022-09-02,Bronze,False,True
+CUST_002136,31,Other,Europe,2022-07-01,Silver,False,False
+CUST_002137,39,Female,North America,2020-05-07,Silver,True,True
+CUST_002138,56,Male,Europe,2021-12-23,Bronze,False,True
+CUST_002139,23,Male,North America,2021-06-06,Bronze,True,True
+CUST_002140,20,Female,Latin America,2021-11-18,Gold,True,False
+CUST_002141,39,Male,Latin America,2021-10-06,Silver,True,False
+CUST_002142,38,Female,Europe,2020-11-20,Silver,True,False
+CUST_002143,40,Male,Europe,2020-11-15,Platinum,False,False
+CUST_002144,40,Male,Europe,2021-05-20,Bronze,True,False
+CUST_002145,35,Male,Europe,2021-06-09,Bronze,True,False
+CUST_002146,55,Other,Asia Pacific,2020-02-19,Gold,True,True
+CUST_002147,18,Male,Europe,2022-07-10,Silver,True,False
+CUST_002148,28,Female,Latin America,2021-08-06,Bronze,True,True
+CUST_002149,36,Male,Latin America,2020-03-09,Bronze,False,False
+CUST_002150,18,Male,North America,2021-01-25,Silver,False,False
+CUST_002151,35,Male,Europe,2021-01-17,Bronze,True,True
+CUST_002152,57,Female,North America,2020-01-16,Gold,True,True
+CUST_002153,38,Male,North America,2021-03-14,Bronze,True,True
+CUST_002154,40,Male,Europe,2022-04-25,Bronze,False,True
+CUST_002155,22,Male,North America,2022-05-18,Bronze,True,True
+CUST_002156,30,Male,Latin America,2021-07-21,Silver,True,True
+CUST_002157,33,Other,North America,2021-09-08,Gold,False,True
+CUST_002158,34,Female,Europe,2020-05-11,Silver,True,False
+CUST_002159,53,Male,Europe,2022-09-22,Gold,True,True
+CUST_002160,44,Female,Asia Pacific,2021-07-13,Bronze,True,True
+CUST_002161,24,Female,Europe,2020-09-04,Bronze,True,True
+CUST_002162,40,Male,Latin America,2020-09-29,Gold,True,False
+CUST_002163,43,Female,Europe,2021-09-14,Gold,True,True
+CUST_002164,51,Female,Europe,2022-07-20,Gold,True,True
+CUST_002165,56,Male,North America,2022-04-17,Silver,True,True
+CUST_002166,25,Male,Europe,2022-04-27,Bronze,False,True
+CUST_002167,28,Other,Asia Pacific,2020-12-14,Bronze,True,True
+CUST_002168,22,Female,Europe,2021-04-28,Gold,False,True
+CUST_002169,35,Male,Asia Pacific,2021-07-03,Bronze,True,True
+CUST_002170,43,Male,Europe,2020-12-22,Bronze,True,False
+CUST_002171,49,Male,North America,2022-01-21,Silver,True,False
+CUST_002172,37,Female,North America,2020-11-13,Bronze,True,True
+CUST_002173,34,Female,North America,2021-09-24,Gold,True,False
+CUST_002174,39,Other,Asia Pacific,2020-02-17,Bronze,True,True
+CUST_002175,27,Male,Asia Pacific,2020-01-10,Silver,True,True
+CUST_002176,63,Female,North America,2020-08-20,Silver,True,True
+CUST_002177,18,Female,Europe,2020-02-05,Silver,False,True
+CUST_002178,40,Male,Europe,2021-02-16,Bronze,True,True
+CUST_002179,62,Male,Europe,2021-04-06,Bronze,True,False
+CUST_002180,38,Other,North America,2020-01-04,Bronze,True,False
+CUST_002181,35,Female,North America,2020-02-13,Bronze,True,True
+CUST_002182,33,Female,North America,2021-07-21,Silver,False,True
+CUST_002183,35,Female,North America,2021-07-07,Bronze,True,True
+CUST_002184,54,Male,North America,2020-09-11,Bronze,True,True
+CUST_002185,18,Female,North America,2022-01-09,Bronze,True,True
+CUST_002186,56,Female,Europe,2020-04-23,Silver,False,False
+CUST_002187,20,Female,North America,2022-01-18,Bronze,True,True
+CUST_002188,34,Other,Middle East & Africa,2021-01-31,Gold,True,False
+CUST_002189,32,Female,North America,2020-06-22,Silver,True,True
+CUST_002190,45,Male,North America,2020-09-11,Silver,True,False
+CUST_002191,18,Female,Europe,2021-04-10,Gold,True,False
+CUST_002192,43,Male,North America,2022-07-17,Bronze,False,False
+CUST_002193,62,Male,Asia Pacific,2020-10-03,Gold,False,False
+CUST_002194,21,Male,North America,2021-04-08,Silver,True,True
+CUST_002195,40,Male,Latin America,2022-04-26,Gold,True,True
+CUST_002196,30,Female,Latin America,2021-05-16,Gold,True,False
+CUST_002197,43,Female,Europe,2021-03-16,Bronze,True,True
+CUST_002198,38,Female,Europe,2020-03-09,Bronze,True,False
+CUST_002199,30,Female,Asia Pacific,2021-05-23,Silver,True,True
+CUST_002200,43,Male,Europe,2020-11-21,Silver,False,True
+CUST_002201,59,Female,Europe,2022-01-11,Bronze,True,True
+CUST_002202,35,Male,North America,2020-03-07,Bronze,False,False
+CUST_002203,46,Male,North America,2020-10-30,Bronze,True,False
+CUST_002204,22,Female,Europe,2022-08-29,Silver,True,True
+CUST_002205,26,Male,Europe,2021-04-28,Platinum,True,True
+CUST_002206,43,Male,Latin America,2022-07-17,Silver,False,False
+CUST_002207,55,Female,North America,2021-07-01,Bronze,True,False
+CUST_002208,42,Female,Asia Pacific,2021-02-20,Bronze,False,True
+CUST_002209,34,Male,North America,2020-06-07,Bronze,False,False
+CUST_002210,37,Other,Europe,2020-05-28,Bronze,True,True
+CUST_002211,22,Female,North America,2020-01-27,Gold,True,True
+CUST_002212,45,Female,Europe,2022-09-13,Bronze,False,True
+CUST_002213,48,Male,North America,2021-08-06,Silver,True,False
+CUST_002214,32,Female,Europe,2020-09-04,Gold,True,False
+CUST_002215,32,Female,Asia Pacific,2020-04-10,Gold,True,False
+CUST_002216,41,Female,Europe,2021-12-02,Bronze,False,False
+CUST_002217,32,Female,Europe,2020-04-05,Bronze,True,True
+CUST_002218,37,Male,Asia Pacific,2021-01-18,Bronze,False,False
+CUST_002219,63,Male,Asia Pacific,2020-10-08,Silver,True,True
+CUST_002220,35,Male,Europe,2020-11-17,Platinum,True,False
+CUST_002221,33,Male,North America,2021-01-30,Bronze,True,True
+CUST_002222,30,Female,Latin America,2020-10-04,Bronze,True,False
+CUST_002223,46,Male,Europe,2021-06-12,Gold,False,False
+CUST_002224,35,Other,North America,2020-09-19,Silver,False,False
+CUST_002225,30,Female,North America,2021-09-10,Platinum,False,False
+CUST_002226,53,Male,Asia Pacific,2021-08-02,Bronze,False,True
+CUST_002227,55,Male,North America,2021-10-01,Bronze,True,False
+CUST_002228,30,Female,Middle East & Africa,2020-10-19,Bronze,True,True
+CUST_002229,18,Other,North America,2020-10-20,Bronze,True,False
+CUST_002230,50,Male,Asia Pacific,2021-08-30,Silver,False,False
+CUST_002231,29,Male,Europe,2021-01-29,Bronze,True,True
+CUST_002232,47,Female,Europe,2021-05-27,Bronze,False,False
+CUST_002233,18,Female,Latin America,2022-07-09,Gold,True,True
+CUST_002234,48,Male,Europe,2022-03-20,Bronze,False,False
+CUST_002235,23,Female,Europe,2020-06-28,Silver,True,False
+CUST_002236,46,Male,North America,2022-07-08,Bronze,True,True
+CUST_002237,38,Male,North America,2021-11-23,Gold,False,True
+CUST_002238,26,Male,North America,2020-08-22,Bronze,False,True
+CUST_002239,33,Male,Asia Pacific,2022-08-09,Silver,True,False
+CUST_002240,46,Male,North America,2022-04-10,Bronze,False,False
+CUST_002241,39,Female,North America,2020-12-02,Bronze,False,True
+CUST_002242,45,Male,Europe,2020-01-08,Silver,True,False
+CUST_002243,61,Male,Europe,2021-03-18,Bronze,True,True
+CUST_002244,19,Male,Asia Pacific,2022-07-29,Bronze,True,True
+CUST_002245,57,Other,North America,2021-06-22,Gold,True,True
+CUST_002246,39,Male,North America,2022-03-30,Gold,False,True
+CUST_002247,27,Male,Latin America,2021-10-19,Bronze,True,True
+CUST_002248,22,Female,North America,2020-03-31,Bronze,True,True
+CUST_002249,35,Other,Latin America,2022-05-03,Bronze,True,True
+CUST_002250,49,Male,Latin America,2020-09-28,Bronze,True,False
+CUST_002251,36,Female,Asia Pacific,2022-04-13,Platinum,True,True
+CUST_002252,56,Female,North America,2020-01-05,Silver,True,True
+CUST_002253,20,Female,Asia Pacific,2021-08-16,Bronze,True,True
+CUST_002254,37,Male,Asia Pacific,2022-06-17,Platinum,True,True
+CUST_002255,22,Female,Europe,2020-08-06,Silver,False,True
+CUST_002256,42,Male,North America,2020-04-27,Silver,True,True
+CUST_002257,48,Female,North America,2021-08-15,Bronze,True,False
+CUST_002258,32,Female,North America,2022-09-02,Bronze,True,False
+CUST_002259,18,Male,Europe,2021-08-04,Silver,True,True
+CUST_002260,40,Female,Europe,2020-04-24,Bronze,True,True
+CUST_002261,43,Male,Europe,2020-09-19,Bronze,False,True
+CUST_002262,42,Female,Europe,2020-11-01,Bronze,True,True
+CUST_002263,52,Male,Europe,2021-10-15,Bronze,False,False
+CUST_002264,25,Male,Europe,2021-02-25,Silver,True,False
+CUST_002265,46,Male,Latin America,2022-09-26,Silver,False,False
+CUST_002266,52,Female,North America,2020-07-25,Bronze,False,True
+CUST_002267,18,Male,Europe,2021-09-14,Bronze,True,False
+CUST_002268,41,Male,North America,2020-10-29,Silver,True,True
+CUST_002269,31,Male,Europe,2020-04-21,Bronze,True,True
+CUST_002270,37,Female,Asia Pacific,2021-02-20,Silver,True,True
+CUST_002271,42,Female,Latin America,2021-07-08,Silver,False,False
+CUST_002272,32,Male,North America,2022-05-08,Bronze,True,False
+CUST_002273,29,Male,Middle East & Africa,2020-10-11,Silver,True,True
+CUST_002274,38,Male,North America,2021-10-01,Silver,False,True
+CUST_002275,24,Male,Europe,2020-07-03,Bronze,False,False
+CUST_002276,24,Male,North America,2022-01-10,Bronze,True,False
+CUST_002277,46,Female,Latin America,2022-06-19,Platinum,False,True
+CUST_002278,24,Male,Europe,2020-08-08,Bronze,True,False
+CUST_002279,45,Male,Asia Pacific,2022-05-13,Gold,True,True
+CUST_002280,43,Male,Asia Pacific,2021-03-19,Silver,True,False
+CUST_002281,18,Other,North America,2020-04-26,Bronze,False,True
+CUST_002282,29,Female,North America,2020-03-10,Bronze,True,True
+CUST_002283,52,Female,Latin America,2022-06-16,Bronze,True,False
+CUST_002284,26,Male,North America,2020-03-10,Bronze,True,False
+CUST_002285,32,Male,North America,2021-09-13,Silver,True,True
+CUST_002286,43,Male,Europe,2021-03-02,Gold,True,True
+CUST_002287,47,Male,Europe,2021-10-05,Gold,False,True
+CUST_002288,34,Female,North America,2021-07-21,Bronze,True,True
+CUST_002289,30,Female,North America,2022-09-15,Gold,True,False
+CUST_002290,55,Female,North America,2021-03-18,Gold,False,True
+CUST_002291,58,Female,Europe,2021-08-23,Gold,False,False
+CUST_002292,49,Male,Latin America,2020-05-16,Bronze,True,True
+CUST_002293,39,Female,Middle East & Africa,2021-05-18,Silver,True,False
+CUST_002294,28,Male,Europe,2020-05-10,Silver,False,True
+CUST_002295,28,Male,North America,2020-08-05,Bronze,False,True
+CUST_002296,44,Female,Latin America,2021-11-18,Platinum,True,True
+CUST_002297,43,Male,Europe,2020-06-19,Bronze,True,False
+CUST_002298,54,Male,North America,2021-04-19,Bronze,True,True
+CUST_002299,45,Male,Latin America,2021-09-03,Gold,True,True
+CUST_002300,19,Female,Asia Pacific,2022-09-18,Bronze,True,False
+CUST_002301,50,Female,Asia Pacific,2020-05-08,Gold,True,False
+CUST_002302,26,Male,Asia Pacific,2020-02-26,Silver,True,False
+CUST_002303,33,Female,North America,2020-06-29,Bronze,False,True
+CUST_002304,41,Male,North America,2020-09-02,Bronze,True,True
+CUST_002305,61,Male,Asia Pacific,2020-05-23,Silver,True,False
+CUST_002306,75,Female,North America,2020-02-20,Silver,False,True
+CUST_002307,45,Female,Europe,2021-01-02,Gold,True,True
+CUST_002308,35,Other,Asia Pacific,2021-04-03,Gold,True,True
+CUST_002309,44,Male,Asia Pacific,2020-08-05,Bronze,False,False
+CUST_002310,48,Female,Europe,2021-09-07,Bronze,True,True
+CUST_002311,34,Female,Asia Pacific,2022-06-13,Gold,False,False
+CUST_002312,59,Female,Asia Pacific,2021-07-20,Silver,True,True
+CUST_002313,40,Male,Asia Pacific,2020-09-13,Bronze,True,False
+CUST_002314,43,Female,North America,2022-05-07,Gold,False,False
+CUST_002315,45,Female,North America,2020-06-04,Gold,True,True
+CUST_002316,43,Male,North America,2021-07-18,Silver,False,True
+CUST_002317,48,Male,North America,2021-03-17,Bronze,True,False
+CUST_002318,30,Male,North America,2022-04-20,Silver,True,True
+CUST_002319,31,Female,North America,2022-08-13,Silver,False,False
+CUST_002320,24,Female,Europe,2021-11-29,Gold,True,False
+CUST_002321,43,Female,Latin America,2022-05-25,Platinum,True,True
+CUST_002322,47,Female,North America,2021-10-23,Silver,True,True
+CUST_002323,43,Female,Asia Pacific,2022-02-14,Silver,True,True
+CUST_002324,58,Male,Asia Pacific,2022-01-31,Platinum,False,False
+CUST_002325,37,Male,North America,2022-08-02,Bronze,False,True
+CUST_002326,46,Female,Latin America,2022-03-20,Bronze,True,False
+CUST_002327,24,Male,Europe,2022-07-11,Gold,True,False
+CUST_002328,33,Male,Europe,2022-07-23,Bronze,True,True
+CUST_002329,46,Female,Asia Pacific,2021-12-23,Bronze,True,True
+CUST_002330,48,Male,North America,2020-01-25,Bronze,False,True
+CUST_002331,34,Male,Asia Pacific,2022-03-16,Bronze,True,False
+CUST_002332,37,Male,North America,2022-05-02,Bronze,True,True
+CUST_002333,19,Male,Asia Pacific,2021-10-25,Bronze,False,True
+CUST_002334,33,Female,Europe,2021-06-19,Platinum,True,False
+CUST_002335,48,Female,Europe,2022-02-02,Silver,True,True
+CUST_002336,44,Female,North America,2020-02-29,Silver,True,True
+CUST_002337,44,Male,Asia Pacific,2021-04-11,Bronze,False,True
+CUST_002338,38,Female,Asia Pacific,2021-03-09,Silver,True,False
+CUST_002339,38,Female,Europe,2022-05-28,Silver,True,True
+CUST_002340,30,Female,Europe,2020-03-06,Silver,False,True
+CUST_002341,46,Male,Europe,2022-06-28,Bronze,False,False
+CUST_002342,43,Female,Latin America,2021-07-18,Bronze,False,True
+CUST_002343,43,Female,Europe,2022-07-16,Gold,True,False
+CUST_002344,31,Female,Asia Pacific,2020-04-15,Silver,True,True
+CUST_002345,18,Female,Asia Pacific,2020-04-05,Silver,True,True
+CUST_002346,51,Male,Europe,2022-09-14,Silver,True,True
+CUST_002347,32,Female,North America,2021-11-18,Bronze,True,True
+CUST_002348,27,Male,Europe,2021-07-04,Silver,True,True
+CUST_002349,46,Female,Asia Pacific,2020-06-16,Bronze,True,True
+CUST_002350,33,Male,North America,2020-02-11,Silver,True,True
+CUST_002351,50,Male,Europe,2022-05-28,Platinum,False,True
+CUST_002352,45,Male,Asia Pacific,2020-04-13,Silver,True,True
+CUST_002353,46,Female,Europe,2022-04-24,Bronze,True,True
+CUST_002354,21,Male,Europe,2020-07-22,Bronze,True,True
+CUST_002355,52,Female,North America,2021-06-03,Silver,True,False
+CUST_002356,41,Female,North America,2022-09-01,Gold,True,True
+CUST_002357,33,Male,Asia Pacific,2020-10-08,Silver,True,True
+CUST_002358,39,Male,North America,2022-06-26,Silver,False,False
+CUST_002359,18,Male,North America,2020-02-12,Bronze,False,True
+CUST_002360,42,Female,Latin America,2022-08-04,Silver,True,True
+CUST_002361,25,Female,North America,2020-04-19,Silver,False,True
+CUST_002362,21,Male,Middle East & Africa,2022-09-13,Platinum,True,False
+CUST_002363,19,Male,Middle East & Africa,2020-07-28,Bronze,False,True
+CUST_002364,51,Female,North America,2022-01-18,Silver,True,False
+CUST_002365,30,Female,North America,2022-05-17,Bronze,True,False
+CUST_002366,56,Female,Asia Pacific,2022-04-10,Silver,False,True
+CUST_002367,31,Female,Europe,2020-02-18,Gold,True,False
+CUST_002368,18,Male,North America,2020-04-24,Bronze,True,True
+CUST_002369,24,Male,Asia Pacific,2020-06-03,Bronze,False,True
+CUST_002370,52,Male,North America,2021-10-10,Silver,False,True
+CUST_002371,36,Male,Latin America,2021-05-17,Silver,True,False
+CUST_002372,31,Male,North America,2021-11-09,Bronze,True,True
+CUST_002373,39,Male,North America,2022-04-12,Bronze,False,True
+CUST_002374,44,Male,North America,2021-12-11,Silver,False,False
+CUST_002375,51,Female,Middle East & Africa,2022-09-12,Gold,True,False
+CUST_002376,55,Female,Asia Pacific,2020-03-11,Bronze,False,False
+CUST_002377,33,Female,Asia Pacific,2021-06-02,Gold,False,True
+CUST_002378,22,Female,Europe,2021-12-12,Bronze,True,True
+CUST_002379,33,Male,North America,2020-12-01,Bronze,False,True
+CUST_002380,41,Female,North America,2020-03-07,Bronze,True,False
+CUST_002381,26,Male,Europe,2021-05-07,Gold,True,True
+CUST_002382,26,Female,Europe,2021-10-11,Bronze,True,False
+CUST_002383,42,Male,Europe,2022-01-23,Silver,True,True
+CUST_002384,37,Other,North America,2022-08-24,Bronze,False,False
+CUST_002385,38,Male,Latin America,2020-07-31,Platinum,True,False
+CUST_002386,28,Male,North America,2020-06-29,Gold,False,False
+CUST_002387,35,Female,Middle East & Africa,2022-02-04,Silver,False,True
+CUST_002388,26,Male,North America,2021-09-04,Gold,False,True
+CUST_002389,48,Female,Europe,2022-05-12,Silver,True,True
+CUST_002390,50,Female,North America,2021-08-21,Gold,True,True
+CUST_002391,18,Female,Europe,2021-11-27,Bronze,True,True
+CUST_002392,26,Other,Europe,2021-08-25,Bronze,False,False
+CUST_002393,20,Other,Europe,2020-09-04,Silver,True,True
+CUST_002394,30,Male,Europe,2020-08-01,Bronze,False,False
+CUST_002395,36,Female,Asia Pacific,2020-12-24,Bronze,False,True
+CUST_002396,20,Female,Asia Pacific,2020-09-05,Silver,False,True
+CUST_002397,26,Female,Asia Pacific,2021-09-29,Bronze,True,True
+CUST_002398,25,Male,North America,2022-07-11,Silver,True,False
+CUST_002399,40,Female,Europe,2022-08-07,Bronze,False,True
+CUST_002400,38,Other,Europe,2022-05-30,Platinum,True,False
+CUST_002401,29,Female,Europe,2021-05-30,Gold,False,True
+CUST_002402,40,Male,Europe,2020-03-28,Gold,True,False
+CUST_002403,31,Male,North America,2021-10-24,Bronze,False,True
+CUST_002404,34,Male,North America,2020-06-24,Silver,False,True
+CUST_002405,58,Female,North America,2021-12-23,Platinum,True,False
+CUST_002406,54,Female,North America,2021-03-01,Gold,True,False
+CUST_002407,22,Male,Asia Pacific,2022-02-09,Silver,False,True
+CUST_002408,47,Male,Asia Pacific,2021-08-25,Bronze,True,False
+CUST_002409,47,Male,Middle East & Africa,2022-02-09,Silver,True,True
+CUST_002410,24,Male,Asia Pacific,2022-07-12,Silver,True,False
+CUST_002411,47,Female,North America,2021-12-03,Bronze,True,True
+CUST_002412,56,Female,Latin America,2020-03-21,Silver,True,True
+CUST_002413,24,Male,Latin America,2022-07-15,Gold,False,True
+CUST_002414,26,Female,Europe,2020-05-17,Silver,True,False
+CUST_002415,50,Male,Europe,2021-03-08,Bronze,True,False
+CUST_002416,41,Other,Middle East & Africa,2021-04-14,Silver,False,True
+CUST_002417,44,Male,Europe,2020-12-15,Platinum,True,False
+CUST_002418,42,Male,Latin America,2020-05-05,Silver,True,True
+CUST_002419,42,Male,North America,2022-05-30,Silver,False,False
+CUST_002420,22,Female,North America,2022-07-05,Silver,False,True
+CUST_002421,50,Female,Europe,2022-05-17,Silver,True,True
+CUST_002422,52,Female,Europe,2020-11-04,Silver,False,True
+CUST_002423,35,Male,Asia Pacific,2022-05-04,Bronze,False,True
+CUST_002424,37,Male,Middle East & Africa,2020-08-17,Bronze,True,True
+CUST_002425,19,Male,Europe,2021-04-04,Bronze,True,False
+CUST_002426,44,Female,North America,2020-12-10,Bronze,False,True
+CUST_002427,44,Male,Asia Pacific,2020-11-05,Bronze,True,False
+CUST_002428,37,Female,Europe,2022-08-10,Bronze,True,False
+CUST_002429,51,Female,North America,2020-01-20,Gold,False,True
+CUST_002430,33,Female,Europe,2022-05-30,Bronze,True,True
+CUST_002431,44,Male,Asia Pacific,2021-07-14,Bronze,True,False
+CUST_002432,25,Male,Asia Pacific,2021-10-08,Bronze,True,False
+CUST_002433,37,Male,Europe,2021-06-24,Silver,True,False
+CUST_002434,35,Female,North America,2021-07-13,Bronze,True,False
+CUST_002435,40,Female,Middle East & Africa,2021-04-21,Bronze,True,True
+CUST_002436,33,Male,Asia Pacific,2020-09-25,Bronze,True,False
+CUST_002437,36,Male,Europe,2020-01-03,Gold,True,True
+CUST_002438,47,Female,North America,2022-02-08,Platinum,False,True
+CUST_002439,32,Female,Asia Pacific,2020-01-16,Platinum,False,False
+CUST_002440,18,Male,North America,2021-08-28,Bronze,True,False
+CUST_002441,58,Female,North America,2020-12-23,Silver,False,False
+CUST_002442,54,Male,Europe,2021-10-07,Silver,False,True
+CUST_002443,22,Male,North America,2022-03-23,Bronze,False,False
+CUST_002444,46,Female,Europe,2022-04-18,Bronze,True,False
+CUST_002445,31,Female,North America,2020-05-12,Bronze,True,False
+CUST_002446,41,Female,Asia Pacific,2020-11-07,Silver,False,True
+CUST_002447,41,Male,North America,2022-08-24,Bronze,True,False
+CUST_002448,35,Female,North America,2021-04-26,Bronze,True,True
+CUST_002449,28,Male,North America,2022-06-13,Bronze,True,False
+CUST_002450,29,Male,Latin America,2021-06-27,Silver,False,False
+CUST_002451,27,Female,Latin America,2020-10-31,Gold,True,False
+CUST_002452,28,Male,North America,2020-09-25,Silver,True,True
+CUST_002453,37,Female,Asia Pacific,2021-02-17,Silver,True,True
+CUST_002454,29,Female,Europe,2020-01-25,Silver,False,True
+CUST_002455,46,Male,Middle East & Africa,2022-09-07,Bronze,True,True
+CUST_002456,55,Male,Europe,2020-11-11,Bronze,True,False
+CUST_002457,31,Male,Asia Pacific,2021-07-24,Platinum,True,True
+CUST_002458,40,Male,North America,2021-12-25,Platinum,True,True
+CUST_002459,43,Female,Europe,2021-10-29,Silver,True,False
+CUST_002460,43,Female,Middle East & Africa,2022-04-05,Bronze,True,True
+CUST_002461,38,Male,Europe,2020-10-02,Bronze,True,False
+CUST_002462,46,Male,North America,2022-07-18,Bronze,True,True
+CUST_002463,43,Female,North America,2021-01-23,Gold,False,True
+CUST_002464,23,Female,Asia Pacific,2021-12-22,Silver,True,False
+CUST_002465,48,Male,Europe,2021-03-19,Gold,True,True
+CUST_002466,48,Male,Europe,2022-09-25,Silver,True,True
+CUST_002467,28,Female,Middle East & Africa,2021-03-02,Bronze,True,True
+CUST_002468,38,Male,North America,2020-02-26,Bronze,True,True
+CUST_002469,46,Male,North America,2021-11-27,Bronze,True,False
+CUST_002470,35,Female,Latin America,2022-08-28,Silver,False,False
+CUST_002471,50,Female,North America,2021-07-19,Bronze,True,True
+CUST_002472,66,Female,North America,2021-12-21,Silver,True,False
+CUST_002473,28,Female,Europe,2021-01-02,Silver,True,False
+CUST_002474,21,Female,Asia Pacific,2022-07-29,Bronze,True,False
+CUST_002475,41,Male,North America,2020-12-07,Bronze,True,True
+CUST_002476,46,Male,Latin America,2022-03-15,Bronze,True,False
+CUST_002477,35,Male,Asia Pacific,2022-05-01,Silver,True,True
+CUST_002478,55,Male,North America,2020-10-30,Bronze,True,False
+CUST_002479,21,Female,Asia Pacific,2022-02-02,Bronze,True,False
+CUST_002480,46,Female,Europe,2021-01-08,Gold,True,True
+CUST_002481,30,Other,Europe,2022-08-07,Silver,True,True
+CUST_002482,58,Female,Asia Pacific,2022-03-26,Silver,True,True
+CUST_002483,61,Male,Middle East & Africa,2020-04-21,Silver,True,True
+CUST_002484,28,Male,North America,2022-05-27,Gold,True,True
+CUST_002485,31,Female,Europe,2020-01-06,Silver,True,False
+CUST_002486,48,Female,Europe,2022-07-18,Bronze,True,True
+CUST_002487,33,Female,Europe,2021-12-03,Bronze,True,True
+CUST_002488,37,Female,Europe,2022-04-25,Silver,True,True
+CUST_002489,38,Female,North America,2022-08-01,Silver,True,True
+CUST_002490,18,Female,Asia Pacific,2020-10-05,Silver,True,True
+CUST_002491,37,Male,Europe,2021-01-16,Gold,True,False
+CUST_002492,29,Female,North America,2022-05-01,Gold,False,True
+CUST_002493,32,Female,Asia Pacific,2020-01-13,Bronze,False,False
+CUST_002494,55,Male,Asia Pacific,2020-10-29,Bronze,True,True
+CUST_002495,22,Female,Europe,2021-07-09,Bronze,False,False
+CUST_002496,47,Male,North America,2021-09-08,Silver,True,True
+CUST_002497,34,Female,Europe,2020-06-08,Bronze,True,False
+CUST_002498,34,Male,North America,2020-06-02,Bronze,False,False
+CUST_002499,47,Female,North America,2022-01-23,Bronze,False,False
+CUST_002500,42,Male,Asia Pacific,2020-06-29,Bronze,False,False

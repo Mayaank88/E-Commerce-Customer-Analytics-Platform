@@ -1,0 +1,26 @@
+# ============================================================
+# E-Commerce Customer Analytics & Machine Learning Platform
+# Core web framework & data stack
+# ============================================================
+streamlit>=1.36.0
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0        # reads the Kaggle "Online Retail.xlsx" (prepare_online_retail.py)
+
+# ============================================================
+# Machine Learning / Data Mining
+# ============================================================
+scikit-learn>=1.3.0      # K-Means, Decision Tree, Naive Bayes, Regression, metrics
+mlxtend>=0.23.0          # Apriori / FP-Growth association rule mining
+
+# ============================================================
+# Visualization (interactive + static)
+# ============================================================
+plotly>=5.15.0           # Interactive 2D/3D charts, confusion matrices, ROC curves
+seaborn>=0.12.0          # Static statistical charts (matplotlib backend)
+matplotlib>=3.7.0        # Static plotting backend for seaborn
+
+# ============================================================
+# Numerical / scientific utilities (used by mlxtend & sklearn)
+# ============================================================
+scipy>=1.11.0

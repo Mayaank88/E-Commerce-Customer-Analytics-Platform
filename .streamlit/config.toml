@@ -1,0 +1,36 @@
+# --------------------------------------------------------------------------
+# Streamlit theme configuration
+# --------------------------------------------------------------------------
+# An explicit *light* theme is declared here so the app always renders with
+# dark text on light surfaces, regardless of the user's OS appearance or any
+# global Streamlit settings. (A previous version of the app painted a light
+# gradient background without pinning the theme, which made button/text
+# labels invisible under a dark theme.) All custom CSS in `apply_css()`
+# follows this same contract: explicit foreground colours, no opaque hides.
+#
+# See PROJECT_REPORT.md §1 / README.md for setup details.
+# --------------------------------------------------------------------------
+
+[theme]
+base = "light"
+primaryColor = "#4F46E5"          # indigo - primary buttons, links, accents
+backgroundColor = "#F6F8FC"       # app canvas
+secondaryBackgroundColor = "#FFFFFF"  # cards, inputs
+textColor = "#0F172A"             # near-black slate for guaranteed contrast
+font = "sans serif"
+
+# Sidebar palette. Specified explicitly (rather than left to defaults) so the
+# frontend never receives empty color strings for the sidebar theme section.
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F8FAFC"
+textColor = "#1E293B"
+primaryColor = "#4F46E5"
+borderColor = "#E6E9F2"
+
+[server]
+# Friendly default for local dev; safe to override on Streamlit Cloud.
+headless = false
+
+[browser]
+gatherUsageStats = false
