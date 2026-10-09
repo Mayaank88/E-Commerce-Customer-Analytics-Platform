@@ -10,3 +10,13 @@ __pycache__/
 node_modules/
 .vercel/
 *.log
+# Local credentials & project metadata (Vercel CLI writes these locally)
+.env
+.env.local
+.env.*
+.vercel
+# Unused data exports / scratch files (not required at runtime; keep image slim)
+ecommerce_transactions.csv
+customer_demographics.csv
+customer_rfm_summary.csv
+Mini_Project(draft-1).pdf

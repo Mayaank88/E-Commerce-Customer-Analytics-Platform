@@ -597,6 +597,98 @@ channel and payment mix follow plausible business distributions.
 | RQ3 Classification | Decision Tree wins (acc 1.000 vs 0.948) | Decision Tree wins (acc 1.000 vs 0.972); NB AUC 0.993 |
 | RQ4 Regression | Gradient Boosting wins, R² 0.9875 | **Gradient Boosting wins, R² 0.9823** |
 
+### 8.4 Model Comparison Matrix & Accuracy Summary
+
+The application exposes a dedicated **"🧪 Accuracy & Comparison"** tab (Screenshot 19) that
+renders every model side by side — first the *complete parameter configuration* of each
+algorithm, then a live *accuracy / performance summary* recomputed on the currently selected
+data source. All values in this subsection were produced through that same code path
+(`train_classification`, `train_regression`, `fit_kmeans`, `suggest_thresholds`) on the real
+dataset, so the printed numbers reproduce exactly what the app displays.
+
+**8.4.1 Parameter comparison — every model setting side by side**
+
+Classification (as implemented in `app.py`):
+
+| Parameter | Decision Tree (J48 / C4.5) | Naive Bayes (Gaussian) |
+|---|---|---|
+| Family | Tree-based, greedy | Probabilistic, generative |
+| Split criterion | Gini impurity | n/a — no splits |
+| Max depth (tab default) | 6 (slider 2–20) | n/a — full density fit |
+| Min samples per leaf | 5 | n/a |
+| Class weighting | `balanced` | Default priors from data |
+| Probability output | Class fraction per leaf | Gaussian densities |
+| Feature importance | Gini importance (native) | None — equal weights |
+| Overfitting control | Depth + leaf size + pruning | `var_smoothing = 1e-9` |
+| Scaler required | No | Recommended |
+| Random seed | 42 | n/a |
+
+Regression (CLV proxy):
+
+| Parameter | Linear | Ridge | Random Forest | Gradient Boosting |
+|---|---|---|---|---|
+| Regularisation | None | α = 1.0 (L2) | Bagging (subsample + feature bagging) | Shrinkage |
+| Tree depth | n/a | n/a | 10 | 3 |
+| n_estimators | n/a | n/a | 300 | 300 |
+| Learning rate | n/a | n/a | n/a | 0.1 |
+| Feature importance | Coefficient sign/magnitude | Coefficients (shrunken) | Impurity (native) | Impurity (native) |
+| Parallel training | n/a | n/a | n_jobs = −1 | Sequential |
+
+Unsupervised & data-mining layers:
+
+| Aspect | K-Means | Apriori | ETL |
+|---|---|---|---|
+| Core settings | k = 4 · k-means++ · n_init = 10 | min_support = 0.7 × strongest pair · min_confidence data-driven | outlier_factor = 1.5 · fill = median |
+| Preprocessing | log1p (skew > 1) → z-score | one-hot basket matrix (top-40 items) | dedup → impute → cap |
+| Output | Segments + centroids + names | Frequent itemsets → rules (support/confidence/lift) | Cleaned fact + customer RFM table |
+
+**8.4.2 Accuracy summary — real *Online Retail*, app defaults (75/25 split, seed 42)**
+
+Classification, both targets (`n_test` = 1,085):
+
+| Target (positive rate) | Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
+|---|---|---|---|---|---|---|
+| High-value (14.8 %) | Decision Tree | **1.0000** | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
+| High-value (14.8 %) | Naive Bayes | 0.9724 | 0.8736 | 0.9500 | 0.9102 | 0.9926 |
+| Churn risk (38.2 %) | Decision Tree | **1.0000** | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
+| Churn risk (38.2 %) | Naive Bayes | 0.6535 | 0.5249 | 0.9686 | 0.6808 | 0.9723 |
+
+Regression leaderboard (CLV proxy, £):
+
+| Model | MAE | RMSE | R² | MAE / mean(CLV) |
+|---|---|---|---|---|
+| Linear | 8,936.77 | 21,219.26 | 0.7293 | 0.626 |
+| Ridge | 8,936.77 | 21,219.27 | 0.7293 | 0.626 |
+| Random Forest | 1,245.72 | 7,083.04 | 0.9698 | 0.087 |
+| **Gradient Boosting** | **1,105.22** | **5,418.96** | **0.9823** | **0.077** |
+
+Clustering (k-sweep, Euclidean on log1p + z-score features):
+
+| k | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|
+| Inertia (WCSS) | 12,813.6 | 10,528.0 | 8,872.6 | 7,891.1 | 7,107.7 |
+| Silhouette | 0.351 | 0.243 | **0.251** | 0.245 | 0.229 |
+
+Association (customer-grain baskets, top-40 items, data-driven thresholds sup ≥ 0.053,
+conf ≥ 0.60): 72 itemsets → 14 rules, **max lift 5.95**. Loosening to the §4.3 manual
+thresholds (sup ≥ 0.03, conf ≥ 0.20) expands this to 325 itemsets / 675 rules with the
+Lunch-Bag set rules reaching **lift 7.57**.
+
+**8.4.3 Reading the accuracy table**
+
+* **Accuracy vs baseline.** Decision Trees reach 1.000 because `is_high_value` /
+  `is_churn_risk` are threshold rules over (recency, frequency, monetary): a tree with the
+  correct features recovers the rule exactly. The meaningful comparison is Naive Bayes
+  (0.9725 / 0.993 AUC) against the 85.2 % / 61.8 % majority baselines.
+* **AUC survives imbalance.** NB sacrifices precision on the rare class (0.52 churn) for
+  recall (0.97) but still ranks customers almost perfectly (AUC ≥ 0.97) — a sound
+  probabilistic baseline even where calibrated probabilities are weaker.
+* **R² is scale-free, MAE is not.** On CLV the tree ensembles beat the linear baselines by
+  a wide margin (GB R² 0.982 vs 0.729) because the spend relationship is multiplicative;
+  GB's MAE of ≈ £1,105 is only 7.7 % of mean CLV.
+* Every cell of §8.4.2 is recomputed live by the app's Accuracy tab on the current data
+  source — the same tables double as runnable evidence for this report.
+
 ---
 
 ## 9. Application Walkthrough & Screenshots
@@ -641,6 +733,8 @@ channel and payment mix follow plausible business distributions.
 ![Screenshot 17: ETL Pipeline on the Real Dataset — Cleaning Log, IQR Outlier Report and RFM Table](figures/17_etl_real.png)
 
 ![Screenshot 18: Association Rules on Real Baskets — Lunch-Bag Rules with Lift 7.57](figures/18_association_real.png)
+
+![Screenshot 19: Accuracy & Comparison Tab — Accuracy KPI Cards, Full Parameter Comparison Matrices and Live Accuracy Summary](figures/19_accuracy_comparison.png)
 
 **Walkthrough.** The app opens on *Overview* (KPIs, revenue trend, region mix, Pearson
 correlation) under a hero banner with pipeline-stage pills and a sidebar that defaults

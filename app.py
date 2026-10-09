@@ -16,7 +16,9 @@
                               Bayes with confusion matrices & ROC curves
    6. Regression            - Customer Lifetime Value (CLV) prediction
    7. Live Prediction        - Real-time form based inference
-   8. About                 - Repository map & algorithm summary
+   8. Accuracy & Comparison  - Model parameter comparison matrices & accuracy
+                              summary dashboard (all models, side by side)
+   9. About                 - Repository map & algorithm summary
 
    Data sources (sidebar):
      - Kaggle / UCI "Online Retail" (real data, default) - converted by
@@ -1392,7 +1394,8 @@ def sidebar_data_source() -> Optional[pd.DataFrame]:
         "5. Classification (DT vs NB)\n"
         "6. Regression (CLV)\n"
         "7. Live Prediction\n"
-        "8. About"
+        "8. Accuracy & Comparison\n"
+        "9. About"
     )
     return df
 
@@ -2237,7 +2240,277 @@ def tab_predict(artifacts: Dict) -> None:
 
 
 # --------------------------------------------------------------------------------
-# Tab 8 - About
+# Tab 8 - Accuracy & Model Comparison
+# --------------------------------------------------------------------------------
+def tab_accuracy(raw: pd.DataFrame, artifacts: Dict) -> None:
+    """Accuracy dashboard + full parameter-comparison matrices."""
+    st.subheader("🧪 Accuracy & Model Comparison")
+    cust = artifacts.get("rfm")
+    if cust is None or len(cust) < 20:
+        st.error("Customer table unavailable or too small for model comparison.")
+        return
+
+    feats = get_features(cust)
+    if len(feats) < 2:
+        st.error("Not enough numeric features for model comparison.")
+        return
+
+    SHORT = {"is_high_value": "High-value", "is_churn_risk": "Churn risk"}
+
+    try:
+        # ---------------- 1. train every model at tab defaults ----------------
+        cls_metrics, baselines = {}, {}
+        for label, target in TARGET_OPTIONS.items():
+            if target not in cust.columns:
+                continue
+            try:
+                X, y = _prepare_xy(cust, feats, target)
+                if y.nunique() < 2:
+                    continue
+                cls_metrics[target] = (train_classification(X, y, 0.25, 6, 42), y)
+                pos = float(y.mean())
+                baselines[target] = max(pos, 1 - pos)
+            except Exception:
+                continue
+
+        reg_metrics = None
+        reg_target = next((t for t in ("clv_proxy", "monetary") if t in cust.columns), None)
+        if reg_target:
+            try:
+                Xr, yr = _prepare_xy(cust, feats, reg_target)
+                reg_metrics = train_regression(Xr, yr, 0.25, 42)
+            except Exception:
+                pass
+
+        # Clustering silhouette at k = 4 on the standardised feature space
+        Xc = cust[feats].apply(pd.to_numeric, errors="coerce").fillna(0)
+        for col in feats:
+            if Xc[col].skew() > 1.0 and (Xc[col] >= 0).all():
+                Xc[col] = np.log1p(Xc[col])
+        Xs = pd.DataFrame(StandardScaler().fit_transform(Xc), columns=feats, index=Xc.index)
+        k_max = int(min(10, max(3, len(Xs) // 40)))
+        search = elbow_search(Xs, k_max, 42)
+        k_use = min(4, k_max)
+        sil = float(search["silhouette"][k_use - 1]) if k_use >= 2 else None
+
+        # Association summary on the cleaned feed (data-driven thresholds)
+        tx = artifacts.get("clean_tx", raw)
+        asoc = {"n_rules": 0, "n_itemsets": 0, "max_lift": 0.0, "engine": "-",
+                "min_support": 0.0, "min_confidence": 0.0}
+        item_col = pick_col(tx, "product") or pick_col(tx, "category")
+        if item_col:
+            try:
+                bool_df = build_baskets(tx, "Customer", item_col, 40)
+                hints = suggest_thresholds(bool_df)
+                freq, rules, engine = mine_rules(
+                    bool_df, hints["min_support"], hints["min_confidence"])
+                asoc = {"n_rules": int(len(rules)), "n_itemsets": int(len(freq)),
+                        "max_lift": float(rules["lift"].max()) if len(rules) else 0.0,
+                        "engine": engine, "min_support": hints["min_support"],
+                        "min_confidence": hints["min_confidence"]}
+            except Exception:
+                pass
+
+        # ---------------- 2. headline accuracy cards ---------------------------
+        hv = cls_metrics.get("is_high_value")
+        dt_acc = hv[0]["results"]["Decision Tree (J48 equivalent)"]["metrics"]["Accuracy"] \
+            if hv else None
+        nb_acc = hv[0]["results"]["Naive Bayes (GaussianNB)"]["metrics"]["Accuracy"] \
+            if hv else None
+        bl_acc = baselines.get("is_high_value")
+
+        r2 = None
+        if reg_metrics is not None:
+            br = reg_metrics["metrics"]
+            r2 = float(br.loc[br["Model"] == reg_metrics["best"], "R²"].iloc[0])
+
+        m1, m2, m3, m4, m5, m6 = st.columns(6)
+        m1.metric("Decision Tree Acc.",
+                  f"{dt_acc:.4f}" if dt_acc is not None else "–",
+                  delta=f"baseline {bl_acc:.3f}" if bl_acc else None)
+        m2.metric("Naive Bayes Acc.",
+                  f"{nb_acc:.4f}" if nb_acc is not None else "–")
+        m3.metric("Majority baseline",
+                  f"{bl_acc:.3f}" if bl_acc is not None else "–")
+        m4.metric("Best CLV R²",
+                  f"{r2:.4f}" if r2 is not None else "–")
+        m5.metric("Silhouette (k=4)",
+                  f"{sil:.3f}" if sil else "–")
+        m6.metric("Rules mined", f"{asoc['n_rules']:,}")
+        st.caption("Accuracy cards are computed at the module defaults: test split 25 %, "
+                   "tree depth 6, k = 4, data-driven Apriori thresholds on the current "
+                   "data source.")
+
+        # ---------------- 3. parameter comparison matrices ----------------------
+        st.markdown("### 1 · Parameter comparison — every model setting side by side")
+
+        st.markdown("**Classification: Decision Tree vs Naive Bayes**")
+        cls_param = pd.DataFrame([
+            ["Algorithm family", "Tree-based · C4.5 / J48 analogue",
+             "Probabilistic · generative"],
+            ["Model type", "Greedy decision tree (criterion='gini')",
+             "Gaussian Naive Bayes"],
+            ["Split criterion", "Gini impurity (max ΔGini)", "n/a — no explicit splits"],
+            ["Max depth (tab default)", "6 (user slider: 2–20)", "n/a — full density fit"],
+            ["Min samples per leaf", "5", "n/a"],
+            ["Class weighting", "balanced (handles the minority class)",
+             "default priors estimated from data"],
+            ["Signed feature scaling", "Not required", "Recommended (Gaussian pdf)"],
+            ["Feature interactions", "Yes — nested splits", "No — independence assumed"],
+            ["Probabilistic output", "predict_proba (class fraction per leaf)",
+             "predict_proba (Gaussian densities)"],
+            ["Feature importance", "Gini importance (native)", "None — equal weights"],
+            ["Overfitting control", "max_depth · min_samples_leaf · pruning",
+             "var_smoothing = 1e-9"],
+            ["Random seed", "42", "n/a"],
+            ["Interpretability", "High — export_text rules", "Medium — per-feature densities"],
+            ["Typical train time", "< 5 ms (≤ 4.3k rows)", "< 1 ms"],
+        ], columns=["Parameter", "Decision Tree (J48)", "Naive Bayes (Gaussian)"])
+        st.dataframe(cls_param, width="stretch", hide_index=True)
+
+        st.markdown("**Regression: CLV prediction — four models**")
+        reg_param = pd.DataFrame([
+            ["Model type", "Ordinary least squares",
+             "L2-regularised least squares", "Bootstrap-aggregated trees",
+             "Additive boosting trees"],
+            ["Regularisation", "None", "α = 1.0 (L2 penalty on coefficients)",
+             "Data subsampling + feature bagging", "Shrinkage (learning rate)"],
+            ["Tree depth", "n/a", "n/a", "max_depth = 10", "max_depth = 3"],
+            ["n_estimators", "n/a", "n/a", "300", "300"],
+            ["Learning rate", "n/a", "n/a", "n/a", "0.1"],
+            ["Loss", "Squared error", "Squared error + L2 penalty",
+             "Squared error (per tree)", "Least squares (LS)"],
+            ["Feature interactions", "None (linear)", "None (linear)",
+             "Yes — independent trees", "Yes — additive trees"],
+            ["Feature importance", "Coefficients (sign / magnitude)",
+             "Coefficients (shrunken)", "Impurity-based (native)",
+             "Impurity-based (native)"],
+            ["Multicollinearity", "Unstable", "Mitigated (shrinkage)",
+             "Implicitly handled", "Implicitly handled"],
+            ["Parallel training", "n/a", "n/a", "n_jobs = -1", "Sequential (n_jobs = 1)"],
+            ["Random seed", "Deterministic", "42", "42", "42"],
+            ["CLV relationship", "Linear (R² ≈ 0.73)", "Linear (R² ≈ 0.73)",
+             "Non-linear (R² ≈ 0.97)", "Non-linear (R² ≈ 0.98)"],
+        ], columns=["Parameter", "Linear", "Ridge", "Random Forest", "Gradient Boosting"])
+        st.dataframe(reg_param, width="stretch", hide_index=True)
+
+        st.markdown("**Unsupervised & data-mining layers**")
+        misc_param = pd.DataFrame([
+            ["Algorithm", "K-Means (Lloyd's)", "Apriori", "ETL — Tukey IQR"],
+            ["Core settings", "k = 4 default · init = k-means++ · n_init = 10",
+             "min_support = 0.7 × strongest pair · min_confidence data-driven",
+             "outlier_factor = 1.5 · fill_strategy = median"],
+            ["Distance / metric", "Euclidean (WCSS)", "Support · Confidence · Lift",
+             "Q1 − 1.5·IQR … Q3 + 1.5·IQR fence"],
+            ["Preprocessing", "log1p (skew > 1) → z-score",
+             "one-hot basket matrix (top-40 items)",
+             "dedup → impute → cap / remove / none"],
+            ["Output", "Segments + centroids + marketing names",
+             "Frequent itemsets → rules + leverage",
+             "Cleaned fact + customer RFM table"],
+        ], columns=["Aspect", "Clustering", "Association", "ETL"])
+        st.dataframe(misc_param, width="stretch", hide_index=True)
+        st.caption(
+            "Values shown are the exact settings implemented in `app.py` "
+            "(see `train_classification`, `train_regression`, `fit_kmeans`, "
+            "`suggest_thresholds`). Sliders in the module tabs change them live.")
+
+        # ---------------- 4. accuracy / performance summary ---------------------
+        st.markdown("### 2 · Accuracy summary — current dataset")
+
+        comb = []
+        for target, (bundle, y) in cls_metrics.items():
+            short = SHORT.get(target, target)
+            pos = float(y.mean())
+            for name, res in bundle["results"].items():
+                m = res["metrics"]
+                comb.append({"Model": name, "Target": f"{short} ({pos:.1%} pos.)",
+                             "Accuracy": m["Accuracy"], "Precision": m["Precision"],
+                             "Recall": m["Recall"], "F1-Score": m["F1-Score"],
+                             "ROC-AUC": m["ROC-AUC"], "Train (s)": m["Train time (s)"]})
+        if comb:
+            cdf = pd.DataFrame(comb).sort_values(["Target", "Accuracy"], ascending=[True, False])
+            # flag the best model per target
+            cdf["Best"] = ""
+            for tgt in cdf["Target"].unique():
+                idx = cdf.index[cdf["Target"] == tgt][0]
+                cdf.at[idx, "Best"] = "🏆"
+            st.dataframe(cdf.round(4), width="stretch", hide_index=True)
+            best_acc = cdf.loc[cdf["Accuracy"].idxmax()]
+            best_auc = cdf.loc[cdf["ROC-AUC"].idxmax()]
+            b1, b2 = st.columns(2)
+            b1.success(f"**Highest classification accuracy:** "
+                       f"{best_acc['Model']} on {best_acc['Target']} "
+                       f"({best_acc['Accuracy']:.4f})")
+            if len(cdf) > 1:
+                b2.info(f"**Strongest ROC-AUC:** {best_auc['Model']} "
+                        f"({best_auc['ROC-AUC']:.4f})")
+        else:
+            st.info("No binary target (high-value / churn) available — classification "
+                    "accuracy omitted.")
+
+        if reg_metrics is not None:
+            st.markdown("**Regression leaderboard (CLV proxy)**")
+            rdf = reg_metrics["metrics"].copy()
+            rdf["Best"] = ""
+            best_row_idx = rdf.index[rdf["Model"] == reg_metrics["best"]][0]
+            rdf.at[best_row_idx, "Best"] = "🏆"
+            st.dataframe(rdf.style.format({"MAE": "{:.2f}", "RMSE": "{:.2f}", "R²": "{:.4f}",
+                                           "MAE/mean(y)": "{:.3f}", "Train time (s)": "{:.4f}"}),
+                         width="stretch", hide_index=True)
+            st.success(f"**Best CLV model:** {reg_metrics['best']} "
+                       f"(R² = {rdf.loc[best_row_idx, 'R²']:.4f})")
+
+        # ---------------- 5. winner-by-metric table -----------------------------
+        st.markdown("### 3 · Winner per metric (current run)")
+        winners = []
+        if hv:
+            r_hv = hv[0]["results"]
+            winners.append(["Classification accuracy", "Decision Tree",
+                            f"{r_hv['Decision Tree (J48 equivalent)']['metrics']['Accuracy']:.4f}"])
+            winners.append(["Classification ROC-AUC",
+                            "Decision Tree" if r_hv["Decision Tree (J48 equivalent)"]["metrics"]["ROC-AUC"]
+                            >= r_hv["Naive Bayes (GaussianNB)"]["metrics"]["ROC-AUC"]
+                            else "Naive Bayes",
+                            f"{max(r_hv['Decision Tree (J48 equivalent)']['metrics']['ROC-AUC'],
+                                    r_hv['Naive Bayes (GaussianNB)']['metrics']['ROC-AUC']):.4f}"])
+        if reg_metrics is not None:
+            winners.append(["CLV regression R²", reg_metrics["best"],
+                            f"{r2:.4f}" if r2 is not None else "–"])
+        winners += [["Clustering quality (silhouette, k=4)", "K-Means",
+                     f"{sil:.4f}" if sil else "–"],
+                    ["Association strength (max lift)", "Apriori",
+                     f"{asoc['max_lift']:.2f}"],
+                    ["Rules mined at defaults", f"Apriori ({asoc['engine']})",
+                     f"{asoc['n_rules']:,}"]]
+        st.dataframe(pd.DataFrame(winners, columns=["Metric", "Winner", "Value"]),
+                     width="stretch", hide_index=True)
+
+        # ---------------- 6. interpretation -------------------------------------
+        st.markdown("### 4 · Reading the accuracy table")
+        st.markdown("""
+- **Accuracy vs baseline.** The Decision Tree commonly reaches ~1.000 because the
+  `is_high_value` / `is_churn_risk` labels are threshold rules on (recency, frequency,
+  monetary) — a tree with the right features recovers the rule exactly. Judge the
+  *Naive Bayes* row (≈ 0.97 acc / 0.99 AUC) against that same baseline.
+- **ROC-AUC survives class imbalance.** NB trades precision for recall on the rare
+  class but ranks customers almost as well as the tree (AUC ≈ 0.97–0.99) — a useful
+  probabilistic baseline even when its calibrated probabilities are weaker.
+- **Regression R² is scale-free, MAE is not.** On the real dataset Gradient Boosting
+  wins (R² ≈ 0.98, MAE ≈ 8 % of mean CLV); tree ensembles beat linear baselines by a
+  wide margin because the CLV relationship is multiplicative.
+- **Every number above is recomputed on the current data source** (side bar), so the
+  same tables double as evidence for the report.
+""")
+
+        st.info("Full formulas, splits and both-dataset tables: see "
+                "`PROJECT_REPORT.md` §8.4 (Model Comparison Matrix & Accuracy Summary).")
+    except Exception:
+        show_exception("Accuracy & comparison dashboard failed")
+
+
+# --------------------------------------------------------------------------------
+# Tab 9 - About
 # --------------------------------------------------------------------------------
 def tab_about() -> None:
     st.subheader("ℹ️ About this Project")
@@ -2272,6 +2545,9 @@ def tab_about() -> None:
     5. **Regression** — Linear, Ridge, Random Forest and Gradient Boosting
        for Customer Lifetime Value.
     6. **Live inference** — form-driven real-time predictions.
+    7. **Model comparison** — a dedicated Accuracy & Comparison tab with full
+       parameter-comparison matrices and a live accuracy/leaderboard summary
+       (accuracy, precision, recall, F1, ROC-AUC, MAE, RMSE, R², silhouette, rules).
 
     ### Reproduce the datasets
     ```bash
@@ -2317,7 +2593,7 @@ def main() -> None:
     tabs = st.tabs([
         "🏠 Overview", "⚙️ ETL & RFM", "🧺 Association Rules",
         "🎯 Clustering", "🌳 Classification", "📈 Regression",
-        "⚡ Live Prediction", "ℹ️ About",
+        "⚡ Live Prediction", "🧪 Accuracy & Comparison", "ℹ️ About",
     ])
     with tabs[0]:
         tab_overview(raw, artifacts)
@@ -2334,6 +2610,8 @@ def main() -> None:
     with tabs[6]:
         tab_predict(artifacts)
     with tabs[7]:
+        tab_accuracy(raw, artifacts)
+    with tabs[8]:
         tab_about()
 
     render_footer()

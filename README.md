@@ -25,6 +25,7 @@ plus a 12,000-row synthetic warehouse as an alternative.
 | 6 | **Regression** | Linear, Ridge, Random Forest and Gradient Boosting models for Customer Lifetime Value (MAE / RMSE / R²) |
 | 7 | **Live Prediction** | Form-based real-time console: segment, class probabilities (gauges) and CLV estimate |
 | 8 | **Data source flexibility** | 🏆 **Kaggle *Online Retail* (real data, default)**, built-in `ecommerce_10k.csv`, **or** upload your own CSV (flexible column naming) |
+| 9 | **Accuracy & Comparison** | One-tab model comparison: every hyperparameter of every model side by side, plus a live accuracy/leaderboard summary (accuracy / precision / recall / F1 / ROC-AUC, MAE / RMSE / R², silhouette, mined rules) recomputed on the current data source |
 
 ---
 
@@ -139,6 +140,9 @@ python -c "import streamlit, sklearn, mlxtend, plotly; print('OK')"
 6. **📈 Regression** — model CLV and compare regressors.
 7. **⚡ Live Prediction** — enter metrics (defaults = dataset medians) and hit
    **🔮 Predict**.
+8. **🧪 Accuracy & Comparison** — read the parameter-comparison matrices (every model
+   setting side by side) and the live accuracy summary; KPI cards at the top give the
+   headline numbers (DT/NB accuracy vs baseline, best CLV R², silhouette, rules mined).
 
 ---
 
