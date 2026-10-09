@@ -1,0 +1,52 @@
+# ==========================================================================
+# Vercel container deployment for the Streamlit app
+# --------------------------------------------------------------------------
+# Vercel's native Python runtime auto-detects WSGI/ASGI frameworks only
+# (FastAPI, Flask, Django). Streamlit is a Tornado/WebSocket server, so it
+# ships as a *container image Function* (`Dockerfile.vercel`), which Vercel
+# runs on Fluid compute (WebSocket support: public beta).
+#
+# Container contract (see https://vercel.com/docs/functions/container-images):
+#   - must serve HTTP and read the PORT environment variable (default 80;
+#     this image defaults to 8501 and is overridden by the project env PORT)
+#   - must bind 0.0.0.0, not localhost
+#   - is stateless and may be scaled down when idle
+# ==========================================================================
+FROM python:3.12-slim AS dependencies
+
+WORKDIR /app
+
+# Layer-cache friendly: dependencies first, application code second.
+COPY requirements.txt ./
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+# --------------------------------------------------------------------------
+FROM python:3.12-slim
+
+WORKDIR /app
+
+ENV PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    HOME=/tmp \
+    PORT=8501 \
+    STREAMLIT_SERVER_HEADLESS=true \
+    STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+
+# Reuse the dependency layer from the build stage (identical base image).
+COPY --from=dependencies /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.12/site-packages
+COPY --from=dependencies /usr/local/bin /usr/local/bin
+
+# Application code (CSVs + .streamlit/config.toml included; .venv excluded
+# via .dockerignore).
+COPY . .
+
+# Streamlit health endpoint (_stcore/health) is used by upstream probes.
+EXPOSE 8501
+
+CMD ["sh", "-c", "streamlit run app.py \
+    --server.address 0.0.0.0 \
+    --server.port ${PORT:-8501} \
+    --server.headless true \
+    --browser.gatherUsageStats false"]

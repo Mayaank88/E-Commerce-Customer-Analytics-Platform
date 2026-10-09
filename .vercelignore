@@ -1,0 +1,12 @@
+# Files never uploaded / used in the Vercel build
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.git/
+.gitignore
+.jupyter/
+node_modules/
+.vercel/
+*.log

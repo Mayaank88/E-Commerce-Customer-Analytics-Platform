@@ -172,6 +172,50 @@ python -c "import streamlit, sklearn, mlxtend, plotly; print('OK')"
 * Optional `packages.txt` for system dependencies (rarely needed here).
 * To keep the app private on Community Cloud, use Streamlit's
   [authentication options](https://docs.streamlit.io/streamlit-community-cloud/deploy).
+
+---
+
+## ▲ Deploy to Vercel (container Function)
+
+Vercel's native Python runtime only auto-detects **WSGI/ASGI** frameworks
+(FastAPI, Flask, Django). Streamlit is a **Tornado/WebSocket server**, so this repo
+ships it as a **container image Function** — Vercel's documented path for
+"a framework or server that Vercel does not detect natively" — served on **Fluid
+compute** (WebSocket support: public beta). The deployment files are already in the
+repo: `Dockerfile.vercel` (multi-stage, Python 3.12, Streamlit on `$PORT`),
+`vercel.json` (single `container` service + catch-all rewrite), `.vercelignore` /
+`.dockerignore` (excludes `.venv`, caches, logs).
+
+### Deploy (CLI — ~5 minutes)
+
+```bash
+npm i -g vercel          # or use: npx vercel …
+vercel login             # one-time browser login
+vercel link              # create/link the project; answer "Services" framework prompt
+vercel env add PORT production   # → 8501   (repeat: vercel env add PORT preview)
+vercel env add PORT development   # → 8501
+vercel --prod
+```
+
+The CLI uploads the project from this folder (no git required); the build installs
+`requirements.txt`, builds the image, pushes it to the Vercel Container Registry (VCR)
+and routes all traffic to it. URL: `https://<project>.vercel.app`.
+
+Alternatively: **vercel.com/new → Import folder** → drag this directory and confirm the
+framework preset is **Services** (required when `vercel.json` declares `services`).
+
+### Known limitations (be honest in demos)
+
+* **WebSockets are public beta on Fluid compute** — a Streamlit socket is pinned to
+  one instance and capped by the Function's max duration (Hobby ≈ **300 s**), so
+  sessions drop and **auto-reconnect** (you'll see occasional "Connection lost –
+  reconnecting…" banners; state resets on re-run, which is standard Streamlit).
+  Idle instances scale down after ~5 min → **cold starts of 20–40 s** (heavy imports
+  + 39 MB CSV). Both are fine for project demos, not for always-on production.
+* The image contains the real dataset (+`ecommerce_10k.csv`) and the full ML stack
+  (≈1–2 GB image); keep an eye on Vercel's Function duration/bundle limits on Hobby.
+* For a production-grade, always-warm Streamlit, prefer **Streamlit Community Cloud
+  or Render** (both support long-lived WebSockets natively) — see the section above.
 * **Secrets/config** belong in `.streamlit/secrets.toml` (git-ignored by default).
 
 ---

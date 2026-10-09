@@ -1,0 +1,9 @@
+# Build context exclusions for the container image
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.git/
+.vercel/
+*.log
